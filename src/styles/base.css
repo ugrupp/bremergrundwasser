@@ -1,0 +1,36 @@
+html,
+body {
+  hyphens: auto;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+
+  @screen md {
+    scroll-padding-top: 145px;
+  }
+
+  @apply antialiased bg-white text-black;
+}
+
+::selection {
+  @apply bg-red-400 text-white;
+}
+
+.selection-inverted ::selection {
+  @apply bg-white text-red-400;
+}
+
+address {
+  @apply block not-italic;
+}
+
+small {
+  font-size: inherit;
+}
+
+strong {
+  font-weight: inherit;
+}
+
+.swiper-button-disabled {
+  cursor: not-allowed;
+}
