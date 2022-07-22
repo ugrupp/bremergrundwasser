@@ -1,12 +1,13 @@
+html {
+  /* overridden by JS */
+  --topbar-height: 85;
+}
+
 html,
 body {
   hyphens: auto;
   scroll-behavior: smooth;
-  scroll-padding-top: 80px;
-
-  @screen md {
-    scroll-padding-top: 145px;
-  }
+  scroll-padding-top: calc(var(--topbar-height) * 1px);
 
   @apply antialiased bg-white text-black;
 }

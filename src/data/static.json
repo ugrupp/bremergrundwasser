@@ -1,0 +1,56 @@
+{
+  "topbar": {
+    "menu": [
+      {
+        "href": "/grundwasser",
+        "label": "Grundwasser",
+        "children": []
+      },
+      {
+        "href": "/bewaesserung",
+        "label": "Bewässerung",
+        "children": []
+      },
+      {
+        "href": "/brunnen",
+        "label": "Brunnen",
+        "children": []
+      },
+      {
+        "href": "/verkauf",
+        "label": "Verkauf",
+        "children": []
+      },
+      {
+        "href": "/bremergrundwasser",
+        "label": "bremergrundwasser",
+        "children": [
+          {
+            "href": "/unser-plus",
+            "label": "Unser Plus"
+          },
+          {
+            "href": "/preise",
+            "label": "Preise"
+          },
+          {
+            "href": "/wissenswertes",
+            "label": "Wissenswertes"
+          },
+          {
+            "href": "/partner",
+            "label": "Partner"
+          },
+          {
+            "href": "/team-kontakt",
+            "label": "Team + Kontakt"
+          }
+        ]
+      }
+    ],
+    "phoneLink": {
+      "href": "tel:+494212007861",
+      "label": "0421 200 78 61"
+    }
+  }
+}
