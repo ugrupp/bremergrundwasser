@@ -9,15 +9,15 @@ body {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--topbar-height) * 1px);
 
-  @apply antialiased bg-white text-black;
+  @apply antialiased bg-white text-brown-700;
 }
 
 ::selection {
-  @apply bg-red-400 text-white;
+  @apply bg-teal-300 text-white;
 }
 
 .selection-inverted ::selection {
-  @apply bg-white text-red-400;
+  @apply bg-white text-teal-300;
 }
 
 address {

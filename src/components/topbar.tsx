@@ -96,12 +96,12 @@ const Topbar = ({ data }: TopbarProps): JSX.Element => {
               <nav className="hidden xl:flex gap-x-30">
                 {menu.map(({ href, label, children }) => (
                   <Link href={href} key={href}>
-                    <a className="text-19 leading-none font-normal transition-colors hover:text-red-300 flex gap-x-1.5 items-center">
+                    <a className="text-19 leading-none font-normal transition-colors text-brown-700 hover:text-teal-300 flex gap-x-1.5 items-center">
                       <span>{label}</span>
 
                       {/* Children indicator */}
                       {children.length > 0 && (
-                        <PlusIcon className="hidden xl:block text-red-200 h-18 w-18" />
+                        <PlusIcon className="hidden xl:block text-teal-300 h-18 w-18" />
                       )}
                     </a>
                   </Link>

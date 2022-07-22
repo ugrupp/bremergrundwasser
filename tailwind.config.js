@@ -9,6 +9,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        teal: {
+          300: "#6EC1B5",
+        },
+        brown: {
+          700: "#564942",
+        },
+      },
       fontSize: {
         13: "13px",
         14: "14px",
