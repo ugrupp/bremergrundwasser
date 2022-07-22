@@ -9,7 +9,7 @@ body {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--topbar-height) * 1px);
 
-  @apply antialiased bg-white text-brown-700;
+  @apply antialiased bg-white text-brown-700 font-sans font-normal;
 }
 
 ::selection {

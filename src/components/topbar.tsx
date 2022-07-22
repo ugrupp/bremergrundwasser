@@ -69,7 +69,7 @@ const Topbar = ({ data }: TopbarProps): JSX.Element => {
         style={scrollLockStyle}
       >
         <Container>
-          <div className="flex justify-between gap-x-20">
+          <div className="flex justify-between xl:items-end gap-x-20">
             {/* Logo */}
             <Link href="/">
               <a className="w-[235px] md:w-[367px] block">
@@ -93,10 +93,18 @@ const Topbar = ({ data }: TopbarProps): JSX.Element => {
               </button>
 
               {/* Menu */}
-              <nav className="hidden xl:flex gap-x-30">
-                {menu.map(({ href, label, children }) => (
+              <nav className="hidden xl:flex gap-x-30 text-19 xl:-translate-y-[0.975em]">
+                {menu.map(({ href, label, children }, index) => (
                   <Link href={href} key={href}>
-                    <a className="text-19 leading-none font-normal transition-colors text-brown-700 hover:text-teal-300 flex gap-x-1.5 items-center">
+                    <a
+                      className={classNames(
+                        "leading-none font-normal transition-colors text-brown-700 hover:text-teal-300 flex gap-x-5 items-center relative",
+                        {
+                          "before:h-full before:border-l before:border-dashed before:border-teal-300 before:absolute before:-left-15 before:inset-y-0 before:pointer-events-none":
+                            index > 0,
+                        }
+                      )}
+                    >
                       <span>{label}</span>
 
                       {/* Children indicator */}

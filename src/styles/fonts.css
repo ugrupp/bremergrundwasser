@@ -1,1 +1,8 @@
-/* insertion point for future webfonts */
+@font-face {
+  font-family: "Bw Gradual";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("/fonts/BwGradual-Regular.woff2") format("woff2"),
+    url("/fonts/BwGradual-Regular.woff") format("woff");
+}
