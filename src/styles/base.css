@@ -17,7 +17,7 @@ body {
 }
 
 .selection-inverted ::selection {
-  @apply bg-white text-teal-300;
+  @apply bg-brown-700 text-white;
 }
 
 address {

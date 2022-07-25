@@ -12,6 +12,7 @@ module.exports = {
       12: "12px",
       13: "13px",
       14: "14px",
+      15: "15px",
       16: "16px",
       17: "17px",
       18: "18px",
@@ -80,6 +81,9 @@ module.exports = {
         "container-md": "920px",
         "container-lg": "1140px",
         "container-xl": "1380px",
+      },
+      gridTemplateColumns: {
+        16: "repeat(16, minmax(0, 1fr))",
       },
     },
   },

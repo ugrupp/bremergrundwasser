@@ -1,0 +1,62 @@
+.root {
+  @apply text-brown-700;
+
+  /* Elements */
+  & strong {
+    @apply text-teal-300;
+  }
+
+  & h2,
+  & h3 {
+    @apply font-normal text-teal-300;
+    @apply m-0;
+  }
+
+  & ul {
+    list-style: "- " inside;
+  }
+
+  & a {
+    @apply text-teal-300 transition-colors hover:text-brown-700;
+  }
+
+  /* Spacing */
+  & :is(p, address, ul, table, h2, h3) {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  & :is(h2, h3, h4, br) + :is(p, address, ul, table) {
+    margin-top: 0;
+  }
+
+  /* General */
+  & > :first-child {
+    margin-top: 0;
+  }
+
+  & > :last-child {
+    margin-bottom: 0;
+  }
+
+  & a {
+    overflow-wrap: anywhere;
+  }
+}
+
+.on-teal {
+  @apply text-brown-700;
+
+  & strong {
+    @apply text-white;
+  }
+
+  & a {
+    @apply text-white hover:text-brown-700;
+  }
+
+  & h2,
+  & h3 {
+    @apply text-white;
+  }
+}
