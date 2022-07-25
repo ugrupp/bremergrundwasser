@@ -22,5 +22,47 @@
         "url": "https://www.vimeo.com/"
       }
     ]
+  },
+  "contact": {
+    "id": "kontakt",
+    "intro__html": "<p><strong>Anfrage:</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>",
+    "links": [
+      {
+        "href": "/anfrage-bewaesserung",
+        "label": "Anfrage Bewässerung",
+        "image": {
+          "src": "/images/teaser-1.jpg",
+          "width": 500,
+          "height": 332,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "href": "/anfrage-brunnen",
+        "label": "Anfrage Brunnen",
+        "image": {
+          "src": "/images/teaser-2.jpg",
+          "width": 715,
+          "height": 400,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "href": "/anfrage-service-reparatur",
+        "label": "Anfrage Service + Reparatur",
+        "image": {
+          "src": "/images/teaser-3.jpg",
+          "width": 525,
+          "height": 700,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      }
+    ]
   }
 }

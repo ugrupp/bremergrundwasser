@@ -94,8 +94,8 @@ const OverlayMenu = (): JSX.Element => {
                 <nav className="flex flex-col gap-y-20 w-fit">
                   {menu.map(({ href, label, id, children }) =>
                     href && children.length <= 0 ? (
-                      <div>
-                        <Link href={href} key={id}>
+                      <div key={id}>
+                        <Link href={href}>
                           <a
                             className="text-19 leading-none font-normal inline-block whitespace-nowrap text-brown-700"
                             onClick={() => setMenuOpen(false)}
@@ -105,11 +105,8 @@ const OverlayMenu = (): JSX.Element => {
                         </Link>
                       </div>
                     ) : (
-                      <div>
-                        <p
-                          className="text-19 leading-none font-normal inline-block whitespace-nowrap text-brown-700"
-                          key={id}
-                        >
+                      <div key={id}>
+                        <p className="text-19 leading-none font-normal inline-block whitespace-nowrap text-brown-700">
                           {label}
                         </p>
 
