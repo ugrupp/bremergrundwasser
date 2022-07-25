@@ -9,5 +9,18 @@
     "secondaryBody__html": "<p><strong>Alles für Bewässerung und Brunnenbau:</strong> Pumpen, Schläuche, Regner, PE- und Messingverschraubungen. Reparaturwerkstatt für fast alle Pumpen und Verschrau- bungen.</p>",
     "opentimesHeadline": "Öffnungszeiten",
     "opentimesBody__html": "<p>Montag bis Freitag <br />9:00 Uhr - 13:00 Uhr <br />15:00 Uhr - 17:00 Uhr</p><p>Samstags nach Vereinbarung <br />Aber fast immer von <br />9:00 Uhr - 13:00 Uhr</p>"
+  },
+  "video": {
+    "id": "video",
+    "videos": [
+      {
+        "label__html": "<strong>Video</strong> Brunnenbau",
+        "url": "https://www.youtube.com/"
+      },
+      {
+        "label__html": "<strong>Video</strong> Beregnungsanlagen",
+        "url": "https://www.vimeo.com/"
+      }
+    ]
   }
 }
