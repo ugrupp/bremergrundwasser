@@ -2,12 +2,13 @@ import type { InferGetStaticPropsType, NextPage } from "next";
 import Head from "next/head";
 import data from "../data/404.json";
 import staticData from "../data/static.json";
+import { generateImagePlaceholders } from "../lib/helpers";
 
 export const getStaticProps = async () => {
   return {
     props: {
-      data,
-      staticData,
+      data: await generateImagePlaceholders(data),
+      staticData: await generateImagePlaceholders(staticData),
     },
   };
 };

@@ -10,7 +10,7 @@ import { generateImagePlaceholders } from "../lib/helpers";
 export const getStaticProps = async () => ({
   props: {
     data: await generateImagePlaceholders(data),
-    staticData,
+    staticData: await generateImagePlaceholders(staticData),
   },
 });
 

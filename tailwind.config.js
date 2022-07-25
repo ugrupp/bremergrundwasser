@@ -67,6 +67,7 @@ module.exports = {
     extend: {
       colors: {
         teal: {
+          200: "#a9d8d4",
           300: "#6EC1B5",
         },
         brown: {

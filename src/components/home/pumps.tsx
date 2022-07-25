@@ -5,6 +5,8 @@ import data from "../../data/index.json";
 import richtextStyles from "../../styles/richtext.module.css";
 import styles from "../../styles/pumps.module.css";
 import Container from "../container";
+import Link from "next/link";
+import ArrowIcon from "../../assets/icons/arrow.svg";
 
 interface PumpsSectionProps extends HTMLAttributes<HTMLElement> {
   data: typeof data.pumps;
@@ -42,11 +44,32 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
               )}
             >
               {parse(data.intro__html)}
+
+              {!!data.link && (
+                <Link href={data.link.href}>
+                  <a className="text-15 md:text-20 leading-none inline-flex gap-x-[0.5em] items-center whitespace-nowrap group">
+                    <span>{data.link.label}</span>
+                    <ArrowIcon className="h-[0.75em] w-[0.75em] rotate-180 group-hover:translate-x-4 transition-transform" />
+                  </a>
+                </Link>
+              )}
             </div>
           </div>
 
           {/* Pumps */}
           <div className="col-start-5 col-end-[-1] lg:col-start-1">Pumps</div>
+
+          {/* Hint */}
+          <div className="col-start-1 col-end-[-1] md:col-start-3 md:col-end-[-3] lg:col-start-9 lg:col-end-[-1]">
+            <div
+              className={classNames(
+                richtextStyles.root,
+                "text-15 md:text-20 leading-normal"
+              )}
+            >
+              {parse(data.hint__html)}
+            </div>
+          </div>
         </div>
       </Container>
     </section>
