@@ -2,27 +2,32 @@
   "topbar": {
     "menu": [
       {
+        "id": "grundwasser",
         "href": "/grundwasser",
         "label": "Grundwasser",
         "children": []
       },
       {
+        "id": "bewaesserung",
         "href": "/bewaesserung",
         "label": "Bewässerung",
         "children": []
       },
       {
+        "id": "brunnen",
         "href": "/brunnen",
         "label": "Brunnen",
         "children": []
       },
       {
+        "id": "verkauf",
         "href": "/verkauf",
         "label": "Verkauf",
         "children": []
       },
       {
-        "href": "/bremergrundwasser",
+        "id": "bremergrundwasser",
+        "href": null,
         "label": "bremergrundwasser",
         "children": [
           {
