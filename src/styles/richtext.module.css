@@ -30,6 +30,11 @@
     margin-top: 0;
   }
 
+  & h2,
+  & h3 {
+    @apply leading-snug;
+  }
+
   /* General */
   & > :first-child {
     margin-top: 0;

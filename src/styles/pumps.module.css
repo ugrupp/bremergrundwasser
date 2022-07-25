@@ -1,0 +1,8 @@
+.bg {
+  background-image: linear-gradient(
+    to bottom,
+    #564942 0%,
+    #564942e6 60%,
+    #56494200 100%
+  );
+}
