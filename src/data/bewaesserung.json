@@ -1,0 +1,21 @@
+{
+  "id": "bewaesserung",
+  "intro": {
+    "id": "intro",
+    "headline": "Bewässerung",
+    "body__html": "<p>Nachdem wir uns so viele Gedanken gemacht haben über die Förderung von Grundwasser, stellt sich noch die Frage: Wie gehe ich sinnvoll damit um? Stelle ich mich im Sommer nach Feierabend stundenlang in den Garten um zu gießen oder sitze ich lieber bei einem Glas Rotwein auf der Terrasse und schaue meiner Beregnungsanlage beim Bewässern zu? Will ich spontan für ein verlängertes Wochenende verreisen können, ohne mir Gedanken darüber machen zu müssen, wer bei 30 °C meinen Rasen wässert?</p><p>Kein Problem, die komfortable HUNTER-Steuerung regelt das zuverlässiger und besser als jeder Nachbar! Wünschen Sie sich Rasenflächen in sattem Grün und üppiges Pflanzenwachstum? Nur die regelmäßige und kurze Beregnung, am besten um 5.00 Uhr morgens vor Sonnenaufgang, bringt die schönste Blütenpracht hervor - eine einfach zu bedienende Steuerung macht's möglich. Und wenn es mal regnet oder stürmt? Der passende HUNTER-Sensor schaltet die Anlage zuverlässig ab.</p>",
+    "teaser": {
+      "href": "/anfrage-bewaesserung",
+      "label": "Anfrage Bewässerung",
+      "linkText": "weiter",
+      "image": {
+        "src": "/images/teaser-1.jpg",
+        "width": 500,
+        "height": 332,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      }
+    }
+  }
+}
