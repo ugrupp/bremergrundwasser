@@ -73,5 +73,30 @@
         }
       }
     ]
+  },
+  "features": {
+    "id": "features",
+    "features": [
+      {
+        "headline": "Rasenmäher",
+        "body__html": "<p>Versenkregner werden in den Rasenflächen unterhalb der Oberfläche verbaut und sind kaum noch zu sehen. Deshalb brauchen Sie auch beim Rasenmähen keine Rücksicht zu nehmen. Für das Vertikutieren bekommen Sie von uns Fähnchen, die neben die Sprenger gesteckt werden. Sie arbeiten dann einfach „drum herum“. Die in etwa 30 cm Tiefe verlegten Leitungen sind gar nicht gefährdet.</p>"
+      },
+      {
+        "headline": "Wirtschaftlichkeit",
+        "body__html": "<p>Automatische Bewässerungsanlagen benötigen sehr kurze Laufzeiten. Im Durchschnitt betragen diese für Rasenflächen 10 Min., für Beete mit blühenden Pflanzen 15 Min. und für Tropfrohre 30 Min. Insgesamt dauert dann ein „Durchlauf“ einer größeren Anlage nur ca. 55 Min. Beim Betrieb mit Grundwasser sind es im Vergleich mit dem stundenlangen Sprengen mit Aufstellsprengern nur die Stromkosten, die gespart werden. Bei der Nutzung von Stadtwasser jedoch kommen für die Beregnung ganz andere Summen zusammen, wie unter Grundwasser beschrieben.</p>"
+      },
+      {
+        "headline": "Winterservice",
+        "body__html": "<p>Zum Winter sollte die Anlage entleert, die Pumpe vom Brunnen abgenommen und dieser entwässert werden. Wir erledigen das für Sie. Wir rufen Sie rechtzeitig an, planen Sie in unsere Tour ein und führen zusätzlich auch eine Überprüfung Ihrer Beregnungsanlage durch. Die Kosten liegen bei nur 50,00 - 80,00 € innerhalb der Stadtgrenze. Und wenn Sie es wünschen, schließen wir im Frühjahr alles wieder an.</p>"
+      },
+      {
+        "headline": "Qualität",
+        "body__html": "<p>Die von uns vertriebenen HUNTER-Beregnungsanlagen sind von hervorragender Qualität. Von uns installierte und eingestellte Bewässerungsanlagen funktionieren perfekt die gesamte Saison hindurch. Die meisten Kunden sehen wir nur ein Mal im Jahr zum Winterservice. Die Steuerungen sind übersichtlich und leicht verständlich und werden von uns ausführlich erklärt. Zudem haben wir einen hervorragenden und geduldigen Telefon-Support, wenn Ihnen die Bedienungsanleitung nicht weiterhilft.</p>"
+      },
+      {
+        "headline": "Preis-Leistungs-Verhältnis",
+        "body__html": "<p>Gärten sind immer Unikate und haben ihre eigene Dynamik, die eine exakte Anpassung der Beregnungsanlage erfordert. Deshalb ist ein unverbindlicher und kostenloser Besichtigungstermin in Ihrem Garten mit Aufmaßnahme Voraussetzung für die Erstellung unseres Kostenangebot an das wir uns dann auch halten.</p>"
+      }
+    ]
   }
 }

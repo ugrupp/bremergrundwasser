@@ -40,7 +40,7 @@ const Footer = ({ data }: FooterProps): JSX.Element => {
 
       {/* Content */}
       <div className="relative">
-        <Container className="pt-80 md:pt-120 pb-[300px] md:pb-[400px]">
+        <Container className="pt-80 lg:pt-120 pb-[300px] md:pb-[400px]">
           <div className="grid grid-cols-16 gap-y-80 items-end">
             <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-end-9 space-y-50 lg:space-y-60">
               {/* Contact */}

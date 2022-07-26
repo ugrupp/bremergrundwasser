@@ -1,4 +1,5 @@
 import type { InferGetStaticPropsType, NextPage } from "next";
+import FeaturesSection from "../components/bewaesserung/features";
 import IntroSection from "../components/bewaesserung/intro";
 import Carousel from "../components/carousel";
 import data from "../data/bewaesserung.json";
@@ -17,10 +18,9 @@ const Bewaesserung: NextPage<
 > = ({ data }) => {
   return (
     <div>
-      <main>
-        <IntroSection data={data.intro} className="z-10 -mb-30 lg:mb-0" />
-        <Carousel carousel={data.carousel.carousel} />
-      </main>
+      <IntroSection data={data.intro} className="z-10 -mb-30 lg:mb-0" />
+      <Carousel carousel={data.carousel.carousel} />
+      <FeaturesSection data={data.features} />
     </div>
   );
 };

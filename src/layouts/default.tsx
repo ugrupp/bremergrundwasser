@@ -14,7 +14,7 @@ const Layout = ({ staticData, children }: LayoutProps): JSX.Element => {
       <Topbar data={staticData.topbar} />
       <OverlayMenu />
 
-      <main className={"mb-60 md:mb-80 lg:mb-112"}>{children}</main>
+      <main>{children}</main>
 
       <Footer data={staticData.footer} />
     </div>

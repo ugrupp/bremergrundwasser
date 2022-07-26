@@ -19,14 +19,12 @@ const Home: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   data,
 }) => {
   return (
-    <div>
-      <main>
-        <HeroSection data={data.hero} />
-        <IntroSection data={data.intro} className="pb-180 lg:pb-[350px]" />
-        <VideoSection data={data.video} className="-mt-100 lg:-mt-200" />
-        <ContactSection data={data.contact} className="mt-80 lg:mt-120 z-10" />
-        <PumpsSection data={data.pumps} className="mt-80 lg:mt-120" />
-      </main>
+    <div className="pb-80 lg:pb-120">
+      <HeroSection data={data.hero} />
+      <IntroSection data={data.intro} className="pb-180 lg:pb-[350px]" />
+      <VideoSection data={data.video} className="-mt-100 lg:-mt-200" />
+      <ContactSection data={data.contact} className="mt-80 lg:mt-120 z-10" />
+      <PumpsSection data={data.pumps} className="mt-80 lg:mt-120" />
     </div>
   );
 };
