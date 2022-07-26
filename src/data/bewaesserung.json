@@ -17,5 +17,61 @@
         "dominantColor": ""
       }
     }
+  },
+  "carousel": {
+    "id": "carousel",
+    "carousel": [
+      {
+        "image": {
+          "src": "/images/stimmung-1.jpg",
+          "width": 2500,
+          "height": 1742,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/stimmung-2.jpg",
+          "width": 2500,
+          "height": 1661,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/stimmung-3.jpg",
+          "width": 2500,
+          "height": 1582,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/stimmung-4.jpg",
+          "width": 2500,
+          "height": 1823,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+
+      {
+        "image": {
+          "src": "/images/stimmung-5.jpg",
+          "width": 2500,
+          "height": 1662,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      }
+    ]
   }
 }

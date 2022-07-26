@@ -14,7 +14,7 @@ interface IntroSectionProps extends HTMLAttributes<HTMLElement> {
 const IntroSection = ({ data, className }: IntroSectionProps): JSX.Element => {
   return (
     <section
-      className={classNames(className, "relative py-80 lg:py-120")}
+      className={classNames(className, "relative pt-80 lg:py-120")}
       id={data.id}
     >
       <Container>
