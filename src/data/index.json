@@ -1,6 +1,37 @@
 {
   "id": "index",
-  "hero": {},
+  "hero": {
+    "id": "hero",
+    "headline__html": "Herzlich Willkommen <br />bei Ihrem Spezialist für feine <br />Gartenbewässerungsanlagen <br/>und Brunnenbau.",
+    "phoneLink": {
+      "href": "tel:+494212007861",
+      "label": "0421 200 78 61"
+    },
+    "image": {
+      "src": "/images/header-home.png",
+      "width": 1001,
+      "height": 1000,
+      "alt": "",
+      "objectPosition": "0% 0%",
+      "dominantColor": ""
+    },
+    "offerImage": {
+      "src": "/images/angebot.png",
+      "width": 341,
+      "height": 366,
+      "alt": "",
+      "objectPosition": "50% 50%",
+      "dominantColor": ""
+    },
+    "badgeImage": {
+      "src": "/images/badge.png",
+      "width": 300,
+      "height": 300,
+      "alt": "",
+      "objectPosition": "50% 50%",
+      "dominantColor": ""
+    }
+  },
   "intro": {
     "id": "intro",
     "headline": "Wasser ist unser Leben!",
