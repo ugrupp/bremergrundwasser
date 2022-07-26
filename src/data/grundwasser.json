@@ -1,0 +1,29 @@
+{
+  "id": "grundwasser",
+  "intro": {
+    "id": "intro",
+    "headline": "Grundwasserqualität",
+    "body__html": "<p>Wir von bremergrundwasser sagen unseren Kunden, dass die Grundwasserqualität in Bremen grundsätzlich gut ist. Das können wir mit gutem Grund, da wir Jahr für Jahr sehr viele Brunnen erstellen und für diese oftmals eine Wasseranalyse in Auftrag geben. Das Ergebnis ist fast immer negativ, also ohne auffällige Parameter. Als Beispiel führen wir auch diverse Kinderspielplätze an. Hier werden oft Schwengelpumpen eingesetzt und für diese „Matschanlagen“ werden ebenfalls Proben gezogen und regelmäßig analysiert. Probleme treten vor allem dort auf, wo früher Industrieanlagen, chemische Reinigungen oder Tankstellen ihren Standort hatten. Solche Flächen werden, wenn dem Senator für Umwelt, Bau und Verkehr bekannt, bekannt gemacht. Das heißt im konkreten Fall, die Hauseigentümer oder Mieter werden per Postwurfsendung informiert. Alternativ können Sie sich auch beim Gesundheitsamt über evtl. Verunreinigungen informieren.</p>",
+    "image": {
+      "src": "/images/hintergrund-01.jpg",
+      "width": 1920,
+      "height": 1259,
+      "alt": "",
+      "objectPosition": "50% 50%",
+      "dominantColor": ""
+    }
+  },
+  "features": {
+    "id": "features",
+    "features": [
+      {
+        "headline": "Wasseranalyse",
+        "body__html": "<p>Wenn Sie nur Ihre Zierpflanzen und den Rasen sprengen möchten, ist die Wasserqualität zweitrangig. Sollen aber das Gemüse und die Obstbäume mit Brunnenwasser gegossen oder soll vielleicht das Planschbecken der Kinder befüllt werden, empfehlen wir vorab eine Wasseranalyse. Grundsätzlich kann man aber sagen, dass die Wasserqualität in Bremen mit wenigen Ausnahmen gut ist (bitte die Veröffentlichungen vom Senator für Umwelt, Bau und Verkehr beachten).</p>"
+      },
+      {
+        "headline": "Wirtschaftlichkeit",
+        "body__html": "<p>Mit den Wasserpreisen ist es genauso aus wie mit den übrigen Nebenkosten: Alles wird ständig teurer. Der Haken beim Wasser ist nur, dass das Abwasser immer mitbezahlt werden muss, auch wenn das Frischwasser im Garten landet. In Bremen sieht das so aus: Der m³ Wasser kostet 1,98 €, für das Abwasser kommen noch mal 2,64 € hinzu. Macht zusammen 4,62 €/m³ (Stand 2013).</p>"
+      }
+    ]
+  }
+}

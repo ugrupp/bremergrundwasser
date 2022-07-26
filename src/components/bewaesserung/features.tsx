@@ -17,7 +17,7 @@ const FeaturesSection = ({
     <section
       className={classNames(
         className,
-        "relative py-80 lg:py-120 bg-gradient-to-b from-brown-700/5"
+        "relative py-80 lg:py-120 bg-white bg-gradient-to-b from-brown-700/5"
       )}
       id={data.id}
     >
