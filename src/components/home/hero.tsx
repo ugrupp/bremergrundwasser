@@ -4,7 +4,6 @@ import NextImage from "next/image";
 import { HTMLAttributes } from "react";
 import PlusIcon from "../../assets/icons/plus.svg";
 import data from "../../data/index.json";
-import { NEXT_IMAGE_DEFAULT_QUALITY } from "../../lib/constants";
 import Container from "../container";
 
 interface HeroSectionProps extends HTMLAttributes<HTMLElement> {

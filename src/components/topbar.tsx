@@ -183,24 +183,29 @@ const Topbar = ({ data }: TopbarProps): JSX.Element => {
                   styles.submenu
                 )}
               >
-                {/* Only render "bremergrundwasser" children */}
-                <nav
-                  className="space-y-20 flex flex-col items-start relative right-0"
-                  style={{ left: bremergrundwasserPos }}
-                >
-                  {bremergrundwasserChildren.map(({ href, label }) => (
-                    <Link href={href} key={href}>
-                      <a
-                        className={classNames(
-                          "text-17 leading-none font-normal transition-colors text-brown-700 hover:text-teal-300 flex gap-x-12 items-center relative"
-                        )}
-                      >
-                        <ArrowIcon className="text-teal-300 h-18 w-18 rotate-180" />
-                        <span>{label}</span>
-                      </a>
-                    </Link>
-                  ))}
-                </nav>
+                {({ close }) => (
+                  // Only render "bremergrundwasser" children
+                  <nav
+                    className="space-y-20 flex flex-col items-start relative right-0"
+                    style={{ left: bremergrundwasserPos }}
+                  >
+                    {bremergrundwasserChildren.map(({ href, label }) => (
+                      <Link href={href} key={href}>
+                        <a
+                          className={classNames(
+                            "text-17 leading-none font-normal transition-colors text-brown-700 hover:text-teal-300 flex gap-x-12 items-center relative"
+                          )}
+                          onClick={() => {
+                            close();
+                          }}
+                        >
+                          <ArrowIcon className="text-teal-300 h-18 w-18 rotate-180" />
+                          <span>{label}</span>
+                        </a>
+                      </Link>
+                    ))}
+                  </nav>
+                )}
               </Popover.Panel>
             )}
           </>

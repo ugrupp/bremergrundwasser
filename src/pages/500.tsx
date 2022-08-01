@@ -13,7 +13,7 @@ export const getStaticProps = async () => {
   };
 };
 
-const Home: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
+const Error500: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   data,
 }) => {
   const { text__html } = data;
@@ -29,4 +29,4 @@ const Home: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   );
 };
 
-export default Home;
+export default Error500;
