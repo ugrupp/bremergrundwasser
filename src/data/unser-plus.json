@@ -1,0 +1,43 @@
+{
+  "id": "unser-plus",
+  "hero": {
+    "id": "hero",
+    "headline": "Warum wir",
+    "body__html": "<p><strong>Wir arbeiten sauber und ohne Fluschaden dank unserem speziellen Spülsystem.</strong> Keine Überschwemmung im Garten und ein sauberes Bohrloch.</p>"
+  },
+  "features": {
+    "id": "features",
+    "features": [
+      {
+        "body__html": "<p><strong>Unser größtes Plus</strong> ist sicherlich die Art und Weise, wie wir unsere Aufgaben und Ziele angehen. Wir denken vorher nach und setzen all unser Know-how ein, um das jeweils beste Ergebnis zu erzielen. Wenn wir dafür einen größeren Aufwand betreiben müssen, dann machen wir das auch. Denn wir geben uns nicht mit der einfachsten Lösung zufrieden.</p>"
+      },
+      {
+        "body__html": "<p><strong>Bewässerungsanlagen</strong> werden von uns ausschließlich mit HUNTER-Produkten geplant und gebaut. HUNTER ist weltweit die Nr. 1 in Sachen Beregnungstechnik und in puncto Qualität für uns das Maß der Dinge.</p>"
+      },
+      {
+        "headline": "Brunnenbau",
+        "body__html": "<p>Dank unserem speziellen Spülsystem können wir ohne Überschwemmungen und große Gruben, wie sie sonst oft entstehen, arbeiten. Ein kleines Bohrloch von 20 cm Durchmesser reicht uns aus, um in die Tiefe zu kommen.</p>"
+      },
+      {
+        "headline": "Brunnenbau Ausführung",
+        "body__html": "<p>Wir verwenden große 2″-Filter, die durch das Bohrloch in den Grund- wasserleiter abgelassen werden. Das ist in unseren Breiten die beste Möglichkeit, einen leistungsstarken Brunnen zu bauen.</p>"
+      },
+      {
+        "headline": "Brunnentechnik",
+        "body__html": "<p>Wir verwenden glatte 2″ Filter. Diese Glattfilter werden heute den Rippen- filtern vorgezogen um ein anhaften von Mineralien zu verhindern.</p>"
+      },
+      {
+        "headline": "Verwendetes Material bei Spülbrunnen „Klassik“ und „Premium“",
+        "body__html": "<p>Gutes Rückschlagventil mit NBR-Dichtung und Entwässerungs- möglichkeit, PE-Verschraubung in Messing.</p><p>Die Steigleitung erstellen wir durch- gehend aus einer flexiblen- und mit 2,9mm dickwandigen PE-Leitung. Wir verwenden kein verklebtes graues Plastikrohr, das sehr leicht brechen kann!</p>",
+        "image": {
+          "src": "/images/rueckschlagventil.png",
+          "width": 361,
+          "height": 361,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      }
+    ]
+  }
+}
