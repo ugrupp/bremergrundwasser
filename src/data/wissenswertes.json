@@ -1,0 +1,21 @@
+{
+  "id": "wissenswertes",
+  "hero": {
+    "id": "hero",
+    "headline": "Wissenswertes",
+    "body__html": "<p><strong>Wir arbeiten sauber und ohne Fluschaden dank unserem speziellen Spülsystem.</strong> Keine Überschwemmung im Garten und ein sauberes Bohrloch.</p>"
+  },
+  "features": {
+    "id": "features",
+    "features": [
+      {
+        "headline": "Spülbrunnen",
+        "body__html": "<p>Die qualitativ beste Möglichkeit des Wasserförderns ist ein Spülbrunnen (eingespülter Brunnen). Hier wird das Bohrloch mittels Spezialpumpe und Spüllanze durch Wasserdruck erzeugt. Das dabei hervorgespülte Erdreich (Sedimente) gibt Aufschluss darüber, in welcher Erdschicht man sich gerade befindet. Unsere 5,5-PS-starken, sehr leisen Honda-Spezialpumpen sind anders als kleine, nur mit 220 V betriebene und dadurch zu schwache E-Tauchpumpen in der Lage, sehr tief liegende wasserführende Schichten zu erreichen.</p>"
+      },
+      {
+        "headline": "Brunnenfiltergröße",
+        "body__html": "<p>Bestimmung der richtigen Brunnenfiltergröße nach Länge, Nennweite und Schlitzweite.</p><p>Die Schlitzweite ist von der Korngröße des Bodens in der wasserführenden Schicht abhängig. Richtwerte: <br />Sandboden = 0,3 mm (0,2 bis 0,5 mm) <br />Kiesboden = 0,75 mm (0,5 bis 1,5 mm).</p>"
+      }
+    ]
+  }
+}
