@@ -1,0 +1,157 @@
+{
+  "pumps": [
+    {
+      "id": "dab-82m-garden-inox",
+      "title": "DAB 82M GARDEN INOX",
+      "description__html": "<p>Kleine und leichte Garten- pumpe, leise und von sehr hoher Qualität, 4 bar, 3,6m³/h Q, 600W</p>",
+      "price": 24900,
+      "image": {
+        "src": "/images/products/DAB_82M_B.png",
+        "width": 672,
+        "height": 504,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      }
+    },
+    {
+      "id": "xydab-euro-inox-40-80z",
+      "title": "XYDAB EURO INOX 40/80Z",
+      "description__html": "<p>Die Pumpe für Bewässerungsanlagen und große Grundstücke, 1.000W, 5,9 bar, 7,2m³/h Q</p>",
+      "price": 46900,
+      "image": {
+        "src": "/images/products/dab-euro-inox.png",
+        "width": 721,
+        "height": 444,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      }
+    },
+    {
+      "id": "espa-delta-1755m-sm-edelstahl",
+      "title": "ESPA DELTA 1755M SM-Edelstahl",
+      "description__html": "<p>230V, mit mehrstufigem Laufwerk, sehr leise und extrem kraftvoll mit 5,5 bar max. 4,8m³/Std.</p>",
+      "price": 30900,
+      "image": {
+        "src": "/images/products/delta-1775M.png",
+        "width": 801,
+        "height": 586,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      }
+    },
+    {
+      "id": "espa-technopress-25-5",
+      "title": "ESPA TECHNOPRESS 25-5",
+      "description__html": "<p>Mit eingebautem Druck- schalter, 230V, auf unserem Prüfstand 6,5 bar, 7,5m³, 6 Stufiges Laufwerk! Extrem leise und Leistungsstark!</p>",
+      "price": 49900,
+      "image": {
+        "src": "/images/products/Technopress.png",
+        "width": 741,
+        "height": 523,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      }
+    },
+    {
+      "id": "gartenpumpe-jet-inox",
+      "title": "Gartenpumpe Jet-Inox",
+      "description__html": "<p>Eigenmarke, kräftige und günstige Pumpe mit Edelstahlgehäuse, 1.200W, 4,6 bar, 3,6m³/h Vergleichbar mit Tallas/Alko</p>",
+      "price": 13900,
+      "image": {
+        "src": "/images/products/Jet-Inox-Neptun.png",
+        "width": 725,
+        "height": 604,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      }
+    },
+    {
+      "id": "ksb-multi",
+      "image": {
+        "src": "/images/products/Multi-Eco-36-KSB.png",
+        "width": 743,
+        "height": 543,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      },
+      "multi": [
+        {
+          "id": "ksb-multi-eco-34-p",
+          "title": "KSB Multi ECO 34 P",
+          "description__html": "<p>660 Watt, 3,5 bar, 3,7m³/h</p>",
+          "price": 29900
+        },
+        {
+          "id": "ksb-multi-eco-35-p",
+          "title": "KSB Multi ECO 35 P",
+          "description__html": "<p>Extrem leise, 5-stufiges Laufwerk 800W, 4,4 bar, 4,2m³/h Q</p>",
+          "price": 34900
+        },
+        {
+          "id": "ksb-multi-eco-36-p",
+          "title": "KSB Multi ECO 36 P",
+          "description__html": "<p>Extrem leise, 6-stufiges Laufwerk 1.100 W, 5,5 bar, 4,5 m³/h Q</p>",
+          "price": 39900
+        }
+      ]
+    },
+    {
+      "id": "ksb-multi-eco-35-p",
+      "title": "KSB Multi ECO 35 P",
+      "description__html": "<p>Extrem leise, 5-stufiges Laufwerk 800W, 4,4 bar, 4,2m³/h Q</p>",
+      "price": 34900,
+      "image": {
+        "src": "/images/products/Multi-Eco-36-KSB.png",
+        "width": 743,
+        "height": 543,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      }
+    }
+  ],
+  "other": [
+    {
+      "id": "ansaugschlauch",
+      "title": "Ansaugschlauch",
+      "description__html": "<p>mit zwei 1“-Messing-Patentverbindern, 2 V2A-Schellen, sehr robuster 1“-Gummischlauch mit Gewebeeinlage und V2A-Draht- spirale.</p>",
+      "priceHint": "Komplett montiert",
+      "price": 4500,
+      "image": {
+        "src": "/images/products/ansaugschlauch.png",
+        "width": 361,
+        "height": 361,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      }
+    },
+    {
+      "id": "druckschalter-dab-grundfos-presscontrol-pc01c",
+      "title": "Druckschalter DAB-, Grundfos-, Presscontrol- oder PC01C",
+      "description__html": "<p>schaltet Ihre Pumpe zuverlässig beim Öffnen und Schließen der Spritzdüse/Wasserhahn an und wieder ab, Trockenlaufschutz, mit Kabel und Stecker zum einfachen Verbinden mit der Pumpe, bis 1,1 KW, Pumpenleistung, 230V</p>",
+      "price": 9500,
+      "image": {
+        "src": "/images/products/druckschalter.png",
+        "width": 361,
+        "height": 361,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      }
+    },
+    {
+      "id": "montagepauschale-gartenpumpe",
+      "title": "Montagepauschale Gartenpumpe",
+      "description__html": "<p>inkl. 1“ SK-Anschluss, 1“ Messing Winkel, Gardena Schlauchanschluss 1/2“ oder 3/4“, 1“ Messing Doppelnippel, Dichtmaterial Hanf und Fermit, Probelauf.</p>",
+      "priceHint": "Auch für Ihre Pumpe",
+      "price": 4500
+    }
+  ]
+}

@@ -7,6 +7,8 @@ import styles from "../../styles/pumps.module.css";
 import Container from "../container";
 import Link from "next/link";
 import ArrowIcon from "../../assets/icons/arrow.svg";
+import Pump from "../pump";
+import { resolvePumps } from "../../lib/helpers";
 
 interface PumpsSectionProps extends HTMLAttributes<HTMLElement> {
   data: typeof data.pumps;
@@ -57,7 +59,13 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
           </div>
 
           {/* Pumps */}
-          <div className="col-start-5 col-end-[-1] lg:col-start-1">Pumps</div>
+          <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-[-1]">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-30 md:gap-60">
+              {resolvePumps(data.pumps).map((pump) => (
+                <Pump key={pump.id} pump={pump} />
+              ))}
+            </div>
+          </div>
 
           {/* Hint */}
           <div className="col-start-1 col-end-[-1] md:col-start-3 md:col-end-[-3] lg:col-start-9 lg:col-end-[-1]">

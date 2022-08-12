@@ -1,4 +1,7 @@
 import path from "path";
+import { Product } from "../types/product";
+import products from "../data/products.json";
+import { find } from "lodash";
 const ColorThief = require("colorthief");
 
 // Set up dominant color for images
@@ -38,3 +41,14 @@ export const generateImagePlaceholders = async (data: any) => {
 
   return await deepCustomize(data);
 };
+
+export const resolvePumps = (pumpIDs: string[]): Product[] =>
+  pumpIDs.flatMap((id) => {
+    const resolvedPump = find(products.pumps, { id });
+    return resolvedPump ? [resolvedPump] : [];
+  });
+
+export const numberFormat = new Intl.NumberFormat("de-DE", {
+  style: "currency",
+  currency: "EUR",
+});

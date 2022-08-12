@@ -1,0 +1,93 @@
+import classNames from "classnames";
+import parse from "html-react-parser";
+import Image from "../components/image";
+import { NEXT_IMAGE_DEFAULT_QUALITY } from "../lib/constants";
+import { numberFormat } from "../lib/helpers";
+import richtextStyles from "../styles/richtext.module.css";
+import { Product } from "../types/product";
+
+type PumpProps = {
+  pump: Product;
+};
+
+const Pump = ({ pump }: PumpProps): JSX.Element => {
+  const { id, image, multi } = pump;
+
+  return (
+    <div className="relative" id={id}>
+      {/* Image */}
+      {!!image && (
+        <div className="-mb-50 md:-mb-60 max-w-sm mx-auto">
+          <Image
+            quality={NEXT_IMAGE_DEFAULT_QUALITY}
+            layout="responsive"
+            src={image.src}
+            alt={image.alt}
+            width={image.width}
+            height={image.height}
+            objectFit="cover"
+            objectPosition={image.objectPosition}
+            dominantColor={image.dominantColor}
+          />
+        </div>
+      )}
+
+      {/* Content */}
+      <div className="bg-white rounded-[20px] p-30 pt-50 md:pt-60">
+        {multi ? (
+          <div className="space-y-40">
+            {multi.map((pump) => (
+              <PumpInfo pump={pump} key={pump.id} />
+            ))}
+          </div>
+        ) : (
+          <PumpInfo pump={pump} />
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Pump;
+
+type PumpInfoProps = {
+  pump: Product;
+};
+
+const PumpInfo = ({ pump }: PumpInfoProps): JSX.Element => {
+  const { description__html, price, priceHint, title } = pump;
+
+  return (
+    <div className="space-y-20 md:space-y-25">
+      {/* Headline */}
+      <h3 className="text-20 md:text-25 leading-snug text-teal-300">{title}</h3>
+
+      {/* Description */}
+      {!!description__html && (
+        <div
+          className={classNames(
+            richtextStyles.root,
+            "text-15 md:text-20 leading-normal"
+          )}
+        >
+          {parse(description__html)}
+        </div>
+      )}
+
+      {/* Price & price hint */}
+      {!!price && (
+        <div>
+          {/* Price hint */}
+          {!!priceHint && (
+            <p className="text-12 md:text-16 leading-normal">{priceHint}</p>
+          )}
+
+          {/* Price */}
+          <p className="text-20 md:text-25 leading-snug text-teal-300">
+            nur {numberFormat.format(price / 100)}
+          </p>
+        </div>
+      )}
+    </div>
+  );
+};

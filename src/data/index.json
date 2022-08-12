@@ -37,7 +37,7 @@
     "headline": "Wasser ist unser Leben!",
     "body__html": "<p>Dieses Motto umschreibt die Arbeit von bremergrundwasser am treffendsten. Unser Spezialgebiet ist die Förderung von Grundwasser und das Auffangen von Regenwasser ebenso wie die gezielte und sparsame Beregnung von Rasenflächen und Blumen- sowie Gemüsebeeten.</p><p>Wenn auch Sie nicht länger teures Leitungswasser für die Bewässerung Ihres Gartens „verschwenden“ wollen, dann haben wir die Lösung!</p><p><strong>Rufen Sie einfach an, wenn Sie noch Fragen haben. Wir beraten sie gerne: 0421 200 78 61</strong></p>",
     "secondaryHeadline": "Besuchen Sie unser Ladengeschäft in der Borgfelder Heerstr. 7",
-    "secondaryBody__html": "<p><strong>Alles für Bewässerung und Brunnenbau:</strong> Pumpen, Schläuche, Regner, PE- und Messingverschraubungen. Reparaturwerkstatt für fast alle Pumpen und Verschrau- bungen.</p>",
+    "secondaryBody__html": "<p><strong>Alles für Bewässerung und Brunnenbau:</strong> Pumpen, Schläuche, Regner, PE- und Messingverschraubungen. Reparaturwerkstatt für fast alle Pumpen und Verschraubungen.</p>",
     "opentimesHeadline": "Öffnungszeiten",
     "opentimesBody__html": "<p>Montag bis Freitag <br />9:00 Uhr - 13:00 Uhr <br />15:00 Uhr - 17:00 Uhr</p><p>Samstags nach Vereinbarung <br />Aber fast immer von <br />9:00 Uhr - 13:00 Uhr</p>"
   },
@@ -104,6 +104,14 @@
       "href": "#",
       "label": "mehr Infos"
     },
+    "pumps": [
+      "dab-82m-garden-inox",
+      "xydab-euro-inox-40-80z",
+      "espa-delta-1755m-sm-edelstahl",
+      "espa-technopress-25-5",
+      "gartenpumpe-jet-inox",
+      "ksb-multi-eco-35-p"
+    ],
     "hint__html": "<p><strong>Bitte beachten bei Preisvergleichen:</strong> alle angebotenen Pumpen mit Kabel und Schalter.</p>"
   }
 }
