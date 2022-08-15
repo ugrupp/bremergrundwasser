@@ -10,14 +10,16 @@ import { generateImagePlaceholders } from "../lib/helpers";
 
 export const getStaticProps = async () => ({
   props: {
-    data: await generateImagePlaceholders(data),
-    staticData: await generateImagePlaceholders(staticData),
+    data: (await generateImagePlaceholders(data)) as typeof data,
+    staticData: (await generateImagePlaceholders(
+      staticData
+    )) as typeof staticData,
   },
 });
 
-const Home: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
-  data,
-}) => {
+type PageProps = InferGetStaticPropsType<typeof getStaticProps>;
+
+const Home: NextPage<PageProps> = ({ data }: PageProps) => {
   return (
     <div className="pb-80 lg:pb-120">
       <HeroSection data={data.hero} />

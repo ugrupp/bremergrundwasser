@@ -44,8 +44,14 @@ export const generateImagePlaceholders = async (data: any) => {
 
 export const resolvePumps = (pumpIDs: string[]): Product[] =>
   pumpIDs.flatMap((id) => {
-    const resolvedPump = find(products.pumps, { id });
-    return resolvedPump ? [resolvedPump] : [];
+    const resolvedProduct = find(products.pumps, { id });
+    return resolvedProduct ? [resolvedProduct] : [];
+  });
+
+export const resolveEquipment = (equipmentIDs: string[]): Product[] =>
+  equipmentIDs.flatMap((id) => {
+    const resolvedProduct = find(products.equipment, { id });
+    return resolvedProduct ? [resolvedProduct] : [];
   });
 
 export const numberFormat = new Intl.NumberFormat("de-DE", {

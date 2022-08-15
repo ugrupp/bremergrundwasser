@@ -7,14 +7,16 @@ import FeaturesSection from "../components/unser-plus/features";
 
 export const getStaticProps = async () => ({
   props: {
-    data: await generateImagePlaceholders(data),
-    staticData: await generateImagePlaceholders(staticData),
+    data: (await generateImagePlaceholders(data)) as typeof data,
+    staticData: (await generateImagePlaceholders(
+      staticData
+    )) as typeof staticData,
   },
 });
 
-const UnserPlus: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
-  data,
-}) => {
+type PageProps = InferGetStaticPropsType<typeof getStaticProps>;
+
+const UnserPlus: NextPage<PageProps> = ({ data }: PageProps) => {
   return (
     <div>
       <HeroSection data={data.hero} />

@@ -1,0 +1,22 @@
+{
+  "id": "verkauf",
+  "hero": {},
+  "pumps": {
+    "id": "pumpen",
+    "intro__html": "<p><strong>Unsere Pumpen:</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>",
+    "pumps": [
+      "dab-82m-garden-inox",
+      "xydab-euro-inox-40-80z",
+      "espa-delta-1755m-sm-edelstahl",
+      "espa-technopress-25-5",
+      "gartenpumpe-jet-inox",
+      "ksb-multi"
+    ],
+    "hint__html": "<p><strong>Bitte beachten bei Preisvergleichen:</strong> alle angebotenen Pumpen mit Kabel und Schalter.</p>",
+    "equipment": [
+      "ansaugschlauch",
+      "druckschalter-dab-grundfos-presscontrol-pc01c",
+      "montagepauschale-gartenpumpe"
+    ]
+  }
+}

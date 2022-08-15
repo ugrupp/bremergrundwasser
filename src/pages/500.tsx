@@ -4,18 +4,18 @@ import data from "../data/500.json";
 import staticData from "../data/static.json";
 import { generateImagePlaceholders } from "../lib/helpers";
 
-export const getStaticProps = async () => {
-  return {
-    props: {
-      data: await generateImagePlaceholders(data),
-      staticData: await generateImagePlaceholders(staticData),
-    },
-  };
-};
+export const getStaticProps = async () => ({
+  props: {
+    data: (await generateImagePlaceholders(data)) as typeof data,
+    staticData: (await generateImagePlaceholders(
+      staticData
+    )) as typeof staticData,
+  },
+});
 
-const Error500: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
-  data,
-}) => {
+type PageProps = InferGetStaticPropsType<typeof getStaticProps>;
+
+const Error500: NextPage<PageProps> = ({ data }: PageProps) => {
   const { text__html } = data;
 
   return (
