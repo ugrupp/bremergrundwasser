@@ -1,0 +1,58 @@
+{
+  "brunnen": {
+    "id": "brunnen",
+    "headline__html": "Eine kleine Auswahl unserer Brunnen und weiteren Leistungen <span>(alle Preise inkl. MwSt)</span>",
+    "brunnen": [
+      {
+        "title": "Spülbrunnen „Klassik“",
+        "subtitle": "bis 10 m, max. 15 m möglich",
+        "content__html": "<h3>Inklusive</h3><ul><li>Messing-Rückschlagventil mit Entwässerungsmöglichkeit</li><li>NBR-Dichtung und Messing-PE-Verschraubung</li><li>großer 2″ Zoll Filter im Grundwasserleiter für eine lange Lebensdauer</li><li>fachgerechte Kiesfilterschüttung</li><li><strong>10 Jahre Garantie</strong></li></ul>",
+        "priceHint": "ganzjährig, Komplettpreis",
+        "price": 38900,
+        "priceDisclaimer__html": "<p>Gebietsabhängig: bitte beachten Sie unsere <a href='#'>Gebiete</a></p>"
+      },
+      {
+        "title": "Spülbrunnen „Premium“",
+        "subtitle": "bis 10 m, max. 15 m möglich",
+        "content__html": "<h3>Ausführung wie „Klassik“ aber mit</h3><ul><li>2 x 2″ Zoll-Filter und angepasster Kiesfilterschüttung, für eine hohe Förderleistungen und maximale Lebensdauer. Speziell für Beregnungsanlagen und großen Grundstücken mit langen Förderzeiten.</li><li><strong>10 Jahre Garantie</strong></li></ul>",
+        "priceHint": "ganzjährig, Komplettpreis",
+        "price": 44900,
+        "priceDisclaimer__html": "<p>Gebietsabhängig: bitte beachten Sie unsere <a href='#'>Gebiete</a></p>"
+      }
+    ]
+  },
+  "contact": {
+    "id": "anfrage",
+    "body__html": "<p><strong>Wir arbeiten sauber und ohne Fluschaden dank unserem speziellen Spülsystem.</strong> Keine Überschwemmung im Garten und ein sauberes Bohrloch.</p>",
+    "teaser": {
+      "href": "/anfrage-brunnen",
+      "label": "Anfrage Brunnen",
+      "linkText": "weiter",
+      "image": {
+        "src": "/images/teaser-2.jpg",
+        "width": 715,
+        "height": 400,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      }
+    }
+  },
+  "pumps": {
+    "id": "pumpen",
+    "pumps": [
+      "dab-82m-garden-inox",
+      "xydab-euro-inox-40-80z",
+      "espa-delta-1755m-sm-edelstahl",
+      "espa-technopress-25-5",
+      "gartenpumpe-jet-inox",
+      "ksb-multi"
+    ],
+    "hint__html": "<p><strong>Bitte beachten bei Preisvergleichen:</strong> alle angebotenen Pumpen mit Kabel und Schalter.</p>",
+    "equipment": [
+      "ansaugschlauch",
+      "druckschalter-dab-grundfos-presscontrol-pc01c",
+      "montagepauschale-gartenpumpe"
+    ]
+  }
+}

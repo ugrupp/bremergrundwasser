@@ -1,14 +1,14 @@
 import classNames from "classnames";
 import parse from "html-react-parser";
-import { HTMLAttributes } from "react";
-import data from "../../data/index.json";
-import richtextStyles from "../../styles/richtext.module.css";
-import styles from "../../styles/pumps.module.css";
-import Container from "../container";
 import Link from "next/link";
+import { HTMLAttributes } from "react";
 import ArrowIcon from "../../assets/icons/arrow.svg";
-import Pump from "../pump";
+import data from "../../data/index.json";
 import { resolvePumps } from "../../lib/helpers";
+import styles from "../../styles/pumps.module.css";
+import richtextStyles from "../../styles/richtext.module.css";
+import Container from "../container";
+import Pump from "../pump";
 
 interface PumpsSectionProps extends HTMLAttributes<HTMLElement> {
   data: typeof data.pumps;
