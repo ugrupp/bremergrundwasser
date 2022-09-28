@@ -1,18 +1,22 @@
 import classNames from "classnames";
 import parse from "html-react-parser";
-import { HTMLAttributes } from "react";
+import NextImage from "next/image";
+import { HTMLAttributes, useState } from "react";
 import data from "../../data/grundwasser.json";
 import { NEXT_IMAGE_DEFAULT_QUALITY } from "../../lib/constants";
 import richtextStyles from "../../styles/richtext.module.css";
 import Container from "../container";
 import Image from "../image";
-import NextImage from "next/image";
+import LinkButton from "../link-button";
+import TextDialog from "../text-dialog";
 
 interface IntroSectionProps extends HTMLAttributes<HTMLElement> {
   data: typeof data.intro;
 }
 
 const IntroSection = ({ data, className }: IntroSectionProps): JSX.Element => {
+  const [dialogOpen, setDialogOpen] = useState(false);
+
   return (
     <section
       className={classNames(className, "relative pt-80 lg:py-120")}
@@ -33,6 +37,14 @@ const IntroSection = ({ data, className }: IntroSectionProps): JSX.Element => {
           >
             <h2>{data.headline}</h2>
             {parse(data.body__html)}
+            {data.moreLink && (
+              <LinkButton
+                link={data.moreLink}
+                onClick={() => {
+                  setDialogOpen(!dialogOpen);
+                }}
+              />
+            )}
           </article>
 
           {/* Image */}
@@ -67,6 +79,23 @@ const IntroSection = ({ data, className }: IntroSectionProps): JSX.Element => {
           </div>
         </div>
       </Container>
+
+      {/* Content dialog */}
+      {!!data.dialog__html && (
+        <TextDialog open={dialogOpen} setOpen={setDialogOpen}>
+          <article
+            className={classNames(
+              richtextStyles.root,
+              // Text
+              "text-15 md:text-20 leading-normal",
+              // Headlines
+              "[&>h3]:text-20 md:[&>h3]:text-25"
+            )}
+          >
+            {parse(data.dialog__html)}
+          </article>
+        </TextDialog>
+      )}
     </section>
   );
 };
