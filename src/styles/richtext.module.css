@@ -21,18 +21,33 @@
     }
   }
 
+  & ol {
+    counter-reset: ol;
+
+    & li {
+      @apply flex gap-x-10 items-baseline;
+
+      @apply before:shrink-0;
+      @apply before:w-15 md:before:w-20;
+      &::before {
+        counter-increment: ol;
+        content: counter(ol) ".";
+      }
+    }
+  }
+
   & a,
   & button {
     @apply text-teal-300 transition-colors hover:text-brown-700;
   }
 
   /* Spacing */
-  & :is(p, address, ul, table, h2, h3) {
+  & :is(p, address, ul, ol, table, h2, h3) {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
   }
 
-  & :is(h2, h3, h4, br) + :is(p, address, ul, table) {
+  & :is(h2, h3, h4, br) + :is(p, address, ul, ol, table) {
     margin-top: 0;
   }
 
@@ -54,7 +69,8 @@
     overflow-wrap: anywhere;
   }
 
-  & ul li:not(:last-of-type) {
+  & ul li:not(:last-of-type),
+  & ol li:not(:last-of-type) {
     margin-bottom: 0.75em;
   }
 }
