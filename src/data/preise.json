@@ -1,0 +1,24 @@
+{
+  "id": "preise",
+  "header": {
+    "id": "header",
+    "headline": "Preise",
+    "body__html": "<p><strong>Unsere Spülbrunnenpreise teilen sich in zwei Gebiete:</strong> Der Preis richtet sich nach dem Schwierigkeitsgrad, oder nach der Entfernung (An- und Abfahrt) und wird in Stadtteile oder Orte aufgeteilt.</p>"
+  },
+  "prices": {
+    "id": "features",
+    "features": [
+      {
+        "headline": "Gebiet 1: <span>normaler Preis von 389,00 € in den Stadtteilen.</span>",
+        "body__html": "<p>Blockland, Borgfeld, Falkenberg, Findorff, Gröpelingen, Horn-Lehe, Huchting, Lilienthal, Meyerdamm, Oberneuland, Oslebs- hausen, Osterholz, Oyterdamm, Östliche Vorstadt, Sebaldsbrück, Steintor, Stuhr, Stuhr-Varrel, Stuhr-Moordeich, Vahr, Walle</p>"
+      },
+      {
+        "headline": "Gebiet 2: <span>für Anfahrt bzw. Zuschlag Schwierigkeits- grad 449,00 € in den Stadtteilen.</span>",
+        "body__html": "<p>Achim-Bierden, Achim-Uphusen, Adelheide, Airport-Stadt, Arbergen, Arsten, Burg-Grambke, Delmenhorst, Dreye, Grambke, Grolland, Habenhausen, Hastedt, Hemelingen, Heidkrug, Horn (ab Eisenbahnbrücke, Richtung Stadt), Hulsberg, Kattenturm, Kattenesch, Kirchweyhe, Leeste, Lemwerder, Mahndorf, Melchiorshausen, Neustadt, Obervieland, Peterswerder, Rablinghausen, Schwachhausen, Seckenhausen, Seehausen, Strom, Stickgras, Sudweyhe, Weyhe, Woltmershausen, Worphausen</p>"
+      }
+    ],
+    "hint__html": "<p>Gr. Mackenstedt, Stuhr-Heiligenrode, Worpswede auf Anfrage.</p>",
+    "contactHint__html": "<p>Sprechen Sie uns an, wir beraten Sie gerne.</p>",
+    "disclaimer__html": "<p>Keine Brunnen von uns möglich in: HB-Nord ab Lesum, Oyten- Stadt, Sottrum, OHZ gesamtes Gebiet ab Hamme Richtung BRH (Leuchtenburg/ Hambergen, Heilshorn)</p>"
+  }
+}

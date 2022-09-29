@@ -59,7 +59,7 @@ const FeaturesSection = ({
                         "!-mb-60 relative z-10": !!image,
                       })}
                     >
-                      {headline}
+                      {parse(headline)}
                     </h2>
                   )}
 
