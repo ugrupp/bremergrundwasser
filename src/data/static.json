@@ -52,11 +52,7 @@
           }
         ]
       }
-    ],
-    "phoneLink": {
-      "href": "tel:+494212007861",
-      "label": "0421 200 78 61"
-    }
+    ]
   },
   "footer": {
     "contact": {
@@ -89,5 +85,9 @@
     },
     "legalHint": "Alle Preise und Beschreibungen sind gültig in {year}.",
     "copyright": "© {year} bremergrundwasser"
+  },
+  "phoneLink": {
+    "href": "tel:+494212007861",
+    "label": "0421 200 78 61"
   }
 }

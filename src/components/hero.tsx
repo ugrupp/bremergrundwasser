@@ -2,7 +2,6 @@ import classNames from "classnames";
 import NextImage from "next/image";
 import Image from "./image";
 import { HTMLAttributes } from "react";
-import PlusIcon from "../assets/icons/plus.svg";
 import data from "../data/bewaesserung.json";
 import Container from "./container";
 import { NEXT_IMAGE_DEFAULT_QUALITY } from "../lib/constants";
@@ -56,15 +55,6 @@ const HeroSection = ({ data, className }: HeroSectionProps): JSX.Element => {
             </div>
           </div>
         </div>
-
-        {/* Phone link */}
-        <a
-          href={data.phoneLink.href}
-          className="absolute left-0 bottom-10 md:bottom-20 inline-flex gap-8 md:gap-12 items-center text-teal-300 bg-white rounded-full p-8 md:p-12"
-        >
-          <PlusIcon className="w-18 h-18 md:w-30 md:h-30 shrink-0" />
-          <span className="text-13 md:text-20">{data.phoneLink.label}</span>
-        </a>
       </Container>
     </section>
   );

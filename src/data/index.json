@@ -3,10 +3,6 @@
   "hero": {
     "id": "hero",
     "headline__html": "Herzlich Willkommen <br />bei Ihrem Spezialist für feine <br />Gartenbewässerungsanlagen <br/>und Brunnenbau.",
-    "phoneLink": {
-      "href": "tel:+494212007861",
-      "label": "0421 200 78 61"
-    },
     "image": {
       "src": "/images/header-home.png",
       "width": 1001,

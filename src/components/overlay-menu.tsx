@@ -13,7 +13,6 @@ import { menuOpenState, scrollLockState } from "../lib/state";
 import Container from "./container";
 
 const OverlayMenu = (): JSX.Element => {
-  const { menu, phoneLink } = data.topbar;
   const [menuOpen, setMenuOpen] = useRecoilState(menuOpenState);
 
   const closeHandler = () => {
@@ -92,7 +91,7 @@ const OverlayMenu = (): JSX.Element => {
               >
                 {/* Menu */}
                 <nav className="flex flex-col gap-y-20 w-fit">
-                  {menu.map(({ href, label, id, children }) =>
+                  {data.topbar.menu.map(({ href, label, id, children }) =>
                     href && children.length <= 0 ? (
                       <div key={id}>
                         <Link href={href}>
@@ -134,11 +133,11 @@ const OverlayMenu = (): JSX.Element => {
                 {/* Contact */}
                 <div className="mt-90">
                   <a
-                    href={phoneLink.href}
+                    href={data.phoneLink.href}
                     className="inline-flex gap-8 items-center text-teal-300"
                   >
                     <PlusIcon className="w-18 h-18 shrink-0" />
-                    <span className="text-13">{phoneLink.label}</span>
+                    <span className="text-13">{data.phoneLink.label}</span>
                   </a>
                 </div>
               </div>
