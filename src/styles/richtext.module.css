@@ -6,6 +6,7 @@
     @apply text-teal-300;
   }
 
+  & h1,
   & h2,
   & h3 {
     @apply font-normal text-teal-300;
@@ -42,15 +43,16 @@
   }
 
   /* Spacing */
-  & :is(p, address, ul, ol, table, h2, h3) {
+  & :is(p, address, ul, ol, table, h1, h2, h3) {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
   }
 
-  & :is(h2, h3, h4, br) + :is(p, address, ul, ol, table) {
+  & :is(h1, h2, h3, h4, br) + :is(p, address, ul, ol, table) {
     margin-top: 0;
   }
 
+  & h1,
   & h2,
   & h3 {
     @apply leading-snug;
@@ -87,6 +89,7 @@
     @apply text-white hover:text-brown-700;
   }
 
+  & h1,
   & h2,
   & h3 {
     @apply text-white;

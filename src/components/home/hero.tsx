@@ -67,7 +67,7 @@ const HeroSection = ({ data, className }: HeroSectionProps): JSX.Element => {
               </div>
 
               {/* Background */}
-              <div className="absolute left-0 top-0 -bottom-15 md:-bottom-50 lg:-top-60 -right-20 lg:right-auto lg:aspect-square sm:-right-40 overflow-hidden lg:overflow-visible">
+              <div className="absolute left-0 top-0 -bottom-15 md:-bottom-50 lg:-top-60 -right-20 sm:-right-40 lg:right-auto lg:aspect-square overflow-hidden lg:overflow-visible">
                 <div className="absolute top-0 left-0 -right-30 -bottom-50 md:-bottom-10 lg:-top-20 lg:-bottom-20 lg:-right-50">
                   <NextImage
                     quality={95}

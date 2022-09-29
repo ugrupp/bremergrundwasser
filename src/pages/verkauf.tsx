@@ -5,6 +5,7 @@ import { generateImagePlaceholders } from "../lib/helpers";
 import PumpsSection from "../components/verkauf/pumps";
 import styles from "../styles/pumps.module.css";
 import classNames from "classnames";
+import HeroSection from "../components/verkauf/hero";
 
 export const getStaticProps = async () => ({
   props: {
@@ -24,8 +25,8 @@ const Verkauf: NextPage<PageProps> = ({ data }: PageProps) => {
       <div className={classNames(styles.bg, "absolute inset-0 opacity-5")} />
 
       {/* Content */}
-      <div className="relative">Hero</div>
-      <PumpsSection data={data.pumps} />
+      <HeroSection data={data.hero} />
+      <PumpsSection data={data.pumps} className="mt-80 lg:mt-120" />
     </div>
   );
 };
