@@ -1,15 +1,18 @@
 import classNames from "classnames";
-import { HTMLAttributes } from "react";
 import parse from "html-react-parser";
-import data from "../../data/unser-plus.json";
-import Container from "../container";
-import richtextStyles from "../../styles/richtext.module.css";
+import { HTMLAttributes } from "react";
+import richtextStyles from "../styles/richtext.module.css";
+import data from "../data/unser-plus.json";
+import Container from "./container";
 
-interface HeroSectionProps extends HTMLAttributes<HTMLElement> {
-  data: typeof data.hero;
+interface HeaderSectionProps extends HTMLAttributes<HTMLElement> {
+  data: typeof data.header;
 }
 
-const HeroSection = ({ data, className }: HeroSectionProps): JSX.Element => {
+const HeaderSection = ({
+  data,
+  className,
+}: HeaderSectionProps): JSX.Element => {
   return (
     <section
       className={classNames(
@@ -46,4 +49,4 @@ const HeroSection = ({ data, className }: HeroSectionProps): JSX.Element => {
   );
 };
 
-export default HeroSection;
+export default HeaderSection;

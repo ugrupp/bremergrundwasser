@@ -1,11 +1,11 @@
 import classNames from "classnames";
 import NextImage from "next/image";
-import Image from "./image";
 import { HTMLAttributes } from "react";
 import data from "../data/bewaesserung.json";
-import Container from "./container";
 import { NEXT_IMAGE_DEFAULT_QUALITY } from "../lib/constants";
 import styles from "../styles/hero.module.css";
+import Container from "./container";
+import Image from "./image";
 
 interface HeroSectionProps extends HTMLAttributes<HTMLElement> {
   data: typeof data.hero;

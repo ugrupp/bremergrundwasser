@@ -1,5 +1,5 @@
 import type { InferGetStaticPropsType, NextPage } from "next";
-import HeroSection from "../components/unser-plus/hero";
+import HeaderSection from "../components/header";
 import data from "../data/wissenswertes.json";
 import staticData from "../data/static.json";
 import { generateImagePlaceholders } from "../lib/helpers";
@@ -19,7 +19,7 @@ type PageProps = InferGetStaticPropsType<typeof getStaticProps>;
 const Wissenswertes: NextPage<PageProps> = ({ data }: PageProps) => {
   return (
     <div>
-      <HeroSection data={data.hero} />
+      <HeaderSection data={data.header} />
       <FeaturesSection data={data.features} />
     </div>
   );

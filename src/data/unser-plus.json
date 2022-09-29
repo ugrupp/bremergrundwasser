@@ -1,7 +1,7 @@
 {
   "id": "unser-plus",
-  "hero": {
-    "id": "hero",
+  "header": {
+    "id": "header",
     "headline": "Warum wir",
     "body__html": "<p><strong>Wir arbeiten sauber und ohne Fluschaden dank unserem speziellen Spülsystem.</strong> Keine Überschwemmung im Garten und ein sauberes Bohrloch.</p>"
   },
