@@ -1,5 +1,20 @@
 {
   "id": "grundwasser",
+  "hero": {
+    "id": "hero",
+    "phoneLink": {
+      "href": "tel:+494212007861",
+      "label": "0421 200 78 61"
+    },
+    "image": {
+      "src": "/images/grundwasser-2.jpg",
+      "width": 2304,
+      "height": 1536,
+      "alt": "",
+      "objectPosition": "50% 50%",
+      "dominantColor": ""
+    }
+  },
   "intro": {
     "id": "intro",
     "headline": "Grundwasserqualität",

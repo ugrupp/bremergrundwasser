@@ -1,5 +1,20 @@
 {
   "id": "bewaesserung",
+  "hero": {
+    "id": "hero",
+    "phoneLink": {
+      "href": "tel:+494212007861",
+      "label": "0421 200 78 61"
+    },
+    "image": {
+      "src": "/images/stimmung-1.jpg",
+      "width": 2500,
+      "height": 1742,
+      "alt": "",
+      "objectPosition": "50% 35%",
+      "dominantColor": ""
+    }
+  },
   "intro": {
     "id": "intro",
     "headline": "Bewässerung",
