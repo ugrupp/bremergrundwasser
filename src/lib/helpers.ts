@@ -1,7 +1,7 @@
-import path from "path";
-import { Product } from "../types/product";
-import products from "../data/products.json";
 import { find } from "lodash";
+import path from "path";
+import products from "../data/products.json";
+import { Product } from "../types/product";
 const ColorThief = require("colorthief");
 
 // Set up dominant color for images
@@ -11,9 +11,8 @@ export const generateImagePlaceholders = async (data: any) => {
       return inObject; // Return the value if inObject is not an object
     }
 
-    let value,
-      key,
-      outObject: any = Array.isArray(inObject) ? [] : {};
+    let value, key;
+    const outObject: any = Array.isArray(inObject) ? [] : {};
 
     for (key in inObject) {
       value = inObject[key];
@@ -23,14 +22,11 @@ export const generateImagePlaceholders = async (data: any) => {
         const [r, g, b] = await ColorThief.getColor(
           path.join("./public/", value.src)
         );
-        const dominantColor = `rgb(${r},${g},${b})`;
 
-        if (!!dominantColor) {
-          value = {
-            ...value,
-            dominantColor,
-          };
-        }
+        value = {
+          ...value,
+          dominantColor: `rgb(${r},${g},${b})`,
+        };
       }
 
       outObject[key] = await deepCustomize(value);

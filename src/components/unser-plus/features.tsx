@@ -1,16 +1,19 @@
 import classNames from "classnames";
 import parse from "html-react-parser";
 import { Fragment, HTMLAttributes, useState } from "react";
-import data from "../../data/unser-plus.json";
 import { NEXT_IMAGE_DEFAULT_QUALITY } from "../../lib/constants";
 import richtextStyles from "../../styles/richtext.module.css";
+import { Feature } from "../../types/features";
 import Container from "../container";
 import Image from "../image";
 import LinkButton from "../link-button";
 import TextDialog from "../text-dialog";
 
 interface FeaturesSectionProps extends HTMLAttributes<HTMLElement> {
-  data: typeof data.features;
+  data: {
+    id: string;
+    features: Feature[];
+  };
 }
 
 const FeaturesSection = ({
@@ -80,7 +83,8 @@ const FeaturesSection = ({
                     </div>
                   )}
 
-                  {parse(body__html)}
+                  {!!body__html && parse(body__html)}
+
                   {moreLink && (
                     <LinkButton
                       link={moreLink}
