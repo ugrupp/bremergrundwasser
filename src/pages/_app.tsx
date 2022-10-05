@@ -10,22 +10,13 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
 
-        <meta
-          name="description"
-          content="In unserem Gasthaus in Buggingen bewirten wir Sie mit klassischer, badischer Küche – saisonal wechselnde Gerichte mit Spargel, Pfifferlingen, Wild"
-        />
+        <meta name="description" content="" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Gasthaus zur Mühle" />
-        <meta property="og:url" content="https://www.mühle-buggingen.de/" />
+        <meta property="og:title" content="bremergrundwasser" />
+        <meta property="og:url" content="https://www.bremergrundwasser.de/" />
         <meta property="og:image" content="/images/social-share.jpg" />
-        <meta
-          property="og:description"
-          content="In unserem Gasthaus in Buggingen bewirten wir Sie mit klassischer, badischer Küche – saisonal wechselnde Gerichte mit Spargel, Pfifferlingen, Wild"
-        />
-        <meta
-          name="keywords"
-          content="Gasthaus, Restaurant, Buggingen, Badische Küche, Spargeln, Pfifferlinge, Wild"
-        />
+        <meta property="og:description" content="" />
+        <meta name="keywords" content="" />
       </Head>
 
       <Layout id={pageProps?.data?.id} staticData={pageProps.staticData}>

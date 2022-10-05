@@ -21,7 +21,7 @@ const Error500: NextPage<PageProps> = ({ data }: PageProps) => {
   return (
     <>
       <Head>
-        <title>Gasthaus »zur Mühle«</title>
+        <title>bremergrundwasser</title>
       </Head>
 
       <p>{text__html}</p>
