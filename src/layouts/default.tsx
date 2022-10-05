@@ -2,6 +2,7 @@ import { HTMLAttributes } from "react";
 import PlusIcon from "../assets/icons/plus.svg";
 import Container from "../components/container";
 import Footer from "../components/footer";
+import TeamKontaktFooter from "../components/team-kontakt/footer";
 import OverlayMenu from "../components/overlay-menu";
 import Topbar from "../components/topbar";
 import staticData from "../data/static.json";
@@ -10,7 +11,7 @@ export type LayoutProps = HTMLAttributes<HTMLElement> & {
   staticData: typeof staticData;
 };
 
-const Layout = ({ staticData, children }: LayoutProps): JSX.Element => {
+const Layout = ({ id, staticData, children }: LayoutProps): JSX.Element => {
   return (
     <div>
       <Topbar data={staticData.topbar} />
@@ -33,7 +34,11 @@ const Layout = ({ staticData, children }: LayoutProps): JSX.Element => {
 
       <main>{children}</main>
 
-      <Footer data={staticData.footer} />
+      {id === "team-kontakt" ? (
+        <TeamKontaktFooter data={staticData.footer} />
+      ) : (
+        <Footer data={staticData.footer} />
+      )}
     </div>
   );
 };
