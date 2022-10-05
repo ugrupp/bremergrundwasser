@@ -2,7 +2,7 @@ import { Popover } from "@headlessui/react";
 import classNames from "classnames";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import Headroom from "react-headroom";
 import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
 import ArrowIcon from "../assets/icons/arrow.svg";
@@ -29,7 +29,7 @@ const Topbar = ({ data }: TopbarProps): JSX.Element => {
   const setTopbarHeight = useSetRecoilState(topbarHeightState);
   const topbarRef = useRef<HTMLElement>(null);
 
-  const updateTopbarHeight = () => {
+  const updateTopbarHeight = useCallback(() => {
     if (topbarRef.current) {
       const topbarHeight = topbarRef.current.offsetHeight;
       setTopbarHeight(topbarHeight);
@@ -38,16 +38,21 @@ const Topbar = ({ data }: TopbarProps): JSX.Element => {
         String(topbarHeight)
       );
     }
-  };
+  }, [setTopbarHeight]);
 
   useEffect(() => {
     updateTopbarHeight();
-    window.addEventListener("resize", () => {
+
+    const resizeHandler = () => {
       window.requestAnimationFrame(() => {
         updateTopbarHeight();
       });
-    });
-  }, []);
+    };
+    window.addEventListener("resize", resizeHandler);
+    return () => {
+      window.removeEventListener("resize", resizeHandler);
+    };
+  }, [updateTopbarHeight]);
 
   // Menu toggler
   const [menuOpen, setMenuOpen] = useRecoilState(menuOpenState);
@@ -67,21 +72,28 @@ const Topbar = ({ data }: TopbarProps): JSX.Element => {
   const bremergrundwasserRef = useRef<HTMLSpanElement>(null);
 
   const [bremergrundwasserPos, setBremergrundwasserPos] = useState(0);
-  const updateSubmenuPos = () => {
+
+  const updateSubmenuPos = useCallback(() => {
     if (bremergrundwasserRef.current) {
       setBremergrundwasserPos(
         bremergrundwasserRef.current.getBoundingClientRect().left
       );
     }
-  };
+  }, [setBremergrundwasserPos]);
+
   useEffect(() => {
     updateSubmenuPos();
-    window.addEventListener("resize", () => {
+
+    const resizeHandler = () => {
       window.requestAnimationFrame(() => {
         updateSubmenuPos();
       });
-    });
-  }, []);
+    };
+    window.addEventListener("resize", resizeHandler);
+    return () => {
+      window.removeEventListener("resize", resizeHandler);
+    };
+  }, [updateSubmenuPos]);
 
   return (
     <Headroom className="relative z-40">
