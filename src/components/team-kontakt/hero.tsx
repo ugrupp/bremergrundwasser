@@ -21,7 +21,7 @@ const HeroSection = ({ data, className }: HeroSectionProps): JSX.Element => {
           {/* Content */}
           <article
             className={classNames(
-              "col-start-1 col-end-[-1] lg:col-end-8",
+              "col-start-2 col-end-[-2] lg:col-start-1 lg:col-end-8",
               richtextStyles.root,
               richtextStyles["on-teal"],
               // Text

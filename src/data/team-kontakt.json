@@ -11,5 +11,166 @@
       "objectPosition": "50% 50%",
       "dominantColor": ""
     }
+  },
+  "team": {
+    "id": "team",
+    "team": [
+      {
+        "name": "Torsten Szameitat",
+        "description": "Geschäftsführer <br />… „Der Alte",
+        "image": {
+          "src": "/images/team/torsten-szameitat.jpg",
+          "width": 500,
+          "height": 333,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Andreas Repty",
+        "description": "Bewässerungs- und Service-Urgestein von Anfang an, mit dem Hang zum Feinen",
+        "image": {
+          "src": "/images/team/andreas-repty.jpg",
+          "width": 500,
+          "height": 333,
+          "alt": "",
+          "objectPosition": "47% 43%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Elyas Aydin",
+        "description": "Vorarbeiter im Brunnenbau, mit dem Gespür für Wasser",
+        "image": {
+          "src": "/images/team/elyas-aydin.jpg",
+          "width": 500,
+          "height": 333,
+          "alt": "",
+          "objectPosition": "44% 48%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Dieter Greupner",
+        "description": "unser Dienstältester vom hinterm Deich, mit dem groben Gespür für Tipp",
+        "image": {
+          "src": "/images/team/dieter-greupner.jpg",
+          "width": 500,
+          "height": 333,
+          "alt": "",
+          "objectPosition": "47% 41%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Gaby Riedemann",
+        "description": "Büroleiterin und die gute Seele im Büro",
+        "image": {
+          "src": "/images/team/gaby-riedemann.jpg",
+          "width": 500,
+          "height": 334,
+          "alt": "",
+          "objectPosition": "52% 41%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Babara Aydin",
+        "description": "Organisation Brunnenbau, unser Wirbelwind und „Chefin“ von Papa",
+        "image": {
+          "src": "/images/team/babara-aydin.jpg",
+          "width": 500,
+          "height": 333,
+          "alt": "",
+          "objectPosition": "53% 42%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Nico Cañada",
+        "description": "herzlicher Allrounder, Service und Bewässerung erfahren",
+        "image": {
+          "src": "/images/team/nico-canada.jpg",
+          "width": 500,
+          "height": 333,
+          "alt": "",
+          "objectPosition": "42% 48%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Simon Cimpeanu",
+        "description": "gelernter Brunnenbauer aus dem Pott, mit Dutt und reiner Seele",
+        "image": {
+          "src": "/images/team/simon-cimpeanu.jpg",
+          "width": 500,
+          "height": 333,
+          "alt": "",
+          "objectPosition": "44% 44%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Stephan Tepe",
+        "description": "unser Allrounder",
+        "image": {
+          "src": "/images/team/stephan-tepe.jpg",
+          "width": 500,
+          "height": 667,
+          "alt": "",
+          "objectPosition": "46% 38%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Antje Balsies",
+        "description": "unser Fels in der Brandung und Rückhalt - er-sie gehört zu mir - wie mein Name…",
+        "image": {
+          "src": "/images/team/antje-balsies.jpg",
+          "width": 500,
+          "height": 332,
+          "alt": "",
+          "objectPosition": "61% 32%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Frieda Balsies",
+        "description": "unsere Nachwuchsförderung und Altersvorsorge",
+        "image": {
+          "src": "/images/team/frieda.jpg",
+          "width": 500,
+          "height": 650,
+          "alt": "",
+          "objectPosition": "72% 41%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Bettina Krüger",
+        "description": "hält hier alles sauber und rein - ohne dich würden wir am Boden festkleben",
+        "image": {
+          "src": "/images/team/bettina-krueger.jpg",
+          "width": 500,
+          "height": 680,
+          "alt": "",
+          "objectPosition": "42% 44%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Der Lolli",
+        "description": "unser Wachpersonal und kümmert sich um unser Wohlbefinden",
+        "image": {
+          "src": "/images/team/lolli-blue.jpg",
+          "width": 500,
+          "height": 350,
+          "alt": "",
+          "objectPosition": "58% 33%",
+          "dominantColor": ""
+        }
+      }
+    ]
   }
 }
