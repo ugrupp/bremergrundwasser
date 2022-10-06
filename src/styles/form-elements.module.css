@@ -1,0 +1,19 @@
+/* Textarea */
+.textarea {
+  --textarea-line-height: 2.5;
+
+  min-height: calc(var(--textarea-line-height) * 3em);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 5 1' preserveAspectRatio='xMinYMax meet'%3E%3Crect width='3' height='1' fill='%23564942' /%3E%3C/svg%3E");
+  background-size: 5px calc(var(--textarea-line-height) * 1em);
+  line-height: var(--textarea-line-height);
+}
+
+.textarea-with-validation-error {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 5 1" preserveAspectRatio="xMinYMax meet"><rect width="3" height="1" fill="red" /></svg>');
+}
+
+/* Checkbox */
+.checkbox:checked,
+.radio:checked {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.7123 6.2125C13.8884 6.04486 14.1227 5.95218 14.3659 5.95402C14.609 5.95586 14.8419 6.05207 15.0154 6.22236C15.1889 6.39264 15.2895 6.62368 15.2959 6.86672C15.3024 7.10975 15.2141 7.34578 15.0498 7.525L10.0623 13.7625C9.97657 13.8549 9.87306 13.929 9.758 13.9805C9.64293 14.0319 9.51867 14.0596 9.39264 14.062C9.26662 14.0643 9.14142 14.0412 9.02453 13.994C8.90763 13.9469 8.80145 13.8766 8.71233 13.7875L5.40483 10.48C5.31272 10.3942 5.23884 10.2907 5.1876 10.1757C5.13636 10.0607 5.10881 9.93653 5.10659 9.81065C5.10437 9.68477 5.12753 9.55974 5.17468 9.443C5.22183 9.32627 5.29201 9.22022 5.38103 9.1312C5.47006 9.04218 5.5761 8.972 5.69283 8.92485C5.80957 8.87769 5.93461 8.85454 6.06048 8.85676C6.18636 8.85898 6.3105 8.88653 6.4255 8.93777C6.5405 8.98901 6.644 9.06289 6.72983 9.155L9.34733 11.7712L13.6886 6.24C13.6964 6.23037 13.7047 6.22119 13.7136 6.2125H13.7123Z' fill='%23564942'/%3E%3C/svg%3E%0A");
+}

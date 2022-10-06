@@ -1,0 +1,11 @@
+{
+  "id": "anfrage-bewaesserung",
+  "header": {
+    "id": "header",
+    "headline": "Anfrage Bewässerung",
+    "body__html": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa sociis natoque penatibus et magnis dis.</p>"
+  },
+  "form": {
+    "id": "anfrage"
+  }
+}

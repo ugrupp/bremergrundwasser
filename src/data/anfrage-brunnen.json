@@ -1,0 +1,12 @@
+{
+  "id": "anfrage-brunnen",
+  "header": {
+    "id": "header",
+    "headline": "Anfrage Brunnen",
+    "body__html": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa sociis natoque penatibus et magnis dis.</p>"
+  },
+  "form": {
+    "id": "anfrage",
+    "hint__html": "<p>*Alle Bohrung, egal ob Gartenbrunnen oder sonstige Bohrungen, sind anmeldepflichtig bei der unteren Wasserbehörde in Hannover! Zudem muss ein Schichtenverzeichniss (die ausführliche Beschreibung des Brunnen mit allen Vorkommnissen) eingereicht werden. Bei Nichtbeachtung drohen empfindlich Geldstrafen. Sie können die Anmeldung selber vornehmen, oder von uns für 49,00 € durchführen lassen. Wir übernehmen dann alle erforderlichen Formalitäten- Sie brauchen sich dann nicht weiter darum zu kümmern. Bei einigen Gemeinden, außerhalb von Bremen, fallen geringe und einmalige Gebühren an. In Bremen werden keine Gebühren erhoben! Stand 02/2021.</p>"
+  }
+}
