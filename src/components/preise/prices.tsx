@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import PlusIcon from "../../assets/icons/plus.svg";
+import AlertIcon from "../../assets/icons/alert-filled.svg";
 import parse from "html-react-parser";
 import { HTMLAttributes } from "react";
 import data from "../../data/preise.json";
@@ -89,7 +89,7 @@ const PricesSection = ({
                     "after:grow after:border-t after:border-dashed after:border-brown-700"
                   )}
                 >
-                  <PlusIcon
+                  <AlertIcon
                     className="h-30 w-30 md:h-60 md:w-60 text-teal-300"
                     aria-hidden="true"
                   />

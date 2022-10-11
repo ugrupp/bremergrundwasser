@@ -4,9 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useEffect } from "react";
 import { useRecoilState, useRecoilValue } from "recoil";
-import ArrowIcon from "../assets/icons/arrow.svg";
+import ArrowIcon from "../assets/icons/arrow-1.svg";
 import CloseIcon from "../assets/icons/menu-close.svg";
-import PlusIcon from "../assets/icons/plus.svg";
+import PhoneIcon from "../assets/icons/phone.svg";
 import data from "../data/static.json";
 import { NEXT_IMAGE_DEFAULT_QUALITY } from "../lib/constants";
 import { menuOpenState, scrollLockState } from "../lib/state";
@@ -118,7 +118,7 @@ const OverlayMenu = (): JSX.Element => {
                                     "text-17 leading-none font-normal transition-colors text-brown-700 flex gap-x-12 items-center relative"
                                   )}
                                 >
-                                  <ArrowIcon className="text-teal-300 h-18 w-18 rotate-180" />
+                                  <ArrowIcon className="text-teal-300 h-18 w-18" />
                                   <span>{label}</span>
                                 </a>
                               </Link>
@@ -136,7 +136,7 @@ const OverlayMenu = (): JSX.Element => {
                     href={data.phoneLink.href}
                     className="inline-flex gap-8 items-center text-teal-300"
                   >
-                    <PlusIcon className="w-18 h-18 shrink-0" />
+                    <PhoneIcon className="w-18 h-18 shrink-0" />
                     <span className="text-13">{data.phoneLink.label}</span>
                   </a>
                 </div>

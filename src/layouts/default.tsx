@@ -1,5 +1,5 @@
 import { HTMLAttributes } from "react";
-import PlusIcon from "../assets/icons/plus.svg";
+import PhoneIcon from "../assets/icons/phone.svg";
 import Container from "../components/container";
 import Footer from "../components/footer";
 import TeamKontaktFooter from "../components/team-kontakt/footer";
@@ -24,7 +24,7 @@ const Layout = ({ id, staticData, children }: LayoutProps): JSX.Element => {
             href={staticData.phoneLink.href}
             className="absolute left-0 bottom-0 inline-flex gap-8 md:gap-12 items-center text-teal-300 bg-white rounded-full p-8 md:p-12"
           >
-            <PlusIcon className="w-18 h-18 md:w-30 md:h-30 shrink-0" />
+            <PhoneIcon className="w-18 h-18 md:w-30 md:h-30 shrink-0" />
             <span className="text-13 md:text-20">
               {staticData.phoneLink.label}
             </span>
