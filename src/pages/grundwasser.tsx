@@ -1,4 +1,5 @@
 import type { InferGetStaticPropsType, NextPage } from "next";
+import Head from "next/head";
 import FeaturesSection from "../components/bewaesserung/features";
 import IntroSection from "../components/grundwasser/intro";
 import HeroSection from "../components/hero";
@@ -19,11 +20,17 @@ type PageProps = InferGetStaticPropsType<typeof getStaticProps>;
 
 const Grundwasser: NextPage<PageProps> = ({ data }: PageProps) => {
   return (
-    <div>
-      <HeroSection data={data.hero} />
-      <IntroSection data={data.intro} className="-mb-30 lg:mb-0" />
-      <FeaturesSection data={data.features} className="z-20" />
-    </div>
+    <>
+      <Head>
+        <title>Grundwasser – bremergrundwasser</title>
+      </Head>
+
+      <div>
+        <HeroSection data={data.hero} />
+        <IntroSection data={data.intro} className="-mb-30 lg:mb-0" />
+        <FeaturesSection data={data.features} className="z-20" />
+      </div>
+    </>
   );
 };
 

@@ -10,12 +10,21 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
 
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Unser Spezialität: Förderung von Grundwasser durch Spülbrunnen und gezielte, sparsame Bewässerung von Gärten, Rasenflächen, Blumen- und Gemüsebeeten."
+        />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="bremergrundwasser" />
+        <meta
+          property="og:title"
+          content="bremergrundwasser → Ihr Spezialist für Beregnungssanlagen und Brunnenbau in Bremen"
+        />
         <meta property="og:url" content="https://www.bremergrundwasser.de/" />
         <meta property="og:image" content="/images/social-share.jpg" />
-        <meta property="og:description" content="" />
+        <meta
+          property="og:description"
+          content="Unser Spezialität: Förderung von Grundwasser durch Spülbrunnen und gezielte, sparsame Bewässerung von Gärten, Rasenflächen, Blumen- und Gemüsebeeten."
+        />
         <meta name="keywords" content="" />
       </Head>
 

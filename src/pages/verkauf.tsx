@@ -6,6 +6,7 @@ import PumpsSection from "../components/verkauf/pumps";
 import styles from "../styles/pumps.module.css";
 import classNames from "classnames";
 import HeroSection from "../components/verkauf/hero";
+import Head from "next/head";
 
 export const getStaticProps = async () => ({
   props: {
@@ -20,14 +21,20 @@ type PageProps = InferGetStaticPropsType<typeof getStaticProps>;
 
 const Verkauf: NextPage<PageProps> = ({ data }: PageProps) => {
   return (
-    <div className="relative pb-80 lg:pb-120">
-      {/* BG */}
-      <div className={classNames(styles.bg, "absolute inset-0 opacity-5")} />
+    <>
+      <Head>
+        <title>Verkauf – bremergrundwasser</title>
+      </Head>
 
-      {/* Content */}
-      <HeroSection data={data.hero} />
-      <PumpsSection data={data.pumps} className="mt-80 lg:mt-120" />
-    </div>
+      <div className="relative pb-80 lg:pb-120">
+        {/* BG */}
+        <div className={classNames(styles.bg, "absolute inset-0 opacity-5")} />
+
+        {/* Content */}
+        <HeroSection data={data.hero} />
+        <PumpsSection data={data.pumps} className="mt-80 lg:mt-120" />
+      </div>
+    </>
   );
 };
 

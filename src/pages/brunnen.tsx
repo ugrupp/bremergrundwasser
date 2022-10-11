@@ -1,4 +1,5 @@
 import type { InferGetStaticPropsType, NextPage } from "next";
+import Head from "next/head";
 import BrunnenSection from "../components/brunnen/brunnen";
 import ContactSection from "../components/brunnen/contact";
 import PumpsSection from "../components/brunnen/pumps";
@@ -20,15 +21,21 @@ type PageProps = InferGetStaticPropsType<typeof getStaticProps>;
 
 const Brunnen: NextPage<PageProps> = ({ data }: PageProps) => {
   return (
-    <div>
-      <HeroSection data={data.hero} />
-      <BrunnenSection data={data.brunnen} className="mt-80 lg:mt-120" />
-      <ContactSection data={data.contact} className="mt-80 lg:mt-120" />
-      <PumpsSection
-        data={data.pumps}
-        className="mt-80 lg:mt-120 pb-80 lg:pb-120"
-      />
-    </div>
+    <>
+      <Head>
+        <title>Brunnen – bremergrundwasser</title>
+      </Head>
+
+      <div>
+        <HeroSection data={data.hero} />
+        <BrunnenSection data={data.brunnen} className="mt-80 lg:mt-120" />
+        <ContactSection data={data.contact} className="mt-80 lg:mt-120" />
+        <PumpsSection
+          data={data.pumps}
+          className="mt-80 lg:mt-120 pb-80 lg:pb-120"
+        />
+      </div>
+    </>
   );
 };
 

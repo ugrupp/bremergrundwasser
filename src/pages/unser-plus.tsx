@@ -4,6 +4,7 @@ import data from "../data/unser-plus.json";
 import staticData from "../data/static.json";
 import { generateImagePlaceholders } from "../lib/helpers";
 import FeaturesSection from "../components/unser-plus/features";
+import Head from "next/head";
 
 export const getStaticProps = async () => ({
   props: {
@@ -18,10 +19,16 @@ type PageProps = InferGetStaticPropsType<typeof getStaticProps>;
 
 const UnserPlus: NextPage<PageProps> = ({ data }: PageProps) => {
   return (
-    <div>
-      <HeaderSection data={data.header} />
-      <FeaturesSection data={data.features} />
-    </div>
+    <>
+      <Head>
+        <title>Unser Plus – bremergrundwasser</title>
+      </Head>
+
+      <div>
+        <HeaderSection data={data.header} />
+        <FeaturesSection data={data.features} />
+      </div>
+    </>
   );
 };
 

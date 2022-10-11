@@ -1,4 +1,5 @@
 import type { InferGetStaticPropsType, NextPage } from "next";
+import Head from "next/head";
 import FormSection from "../components/anfrage-bewaesserung/form";
 import HeaderSection from "../components/header";
 import data from "../data/anfrage-bewaesserung.json";
@@ -18,10 +19,16 @@ type PageProps = InferGetStaticPropsType<typeof getStaticProps>;
 
 const AnfrageBewaesserung: NextPage<PageProps> = ({ data }: PageProps) => {
   return (
-    <div>
-      <HeaderSection data={data.header} />
-      <FormSection data={data.form} />
-    </div>
+    <>
+      <Head>
+        <title>Anfrage Bewässerung – bremergrundwasser</title>
+      </Head>
+
+      <div>
+        <HeaderSection data={data.header} />
+        <FormSection data={data.form} />
+      </div>
+    </>
   );
 };
 

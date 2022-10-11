@@ -1,4 +1,5 @@
 import type { InferGetStaticPropsType, NextPage } from "next";
+import Head from "next/head";
 import FormSection from "../components/anfrage-service-reparatur/form";
 import HeaderSection from "../components/header";
 import data from "../data/anfrage-service-reparatur.json";
@@ -18,10 +19,16 @@ type PageProps = InferGetStaticPropsType<typeof getStaticProps>;
 
 const AnfrageServiceReparatur: NextPage<PageProps> = ({ data }: PageProps) => {
   return (
-    <div>
-      <HeaderSection data={data.header} />
-      <FormSection data={data.form} />
-    </div>
+    <>
+      <Head>
+        <title>Anfrage Service + Reparatur – bremergrundwasser</title>
+      </Head>
+
+      <div>
+        <HeaderSection data={data.header} />
+        <FormSection data={data.form} />
+      </div>
+    </>
   );
 };
 
