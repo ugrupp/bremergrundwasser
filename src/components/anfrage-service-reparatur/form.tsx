@@ -25,7 +25,7 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
         <div className="grid grid-cols-16">
           <form
             method="post"
-            action=""
+            action="https://submit-form.com/T3dJMLZk"
             className="col-start-1 col-end-[-1] sm:col-end-[-5] lg:col-start-3 lg:col-end-[-3]"
           >
             <fieldset className="space-y-30 md:space-y-40">
@@ -36,25 +36,25 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
               <div className="space-y-30 md:space-y-40 text-base md:text-20 leading-normal">
                 <Checkbox
                   id="service-bewaesserung"
-                  name="service[]"
+                  name="service"
                   label="Bewässerung"
                   value="Bewässerung"
                 />
                 <Checkbox
                   id="service-winterservice"
-                  name="service[]"
+                  name="service"
                   label="Winterservice"
                   value="Winterservice"
                 />
                 <Checkbox
                   id="service-reparatur"
-                  name="service[]"
+                  name="service"
                   label="Reparatur"
                   value="Reparatur"
                 />
                 <Checkbox
                   id="service-sonstiges"
-                  name="service[]"
+                  name="service"
                   label="Sonstiges"
                   value="Sonstiges"
                 />
@@ -88,7 +88,7 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
                 required
                 className="text-12 md:text-16 leading-normal"
                 id="privacy-consent"
-                name="privacy"
+                name="_privacy"
                 label={
                   <>
                     Ich erkläre mich mit den{" "}

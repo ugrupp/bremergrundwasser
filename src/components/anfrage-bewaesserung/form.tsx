@@ -25,7 +25,7 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
         <div className="grid grid-cols-16">
           <form
             method="post"
-            action=""
+            action="https://submit-form.com/6edoU6BA"
             className="col-start-1 col-end-[-1] sm:col-end-[-5] lg:col-start-3 lg:col-end-[-3]"
           >
             <fieldset className="space-y-30 md:space-y-40">
