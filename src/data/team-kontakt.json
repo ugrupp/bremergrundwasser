@@ -5,8 +5,8 @@
     "body__html": "<h1>Kontakt</h1><p><strong>bremergrundwasser.de</strong> <br />Torsten Szameitat</p><h2>Besuchen Sie unser Ladengeschäft</h2><p>Borgfelder Heerstraße 7 <br />28357 Bremen-Borgfeld</p><h2>Anrufen oder schreiben</h2><p>Telefon 0421 200 78 61 <br /><a href='mailto:info@bremergrundwasser.de'>info@bremergrundwasser.de</a></p>",
     "image": {
       "src": "/images/header-kontakt.png",
-      "width": 480,
-      "height": 480,
+      "width": 1200,
+      "height": 1202,
       "alt": "",
       "objectPosition": "50% 50%",
       "dominantColor": ""
