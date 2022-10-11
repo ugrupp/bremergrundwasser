@@ -94,7 +94,7 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
                 required
                 className="text-12 md:text-16 leading-normal"
                 id="privacy-consent"
-                name="privacy"
+                name="_privacy"
                 label={
                   <>
                     Ich erkläre mich mit den{" "}
