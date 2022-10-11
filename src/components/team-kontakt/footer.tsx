@@ -75,7 +75,7 @@ const Headline = ({
 }: HTMLAttributes<HTMLHeadingElement> & { label: string }) => (
   <h4
     className={classNames(
-      "text-15 lg:text-20 underline decoration-dashed decoration-1 underline-offset-8 decoration-white/75",
+      "text-15 lg:text-20 underline decoration-dashed decoration-1 underline-offset-[.4em] decoration-white/75",
       className
     )}
     {...props}

@@ -27,8 +27,8 @@ const HeroSection = ({ data, className }: HeroSectionProps): JSX.Element => {
               // Text
               "text-20 md:text-25 leading-normal",
               // Headlines
-              "[&>h1]:!leading-normal [&>h1]:text-15 md:[&>h1]:text-20 [&>h1]:underline [&>h1]:decoration-dashed [&>h1]:decoration-1 [&>h1]:underline-offset-8 [&>h1]:!mt-[2em] [&>h1]:!mb-[0.9em]",
-              "[&>h2]:!leading-normal [&>h2]:text-15 md:[&>h2]:text-20 [&>h2]:underline [&>h2]:decoration-dashed [&>h2]:decoration-1 [&>h2]:underline-offset-8 [&>h2]:!mt-[2em] [&>h2]:!mb-[0.9em]",
+              "[&>h1]:!leading-normal [&>h1]:text-15 md:[&>h1]:text-20 [&>h1]:underline [&>h1]:decoration-dashed [&>h1]:decoration-1 [&>h1]:underline-offset-[.4em] [&>h1]:!mt-[2em] [&>h1]:!mb-[0.9em]",
+              "[&>h2]:!leading-normal [&>h2]:text-15 md:[&>h2]:text-20 [&>h2]:underline [&>h2]:decoration-dashed [&>h2]:decoration-1 [&>h2]:underline-offset-[.4em] [&>h2]:!mt-[2em] [&>h2]:!mb-[0.9em]",
               // Links
               "[&_a]:!text-brown-700 [&_a:hover]:!text-white"
             )}

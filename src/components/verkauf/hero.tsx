@@ -30,11 +30,11 @@ const HeroSection = ({ data, className }: HeroSectionProps): JSX.Element => {
               "[&>h2]:text-20 md:[&>h2]:text-25"
             )}
           >
-            <h1 className="underline decoration-dashed decoration-1 underline-offset-8">
+            <h1 className="underline decoration-dashed decoration-1 underline-offset-[.4em]">
               {data.headline}
             </h1>
             {parse(data.body__html)}
-            <h2 className="underline decoration-dashed decoration-1 underline-offset-8">
+            <h2 className="underline decoration-dashed decoration-1 underline-offset-[.4em]">
               {data.opentimesHeadline}
             </h2>
             {parse(data.opentimesBody__html)}

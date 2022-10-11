@@ -58,11 +58,11 @@ const IntroSection = ({ data, className }: IntroSectionProps): JSX.Element => {
               "[&>h3]:text-20 lg:[&>h3]:text-25"
             )}
           >
-            <h3 className="underline decoration-dashed decoration-1 underline-offset-8 decoration-white/75">
+            <h3 className="underline decoration-dashed decoration-1 underline-offset-[.4em] decoration-white/75">
               {data.secondaryHeadline}
             </h3>
             {parse(data.secondaryBody__html)}
-            <h3 className="underline decoration-dashed decoration-1 underline-offset-8 decoration-white/75">
+            <h3 className="underline decoration-dashed decoration-1 underline-offset-[.4em] decoration-white/75">
               {data.opentimesHeadline}
             </h3>
             {parse(data.opentimesBody__html)}

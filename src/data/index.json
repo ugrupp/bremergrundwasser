@@ -42,11 +42,11 @@
     "videos": [
       {
         "label__html": "<strong>Video</strong> Brunnenbau",
-        "url": "https://www.youtube.com/"
+        "url": "/videos/brunnenbau.mp4"
       },
       {
         "label__html": "<strong>Video</strong> Beregnungsanlagen",
-        "url": "https://www.vimeo.com/"
+        "url": "/videos/bewaesserungsanlagen.mp4"
       }
     ]
   },
