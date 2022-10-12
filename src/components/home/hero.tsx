@@ -2,6 +2,7 @@ import classNames from "classnames";
 import parse from "html-react-parser";
 import NextImage from "next/image";
 import { HTMLAttributes } from "react";
+import ArrowIcon from "../../assets/icons/arrow-2.svg";
 import data from "../../data/index.json";
 import Container from "../container";
 
@@ -24,20 +25,27 @@ const HeroSection = ({ data, className }: HeroSectionProps): JSX.Element => {
       >
         <div className="grid grid-cols-16 gap-y-25 md:gap-y-60">
           {/* Headline */}
-          <h1
-            className={classNames(
-              "col-start-1 col-end-[-1] md:col-end-[-5] lg:col-end-8",
-              "text-20 md:text-30 leading-snug font-normal text-teal-300"
-            )}
-          >
-            {parse(data.headline__html)}
-          </h1>
+          <div className="col-start-1 col-end-[-1] md:col-end-[-5] lg:col-end-8 relative">
+            <h1
+              className={classNames(
+                "text-20 md:text-30 leading-snug font-normal text-teal-300"
+              )}
+            >
+              {parse(data.headline__html)}
+            </h1>
+
+            <div className="absolute left-0 top-full lg:static mt-25 md:mt-60 flex">
+              <a href="#start">
+                <ArrowIcon className="h-40 md:h-50" />
+              </a>
+            </div>
+          </div>
 
           {/* Images */}
           <div className="col-start-1 col-end-[-1] lg:col-start-9">
             <div className="max-w-sm md:max-w-[650px] ml-auto flex flex-col gap-y-70 md:gap-y-25 relative">
               {/* Badge */}
-              <div className="w-100 h-100 md:w-150 md:h-150 z-10">
+              <div className="ml-30 sm:ml-0 w-100 h-100 md:w-150 md:h-150 z-10">
                 <NextImage
                   quality={95}
                   layout="responsive"
