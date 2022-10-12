@@ -28,7 +28,7 @@ const HeroSection = ({ data, className }: HeroSectionProps): JSX.Element => {
           )}
         >
           <div className="h-[115%] md:h-[150%] w-[115%] shrink-0 flex items-center justify-center">
-            <div className="aspect-square min-w-full min-h-full relative shrink-0">
+            <div className="aspect-square min-w-full min-h-full relative shrink-0 rounded-full overflow-hidden">
               <Image
                 wrapperProps={{
                   className: "w-full h-full rounded-full overflow-hidden",
