@@ -8,16 +8,20 @@ import { NEXT_IMAGE_DEFAULT_QUALITY } from "../lib/constants";
 import richtextStyles from "../styles/richtext.module.css";
 import Container from "./container";
 import ArrowIcon from "../assets/icons/arrow.svg";
+import React from "react";
 
 interface FooterProps {
   data: typeof staticData.footer;
 }
 
-const Footer = ({ data }: FooterProps): JSX.Element => {
+const Footer = React.forwardRef<HTMLElement, FooterProps>(({ data }, ref) => {
   const year = String(new Date().getFullYear());
 
   return (
-    <footer className="bg-teal-300 text-white selection-inverted relative">
+    <footer
+      className="bg-teal-300 text-white selection-inverted relative"
+      ref={ref}
+    >
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden flex items-end">
         {/* Image */}
@@ -127,8 +131,9 @@ const Footer = ({ data }: FooterProps): JSX.Element => {
       </div>
     </footer>
   );
-};
+});
 
+Footer.displayName = "Footer";
 export default Footer;
 
 const Headline = ({

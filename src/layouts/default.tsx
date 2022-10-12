@@ -1,4 +1,4 @@
-import { HTMLAttributes } from "react";
+import { HTMLAttributes, useEffect, useRef } from "react";
 import PhoneIcon from "../assets/icons/phone.svg";
 import Container from "../components/container";
 import Footer from "../components/footer";
@@ -12,6 +12,29 @@ export type LayoutProps = HTMLAttributes<HTMLElement> & {
 };
 
 const Layout = ({ id, staticData, children }: LayoutProps): JSX.Element => {
+  const phoneLinkRef = useRef<HTMLAnchorElement>(null);
+  const footerRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    if (phoneLinkRef.current && footerRef.current) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.intersectionRatio > 0) {
+            phoneLinkRef.current?.classList.add("hidden");
+          } else {
+            phoneLinkRef.current?.classList.remove("hidden");
+          }
+        });
+      });
+
+      observer.observe(footerRef.current);
+
+      return () => {
+        observer.disconnect();
+      };
+    }
+  }, []);
+
   return (
     <div>
       <Topbar data={staticData.topbar} />
@@ -21,6 +44,7 @@ const Layout = ({ id, staticData, children }: LayoutProps): JSX.Element => {
       <div className="fixed z-40 inset-x-0 bottom-10 md:bottom-20">
         <Container classNameInner="relative">
           <a
+            ref={phoneLinkRef}
             href={staticData.phoneLink.href}
             className="absolute left-0 bottom-0 inline-flex gap-8 md:gap-12 items-center text-teal-300 bg-white rounded-full p-8 md:p-12"
           >
@@ -35,9 +59,9 @@ const Layout = ({ id, staticData, children }: LayoutProps): JSX.Element => {
       <main>{children}</main>
 
       {id === "team-kontakt" ? (
-        <TeamKontaktFooter data={staticData.footer} />
+        <TeamKontaktFooter data={staticData.footer} ref={footerRef} />
       ) : (
-        <Footer data={staticData.footer} />
+        <Footer data={staticData.footer} ref={footerRef} />
       )}
     </div>
   );

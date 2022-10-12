@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import Link from "next/link";
+import React from "react";
 import { HTMLAttributes } from "react";
 import ArrowIcon from "../../assets/icons/arrow.svg";
 import Image from "../../components/image";
@@ -11,11 +12,14 @@ interface FooterProps {
   data: typeof staticData.footer;
 }
 
-const Footer = ({ data }: FooterProps): JSX.Element => {
+const Footer = React.forwardRef<HTMLElement, FooterProps>(({ data }, ref) => {
   const year = String(new Date().getFullYear());
 
   return (
-    <footer className="bg-teal-200 text-white selection-inverted relative">
+    <footer
+      className="bg-teal-200 text-white selection-inverted relative"
+      ref={ref}
+    >
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden flex items-end">
         {/* Image */}
@@ -64,8 +68,9 @@ const Footer = ({ data }: FooterProps): JSX.Element => {
       </div>
     </footer>
   );
-};
+});
 
+Footer.displayName = "Footer";
 export default Footer;
 
 const Headline = ({
