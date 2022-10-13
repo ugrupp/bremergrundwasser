@@ -3,8 +3,14 @@ import type { AppProps } from "next/app";
 import { RecoilRoot } from "recoil";
 import Head from "next/head";
 import Layout from "../layouts/default";
+import { useRouter } from "next/router";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const router = useRouter();
+  if (router.pathname === "_error" || !pageProps.staticData) {
+    return <Component {...pageProps} />;
+  }
+
   return (
     <RecoilRoot>
       <Head>
