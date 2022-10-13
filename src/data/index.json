@@ -13,8 +13,8 @@
     },
     "offerImage": {
       "src": "/images/angebot.png",
-      "width": 341,
-      "height": 366,
+      "width": 1023,
+      "height": 1096,
       "alt": "",
       "objectPosition": "50% 50%",
       "dominantColor": ""
