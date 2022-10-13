@@ -28,7 +28,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="keywords" content="" />
       </Head>
 
-      <Layout id={pageProps?.data?.id} staticData={pageProps.staticData}>
+      <Layout
+        id={pageProps?.data?.id}
+        footerBgImage={pageProps?.data?.footerBgImage}
+        staticData={pageProps.staticData}
+      >
         <Component {...pageProps} />
       </Layout>
     </RecoilRoot>

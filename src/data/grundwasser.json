@@ -1,5 +1,13 @@
 {
   "id": "grundwasser",
+  "footerBgImage": {
+    "src": "/images/footer-grundwasser.jpg",
+    "width": 2560,
+    "height": 1200,
+    "alt": "",
+    "objectPosition": "49% 70%",
+    "dominantColor": ""
+  },
   "hero": {
     "id": "hero",
     "image": {

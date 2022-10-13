@@ -6,12 +6,19 @@ import TeamKontaktFooter from "../components/team-kontakt/footer";
 import OverlayMenu from "../components/overlay-menu";
 import Topbar from "../components/topbar";
 import staticData from "../data/static.json";
+import { Image } from "../types/image";
 
 export type LayoutProps = HTMLAttributes<HTMLElement> & {
   staticData: typeof staticData;
+  footerBgImage?: Image;
 };
 
-const Layout = ({ id, staticData, children }: LayoutProps): JSX.Element => {
+const Layout = ({
+  id,
+  staticData,
+  footerBgImage,
+  children,
+}: LayoutProps): JSX.Element => {
   const phoneLinkRef = useRef<HTMLAnchorElement>(null);
   const footerRef = useRef<HTMLElement>(null);
 
@@ -61,7 +68,11 @@ const Layout = ({ id, staticData, children }: LayoutProps): JSX.Element => {
       {id === "team-kontakt" ? (
         <TeamKontaktFooter data={staticData.footer} ref={footerRef} />
       ) : (
-        <Footer data={staticData.footer} ref={footerRef} />
+        <Footer
+          data={staticData.footer}
+          bgImage={footerBgImage}
+          ref={footerRef}
+        />
       )}
     </div>
   );

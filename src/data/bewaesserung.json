@@ -1,5 +1,13 @@
 {
   "id": "bewaesserung",
+  "footerBgImage": {
+    "src": "/images/footer-bewaesserung.jpg",
+    "width": 2560,
+    "height": 1200,
+    "alt": "",
+    "objectPosition": "31% 73%",
+    "dominantColor": ""
+  },
   "hero": {
     "id": "hero",
     "image": {

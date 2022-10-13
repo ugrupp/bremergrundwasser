@@ -1,5 +1,13 @@
 {
   "id": "index",
+  "footerBgImage": {
+    "src": "/images/footer-startseite.jpg",
+    "width": 2560,
+    "height": 1200,
+    "alt": "",
+    "objectPosition": "50% 66%",
+    "dominantColor": ""
+  },
   "hero": {
     "id": "hero",
     "headline__html": "Herzlich Willkommen <br />bei Ihrem Spezialist für feine <br />Gartenbewässerungsanlagen <br/>und Brunnenbau.",

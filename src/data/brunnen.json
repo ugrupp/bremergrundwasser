@@ -1,5 +1,13 @@
 {
   "id": "brunnen",
+  "footerBgImage": {
+    "src": "/images/footer-brunnen.jpg",
+    "width": 2560,
+    "height": 1200,
+    "alt": "",
+    "objectPosition": "50% 62%",
+    "dominantColor": ""
+  },
   "hero": {
     "id": "hero",
     "image": {

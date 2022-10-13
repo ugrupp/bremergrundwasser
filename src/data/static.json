@@ -68,11 +68,11 @@
       "content": "Telefon 0421 200 78 61 <br /><a href='mailto:info@bremergrundwasser.de'>info@bremergrundwasser.de</a>"
     },
     "bgImage": {
-      "src": "/images/hintergrund-01.jpg",
-      "width": 1920,
-      "height": 1259,
+      "src": "/images/footer.jpg",
+      "width": 2560,
+      "height": 1200,
       "alt": "",
-      "objectPosition": "50% 50%",
+      "objectPosition": "49% 44%",
       "dominantColor": ""
     },
     "privacyLink": {
