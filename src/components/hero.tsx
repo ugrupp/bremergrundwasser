@@ -61,7 +61,7 @@ const HeroSection = ({ data, className }: HeroSectionProps): JSX.Element => {
 
               <div
                 className={classNames(
-                  "!absolute inset-0 z-20 transition-opacity duration-500",
+                  "!absolute inset-0 rounded-full overflow-hidden z-20 transition-opacity duration-500",
                   {
                     "opacity-0": !imagesLoaded,
                   }
