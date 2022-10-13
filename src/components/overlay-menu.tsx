@@ -117,6 +117,7 @@ const OverlayMenu = (): JSX.Element => {
                                   className={classNames(
                                     "text-17 leading-none font-normal transition-colors text-brown-700 flex gap-x-12 items-center relative"
                                   )}
+                                  onClick={() => setMenuOpen(false)}
                                 >
                                   <ArrowIcon className="text-teal-300 h-18 w-18" />
                                   <span>{label}</span>
