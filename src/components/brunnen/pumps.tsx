@@ -28,7 +28,7 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
       <Container className="relative">
         <div className="grid grid-cols-16 gap-y-70">
           {/* Pumps */}
-          <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-[-1] lg:row-start-1">
+          <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-[-1]">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-30 md:gap-60">
               {resolvePumps(data.pumps).map((pump) => (
                 <Pump key={pump.id} pump={pump} />
@@ -37,7 +37,7 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
           </div>
 
           {/* Hint */}
-          <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-9 lg:row-start-1 lg:self-end">
+          <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-9">
             <div
               className={classNames(
                 richtextStyles.root,

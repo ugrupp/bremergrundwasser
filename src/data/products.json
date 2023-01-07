@@ -4,7 +4,7 @@
       "id": "dab-82m-garden-inox",
       "title": "DAB 82M GARDEN INOX",
       "description__html": "<p>Kleine und leichte Gartenpumpe, leise und von sehr hoher Qualität, 4 bar, 3,6m³/h Q, 600 W</p>",
-      "price": 26900,
+      "price": 28900,
       "image": {
         "src": "/images/products/DAB_82M_B.png",
         "width": 672,
@@ -15,10 +15,10 @@
       }
     },
     {
-      "id": "xydab-euro-inox-40-80z",
-      "title": "XYDAB EURO INOX 40/80Z",
-      "description__html": "<p>Die Pumpe für Bewässerungsanlagen und große Grundstücke, 1.000W, 5,9 bar, 7,2m³/h Q</p>",
-      "price": 46900,
+      "id": "dab-euro-inox-40-80",
+      "title": "DAB EURO INOX 40/80",
+      "description__html": "<p>Die Pumpe für Bewässerungsanlagen und große Grundstücke, sehr leise und kraftvoll, 1000W, 5,9 bar, 7,2m³/h Q</p>",
+      "price": 48900,
       "image": {
         "src": "/images/products/dab-euro-inox.png",
         "width": 721,
@@ -31,8 +31,8 @@
     {
       "id": "espa-delta-1755m-sm-edelstahl",
       "title": "ESPA DELTA 1755M SM-Edelstahl",
-      "description__html": "<p>230V, mit mehrstufigem Laufwerk, sehr leise und extrem kraftvoll mit 5,5 bar max. 4,8m³/Std.</p>",
-      "price": 30900,
+      "description__html": "<p>Mit mehrstufigem Laufwerk, sehr leise und extrem kraftvoll mit 1200W, 5,5 bar max. 4,8m³/Std.</p>",
+      "price": 32900,
       "image": {
         "src": "/images/products/delta-1775M.png",
         "width": 801,
@@ -83,28 +83,28 @@
       "multi": [
         {
           "id": "ksb-multi-eco-34-p",
-          "title": "KSB Multi ECO 34 P",
-          "description__html": "<p>Extrem leise, 4-stufiges Laufwerk, 660 W, 3,5 bar, 3,6m³/h Q</p>",
+          "title": "KSB MultiEco 34 P",
+          "description__html": "<p>Extrem leise, 3 Stufiges Laufwerk, 660 W, 3,5 bar, 3,7m³/h Q</p>",
           "price": 33900
         },
         {
           "id": "ksb-multi-eco-35-p",
-          "title": "KSB Multi ECO 35 P",
-          "description__html": "<p>Extrem leise, 5-stufiges Laufwerk, 800 W, 4,4 bar, 4,2m³/h Q</p>",
+          "title": "KSB MultiEco 35 P",
+          "description__html": "<p>Extrem leise, 5 Stufiges Laufwerk, 800 W, 4,5 bar, 4,2m³/h Q</p>",
           "price": 40900
         },
         {
           "id": "ksb-multi-eco-36-p",
-          "title": "KSB Multi ECO 36 P",
-          "description__html": "<p>Extrem leise, 6-stufiges Laufwerk, 1.100 W, 5,5 bar, 4,5 m³/h Q</p>",
-          "price": 49900
+          "title": "KSB MultiEco 36 P",
+          "description__html": "<p>Extrem leise, 5 Stufiges Laufwerk, 1100 W, 5,5 bar, 4,5 m³/h Q</p>",
+          "price": 44900
         }
       ]
     },
     {
       "id": "ksb-multi-eco-35-p",
       "title": "KSB Multi ECO 35 P",
-      "description__html": "<p>Extrem leise, 5-stufiges Laufwerk, 800 W, 4,4 bar, 4,2m³/h Q</p>",
+      "description__html": "<p>Extrem leise, 5 Stufiges Laufwerk, 800 W, 4,5 bar, 4,2m³/h Q</p>",
       "price": 40900,
       "image": {
         "src": "/images/products/Multi-Eco-36-KSB.png",
@@ -153,5 +153,6 @@
       "priceHint": "Auch für Ihre Pumpe",
       "price": 4500
     }
-  ]
+  ],
+  "disclaimer": "Preisänderung jederzeit möglich"
 }

@@ -5,6 +5,7 @@ import { NEXT_IMAGE_DEFAULT_QUALITY } from "../lib/constants";
 import { numberFormat } from "../lib/helpers";
 import richtextStyles from "../styles/richtext.module.css";
 import { Product } from "../types/product";
+import products from "../data/products.json";
 
 type PumpProps = {
   pump: Product;
@@ -86,6 +87,18 @@ const PumpInfo = ({ pump }: PumpInfoProps): JSX.Element => {
           <p className="text-20 md:text-25 leading-snug text-teal-300">
             nur {numberFormat.format(price / 100)}
           </p>
+
+          {/* Price disclaimer */}
+          {!!products.disclaimer && (
+            <div
+              className={classNames(
+                "text-12 md:text-16 leading-normal",
+                "opacity-50"
+              )}
+            >
+              <p>{products.disclaimer}</p>
+            </div>
+          )}
         </div>
       )}
     </div>
