@@ -29,7 +29,7 @@
         "content__html": "<h3>Inklusive</h3><ul><li>Messing-Rückschlagventil mit Entwässerungsmöglichkeit</li><li>NBR-Dichtung und Messing-PE-Verschraubung</li><li>großer 2″ Zoll Filter im Grundwasserleiter für eine lange Lebensdauer</li><li>fachgerechte Kiesfilterschüttung</li><li><strong>10 Jahre Garantie</strong></li></ul>",
         "priceHint": "ganzjährig, Komplettpreis",
         "price": 38900,
-        "priceDisclaimer__html": "<p>Gebietsabhängig: bitte beachten Sie unsere <a href='#'>Gebiete</a></p>"
+        "priceDisclaimer__html": "<p>Gebietsabhängig: bitte beachten Sie unsere <a href='/preise'>Gebiete</a></p>"
       },
       {
         "title": "Spülbrunnen „Premium“",
@@ -37,13 +37,13 @@
         "content__html": "<h3>Ausführung wie „Klassik“ aber mit</h3><ul><li>2 x 2″ Zoll-Filter und angepasster Kiesfilterschüttung, für eine hohe Förderleistungen und maximale Lebensdauer. Speziell für Beregnungsanlagen und großen Grundstücken mit langen Förderzeiten.</li><li><strong>10 Jahre Garantie</strong></li></ul>",
         "priceHint": "ganzjährig, Komplettpreis",
         "price": 44900,
-        "priceDisclaimer__html": "<p>Gebietsabhängig: bitte beachten Sie unsere <a href='#'>Gebiete</a></p>"
+        "priceDisclaimer__html": "<p>Gebietsabhängig: bitte beachten Sie unsere <a href='/preise'>Gebiete</a></p>"
       }
     ]
   },
   "contact": {
     "id": "anfrage",
-    "body__html": "<p><strong>Wir arbeiten sauber und ohne Fluschaden dank unserem speziellen Spülsystem.</strong> Keine Überschwemmung im Garten und ein sauberes Bohrloch.</p>",
+    "body__html": "<p><strong>Wir arbeiten sauber und ohne Fluschaden dank unserem speziellen Spülsystem.</strong> Keine Überschwemmung im Garten und ein sauberes Bohrloch. Oftmals reicht es aus, eine Gehwegplatte oder 2-3 Steine aufzunehmen, um den Brunnen einzuspülen. Auch in Garagen oder im Schuppen ist es durchaus möglich, gegen einen geringen Aufpreis, Brunnen zu erstellen.</p>",
     "teaser": {
       "href": "/anfrage-brunnen",
       "label": "Anfrage Brunnen",

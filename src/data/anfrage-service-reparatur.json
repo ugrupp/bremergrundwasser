@@ -3,7 +3,7 @@
   "header": {
     "id": "header",
     "headline": "Anfrage Service + Reparatur",
-    "body__html": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa sociis natoque penatibus et magnis dis.</p>"
+    "body__html": "<p>Wenn Sie hier das Formular ausfüllen und absenden, antwortet Ihnen Frau Riedemann. Sie leitet das Büro und hat die Service- Jungs unter strenger Kontrolle.</p>"
   },
   "form": {
     "id": "anfrage"

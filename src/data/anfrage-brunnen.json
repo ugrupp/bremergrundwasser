@@ -3,7 +3,7 @@
   "header": {
     "id": "header",
     "headline": "Anfrage Brunnen",
-    "body__html": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa sociis natoque penatibus et magnis dis.</p>"
+    "body__html": "<p>Wenn Sie hier das Formular ausfüllen und absenden, antwortet Ihnen Frau Barbara Aydin. Sie leitet die Brunnenbauabteilung mit Charm und Sachverstand.</p>"
   },
   "form": {
     "id": "anfrage",

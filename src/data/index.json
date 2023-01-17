@@ -60,7 +60,7 @@
   },
   "contact": {
     "id": "kontakt",
-    "intro__html": "<p><strong>Anfrage:</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>",
+    "intro__html": "<p><strong>Anfrage:</strong> Hier können Sie zwischen unseren umfangreichen Dienstleistungen wählen. Wenn Sie eine Beratung und ein kostenloses Angebot für Ihre geplante Bewässerungsanlage wünschen, sind Sie hier genau richtig. Wenn es um Ihren neuen Brunnen geht, klicken Sie bitte hier. Die Jungs und Mädels für Reparaturen und Hilfe erreichen Sie unter Service. In allen Fenstern muss die Datenschutzerklärung angeklickt werden, sonst wird das nix.</p>",
     "links": [
       {
         "href": "/anfrage-bewaesserung",

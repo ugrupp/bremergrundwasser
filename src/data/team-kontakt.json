@@ -41,7 +41,7 @@
       },
       {
         "name": "Elyas Aydin",
-        "description": "Vorarbeiter im Brunnenbau, mit dem Gespür für Wasser",
+        "description": "Vorarbeiter im Brunnenbau von Anfang an. Mit dem Gespür für Wasser- und niemals aufgeben!",
         "image": {
           "src": "/images/team/elyas-aydin.jpg",
           "width": 500,
@@ -113,7 +113,7 @@
       },
       {
         "name": "Stephan Tepe",
-        "description": "unser Allrounder",
+        "description": "unser Allrounder und gelernter Landmaschinentechniker",
         "image": {
           "src": "/images/team/stephan-tepe.jpg",
           "width": 500,
@@ -125,7 +125,7 @@
       },
       {
         "name": "Antje Balsies",
-        "description": "unser Fels in der Brandung und Rückhalt - er-sie gehört zu mir - wie mein Name…",
+        "description": "unser Fels in der Brandung und Rückhalt",
         "image": {
           "src": "/images/team/antje-balsies.jpg",
           "width": 500,
@@ -148,16 +148,8 @@
         }
       },
       {
-        "name": "Bettina Krüger",
-        "description": "hält hier alles sauber und rein - ohne dich würden wir am Boden festkleben",
-        "image": {
-          "src": "/images/team/bettina-krueger.jpg",
-          "width": 500,
-          "height": 680,
-          "alt": "",
-          "objectPosition": "42% 44%",
-          "dominantColor": ""
-        }
+        "name": "Sascha Kantelberg",
+        "description": "vom Bürohengst zum Brunnenbauhelfer in nur 3 Tagen, es gibt noch Wunder!"
       },
       {
         "name": "Der Lolli",

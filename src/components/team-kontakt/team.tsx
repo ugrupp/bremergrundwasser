@@ -20,8 +20,15 @@ const TeamSection = ({ data, className }: TeamSectionProps): JSX.Element => {
             {data.team.map(({ name, description, image }, index) => (
               <li key={index}>
                 {/* Image */}
-                {!!image && (
-                  <div className="aspect-square w-[100px] overflow-hidden rounded-full">
+                <div
+                  className={classNames(
+                    "aspect-square w-[100px] overflow-hidden rounded-full",
+                    {
+                      "bg-white/25": !image,
+                    }
+                  )}
+                >
+                  {!!image && (
                     <Image
                       wrapperProps={{
                         className: "w-full h-full",
@@ -33,15 +40,13 @@ const TeamSection = ({ data, className }: TeamSectionProps): JSX.Element => {
                       objectFit="cover"
                       objectPosition={image.objectPosition}
                     />
-                  </div>
-                )}
+                  )}
+                </div>
 
                 {/* Info */}
                 <div
                   className={classNames(
-                    {
-                      "mt-25 md:mt-30": !!image,
-                    },
+                    "mt-25 md:mt-30",
                     richtextStyles.root,
                     richtextStyles["on-teal"],
                     // Text

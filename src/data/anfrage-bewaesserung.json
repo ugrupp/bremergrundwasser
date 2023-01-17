@@ -3,7 +3,7 @@
   "header": {
     "id": "header",
     "headline": "Anfrage Bewässerung",
-    "body__html": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa sociis natoque penatibus et magnis dis.</p>"
+    "body__html": "<p>Wenn Sie hier das Formular ausfüllen und absenden, bekommt Torsten Szameitat (der Alte…) das auf seinen Schreibtisch. Er macht am liebsten Donnerstagvormittags die kostenlosen Besichtigungstermine von 8.30h bis 14.00h. Wenn es nicht anders geht, auch an anderen Tagen- am liebsten vormittags.</p>"
   },
   "form": {
     "id": "anfrage"
