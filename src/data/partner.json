@@ -13,8 +13,8 @@
         "body__html": "<p>Willy-Pelz-Straße 1-5 <br />23812 Wahlstedt</p><p>Telefon 0211 92 96 90 <br /><a href='mailto:infoservice@grundfos.de'>infoservice@grundfos.de</a> <br /><a href='https://www.grundfos.de' target='_blank'>www.grundfos.de</a></p>",
         "image": {
           "src": "/images/partner/partner-grundfos.png",
-          "width": 685,
-          "height": 382,
+          "width": 683,
+          "height": 380,
           "alt": "",
           "objectPosition": "50% 50%",
           "dominantColor": ""
@@ -25,8 +25,8 @@
         "body__html": "<p>Johann-Klein-Straße 9 <br />67227 Frankenthal</p><p>Telefon 06233 860 <br /><a href='mailto:info@ksb.com'>info@ksb.com</a> <br /><a href='https://www.ksb.com' target='_blank'>www.ksb.com</a></p>",
         "image": {
           "src": "/images/partner/partner-ksb.png",
-          "width": 685,
-          "height": 382,
+          "width": 683,
+          "height": 380,
           "alt": "",
           "objectPosition": "50% 50%",
           "dominantColor": ""
@@ -37,8 +37,8 @@
         "body__html": "<p>Mathildenstraße 71 <br />28203 Bremen</p><p>Telefon 0421 70 58 47 <br /><a href='https://www.architektur-und-design-bremen.de' target='_blank'>www.architektur-und-design-bremen.de</a></p>",
         "image": {
           "src": "/images/partner/partner-architektur-design.png",
-          "width": 685,
-          "height": 382,
+          "width": 683,
+          "height": 380,
           "alt": "",
           "objectPosition": "50% 50%",
           "dominantColor": ""
@@ -49,8 +49,8 @@
         "body__html": "<p>Tackweg 11 <br />47918 Tönisvorst</p><p>Telefon 02151 821 36 0 <br /><a href='mailto:info@dabpumps.de'>info@dabpumps.de</a> <br /><a href='https://www.dabpumps.de' target='_blank'>www.dabpumps.de</a></p>",
         "image": {
           "src": "/images/partner/partner-dab.png",
-          "width": 685,
-          "height": 382,
+          "width": 683,
+          "height": 380,
           "alt": "",
           "objectPosition": "50% 50%",
           "dominantColor": ""
@@ -61,8 +61,8 @@
         "body__html": "<p>Dorfstraße 25 <br />23820 Wulfsfelde</p><p>Telefon 04506 282 <br /><a href='mailto:info@pumpen-beyer.de'>info@pumpen-beyer.de</a> <br /><a href='https://www.pumpen-beyer.de' target='_blank'>www.pumpen-beyer.de</a></p>",
         "image": {
           "src": "/images/partner/partner-pumpenfabrik.png",
-          "width": 685,
-          "height": 382,
+          "width": 683,
+          "height": 380,
           "alt": "",
           "objectPosition": "50% 50%",
           "dominantColor": ""
@@ -73,8 +73,44 @@
         "body__html": "<p>Mühlenstraße 2 <br />79102 Freiburg</p><p>Telefon 0761 707 892 86 <br /><a href='mailto:hallo@formatformat.de'>hallo@formatformat.de</a> <br /><a href='https://www.formatformat.de' target='_blank'>www.formatformat.de</a></p>",
         "image": {
           "src": "/images/partner/partner-format.png",
-          "width": 685,
-          "height": 382,
+          "width": 683,
+          "height": 380,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "title": "Galabau Daniel Muntean",
+        "body__html": "<p>Hüneken-Straße 6 <br />28197 Bremen</p>",
+        "image": {
+          "src": "/images/partner/partner-muntean.png",
+          "width": 683,
+          "height": 380,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "title": "Baumrausch GmbH & Co KG",
+        "body__html": "<p>Arsterdamm 72a <br />28277 Bremen</p>",
+        "image": {
+          "src": "/images/partner/partner-baumrausch.png",
+          "width": 683,
+          "height": 380,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "title": "Dietrich Kretzschmar",
+        "body__html": "<p>Am Heiddamm 31 <br />28355 Bremen</p>",
+        "image": {
+          "src": "/images/partner/partner-kretzschmar.png",
+          "width": 683,
+          "height": 380,
           "alt": "",
           "objectPosition": "50% 50%",
           "dominantColor": ""
