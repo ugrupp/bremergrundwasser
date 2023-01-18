@@ -6,7 +6,7 @@ import data from "../data/unser-plus.json";
 import Container from "./container";
 
 interface HeaderSectionProps extends HTMLAttributes<HTMLElement> {
-  data: typeof data.header;
+  data: Partial<typeof data.header>;
 }
 
 const HeaderSection = ({
@@ -33,16 +33,18 @@ const HeaderSection = ({
             {data.headline}
           </h1>
 
-          <article
-            className={classNames(
-              "col-start-1 col-end-[-1] lg:col-start-9",
-              richtextStyles.root,
-              // Text
-              "text-15 md:text-20 leading-normal"
-            )}
-          >
-            {parse(data.body__html)}
-          </article>
+          {data.body__html && (
+            <article
+              className={classNames(
+                "col-start-1 col-end-[-1] lg:col-start-9",
+                richtextStyles.root,
+                // Text
+                "text-15 md:text-20 leading-normal"
+              )}
+            >
+              {parse(data.body__html)}
+            </article>
+          )}
         </div>
       </Container>
     </section>
