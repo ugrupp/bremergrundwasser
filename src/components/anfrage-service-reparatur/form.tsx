@@ -83,34 +83,43 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
               <Textarea id="message" name="message" />
             </fieldset>
 
-            <div className="mt-60 md:mt-70 grid grid-cols-1 lg:grid-cols-2 gap-y-40 gap-x-60">
-              <Checkbox
-                required
-                className="text-12 md:text-16 leading-normal"
-                id="privacy-consent"
-                name="_privacy"
-                label={
-                  <>
-                    Ich erkläre mich mit den{" "}
-                    <Link href={"/datenschutz"}>
-                      <a target={"_blank"} className="underline">
-                        Datenschutzbestimmungen
-                      </a>
-                    </Link>{" "}
-                    einverstanden.
-                  </>
-                }
-                value="Einverstanden"
-              />
+            <div className="mt-60 md:mt-70">
+              <div className="flex">
+                <div
+                  className="g-recaptcha mb-20 lg:ml-auto"
+                  data-sitekey={process.env.NEXT_PUBLIC_RECAPTHA_SITE_KEY}
+                />
+              </div>
 
-              {/* Submit */}
-              <button
-                type="submit"
-                className="lg:ml-auto lg:text-right text-base md:text-20 leading-normal text-teal-300 inline-flex gap-x-[0.5em] items-center whitespace-nowrap group"
-              >
-                Anfrage senden
-                <ArrowIcon className="h-[0.75em] w-[0.75em] rotate-180 group-hover:translate-x-4 transition-transform" />
-              </button>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-40 gap-x-60">
+                <Checkbox
+                  required
+                  className="text-12 md:text-16 leading-normal"
+                  id="privacy-consent"
+                  name="_privacy"
+                  label={
+                    <>
+                      Ich erkläre mich mit den{" "}
+                      <Link href={"/datenschutz"}>
+                        <a target={"_blank"} className="underline">
+                          Datenschutzbestimmungen
+                        </a>
+                      </Link>{" "}
+                      einverstanden.
+                    </>
+                  }
+                  value="Einverstanden"
+                />
+
+                {/* Submit */}
+                <button
+                  type="submit"
+                  className="lg:ml-auto lg:text-right text-base md:text-20 leading-normal text-teal-300 inline-flex gap-x-[0.5em] items-center whitespace-nowrap group"
+                >
+                  Anfrage senden
+                  <ArrowIcon className="h-[0.75em] w-[0.75em] rotate-180 group-hover:translate-x-4 transition-transform" />
+                </button>
+              </div>
             </div>
           </form>
         </div>
