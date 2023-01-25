@@ -28,6 +28,9 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
             action="https://submit-form.com/T3dJMLZk"
             className="col-start-1 col-end-[-1] sm:col-end-[-5] lg:col-start-3 lg:col-end-[-3]"
           >
+            {/* Configure Formspark success page */}
+            <input type="hidden" name="_feedback.language" value="de" />
+
             <fieldset className="space-y-30 md:space-y-40">
               <legend className="text-20 md:text-25 leading-tight text-teal-300">
                 bitte auswählen
