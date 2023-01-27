@@ -4,7 +4,6 @@ import { RecoilRoot } from "recoil";
 import Head from "next/head";
 import Layout from "../layouts/default";
 import { useRouter } from "next/router";
-import Script from "next/script";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -34,8 +33,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta name="keywords" content="" />
       </Head>
-
-      <Script src="https://www.google.com/recaptcha/api.js" />
 
       <Layout
         id={pageProps?.data?.id}

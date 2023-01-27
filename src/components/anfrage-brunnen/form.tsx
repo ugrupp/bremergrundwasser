@@ -2,6 +2,7 @@ import classNames from "classnames";
 import parse from "html-react-parser";
 import Link from "next/link";
 import { HTMLAttributes } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import ArrowIcon from "../../assets/icons/arrow.svg";
 import data from "../../data/anfrage-brunnen.json";
 import richtextStyles from "../../styles/richtext.module.css";
@@ -94,9 +95,9 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
 
             <div className="mt-60 md:mt-70">
               <div className="flex">
-                <div
-                  className="g-recaptcha mb-20 lg:ml-auto"
-                  data-sitekey={process.env.NEXT_PUBLIC_RECAPTHA_SITE_KEY}
+                <ReCAPTCHA
+                  className="mb-20 lg:ml-auto"
+                  sitekey={process.env.NEXT_PUBLIC_RECAPTHA_SITE_KEY || ""}
                 />
               </div>
 
