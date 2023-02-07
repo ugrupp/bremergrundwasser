@@ -32,6 +32,13 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
             {/* Configure Formspark success page */}
             <input type="hidden" name="_feedback.language" value="de" />
 
+            {/* Configure custom subject */}
+            <input
+              type="hidden"
+              name="_email.subject"
+              value="Anfrage Bewässerung"
+            />
+
             <fieldset className="space-y-30 md:space-y-40">
               <Input required id="name" name="name" label="Vor- + Nachname" />
               <Input id="street" name="street" label="Straße + Hausnummer" />

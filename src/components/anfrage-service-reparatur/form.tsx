@@ -32,6 +32,13 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
             {/* Configure Formspark success page */}
             <input type="hidden" name="_feedback.language" value="de" />
 
+            {/* Configure custom subject */}
+            <input
+              type="hidden"
+              name="_email.subject"
+              value="Anfrage Service"
+            />
+
             <fieldset className="space-y-30 md:space-y-40">
               <legend className="text-20 md:text-25 leading-tight text-teal-300">
                 bitte auswählen
