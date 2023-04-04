@@ -10,11 +10,11 @@
     "features": [
       {
         "headline": "Gebiet 1: <span>normaler Preis von 389,00 € in den Stadtteilen.</span>",
-        "body__html": "<p>Blockland, Borgfeld, Falkenberg, Findorff, Gröpelingen, Horn-Lehe, Huchting, Lilienthal, Meyerdamm, Oberneuland, Oslebs- hausen, Osterholz, Oyterdamm, Östliche Vorstadt, Sebaldsbrück, Steintor, Stuhr, Stuhr-Varrel, Stuhr-Moordeich, Vahr, Walle</p>"
+        "body__html": "<p>Blockland, Borgfeld, Falkenberg, Findorff, Gröpelingen, Horn-Lehe, Huchting, Lilienthal, Meyerdamm, Oberneuland, Oslebs- hausen, Osterholz, Oyterdamm, Sebaldsbrück, Stuhr, Stuhr-Varrel, Stuhr-Moordeich, Vahr, Walle</p>"
       },
       {
         "headline": "Gebiet 2: <span>für Anfahrt bzw. Zuschlag Schwierigkeits- grad 449,00 € in den Stadtteilen.</span>",
-        "body__html": "<p>Achim-Bierden, Achim-Uphusen, Adelheide, Airport-Stadt, Arbergen, Arsten, Burg-Grambke, Delmenhorst, Dreye, Grambke, Grolland, Habenhausen, Hastedt, Hemelingen, Heidkrug, Horn (ab Eisenbahnbrücke, Richtung Stadt), Hulsberg, Kattenturm, Kattenesch, Kirchweyhe, Leeste, Lemwerder, Mahndorf, Melchiorshausen, Neustadt, Obervieland, Peterswerder, Rablinghausen, Schwachhausen, Seckenhausen, Seehausen, Strom, Stickgras, Sudweyhe, Weyhe, Woltmershausen, Worphausen</p>"
+        "body__html": "<p>Achim-Bierden, Achim-Uphusen, Adelheide, Airport-Stadt, Arbergen, Arsten, Burg-Grambke, Delmenhorst, Dreye, Grambke, Grolland, Habenhausen, Hastedt, Hemelingen, Heidkrug, Horn (ab Eisenbahnbrücke, Richtung Stadt), Hulsberg, Kattenturm, Kattenesch, Kirchweyhe, Leeste, Lemwerder, Mahndorf, Melchiorshausen, Neustadt, Obervieland, Östliche Vorstadt, Peterswerder, Rablinghausen, Schwachhausen, Seckenhausen, Seehausen, Steintor, Strom, Stickgras, Sudweyhe, Weyhe, Woltmershausen, Worphausen</p>"
       }
     ],
     "hint__html": "<p>Gr. Mackenstedt, Stuhr-Heiligenrode, Worpswede auf Anfrage.</p>",
