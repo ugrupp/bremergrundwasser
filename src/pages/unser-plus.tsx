@@ -3,6 +3,7 @@ import HeaderSection from "../components/header";
 import data from "../data/unser-plus.json";
 import staticData from "../data/static.json";
 import { generateImagePlaceholders } from "../lib/helpers";
+import Carousel from "../components/carousel";
 import FeaturesSection from "../components/unser-plus/features";
 import Head from "next/head";
 
@@ -27,6 +28,7 @@ const UnserPlus: NextPage<PageProps> = ({ data }: PageProps) => {
       <div>
         <HeaderSection data={data.header} />
         <FeaturesSection data={data.features} />
+        <Carousel carousel={data.carousel.carousel} />
       </div>
     </>
   );

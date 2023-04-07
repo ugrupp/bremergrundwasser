@@ -59,5 +59,40 @@
         }
       }
     ]
+  },
+  "carousel": {
+    "id": "carousel",
+    "carousel": [
+      {
+        "image": {
+          "src": "/images/galerie-unser-plus-1.jpg",
+          "width": 2500,
+          "height": 1875,
+          "alt": "",
+          "objectPosition": "50% 20%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-unser-plus-2.jpg",
+          "width": 2500,
+          "height": 1875,
+          "alt": "",
+          "objectPosition": "50% 25%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-unser-plus-3.jpg",
+          "width": 2500,
+          "height": 1875,
+          "alt": "",
+          "objectPosition": "50% 60%",
+          "dominantColor": ""
+        }
+      }
+    ]
   }
 }
