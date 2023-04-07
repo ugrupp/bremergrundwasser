@@ -42,37 +42,7 @@
     "carousel": [
       {
         "image": {
-          "src": "/images/stimmung-1.jpg",
-          "width": 2500,
-          "height": 1742,
-          "alt": "",
-          "objectPosition": "50% 50%",
-          "dominantColor": ""
-        }
-      },
-      {
-        "image": {
-          "src": "/images/stimmung-2.jpg",
-          "width": 2500,
-          "height": 1661,
-          "alt": "",
-          "objectPosition": "50% 50%",
-          "dominantColor": ""
-        }
-      },
-      {
-        "image": {
-          "src": "/images/stimmung-3.jpg",
-          "width": 2500,
-          "height": 1582,
-          "alt": "",
-          "objectPosition": "50% 50%",
-          "dominantColor": ""
-        }
-      },
-      {
-        "image": {
-          "src": "/images/stimmung-4.jpg",
+          "src": "/images/galerie-bewaesserung-1.jpg",
           "width": 2500,
           "height": 1823,
           "alt": "",
@@ -82,9 +52,49 @@
       },
       {
         "image": {
-          "src": "/images/stimmung-5.jpg",
+          "src": "/images/galerie-bewaesserung-2.jpg",
+          "width": 2500,
+          "height": 1582,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-bewaesserung-3.jpg",
           "width": 2500,
           "height": 1662,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-bewaesserung-4.jpg",
+          "width": 2500,
+          "height": 1640,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-bewaesserung-5.jpg",
+          "width": 2500,
+          "height": 1823,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-bewaesserung-6.jpg",
+          "width": 2500,
+          "height": 1667,
           "alt": "",
           "objectPosition": "50% 50%",
           "dominantColor": ""
