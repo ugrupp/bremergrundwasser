@@ -11,9 +11,9 @@
   "hero": {
     "id": "hero",
     "image": {
-      "src": "/images/grundwasser-2.jpg",
-      "width": 2304,
-      "height": 1536,
+      "src": "/images/hintergrund-grundwasser.jpg",
+      "width": 2500,
+      "height": 1667,
       "alt": "",
       "objectPosition": "50% 50%",
       "dominantColor": ""
