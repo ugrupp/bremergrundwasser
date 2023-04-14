@@ -3,7 +3,6 @@ import Head from "next/head";
 import BrunnenSection from "../components/brunnen/brunnen";
 import ContactSection from "../components/brunnen/contact";
 import PumpsSection from "../components/brunnen/pumps";
-import Carousel from "../components/carousel";
 import HeroSection from "../components/hero";
 import data from "../data/brunnen.json";
 import staticData from "../data/static.json";
@@ -35,7 +34,6 @@ const Brunnen: NextPage<PageProps> = ({ data }: PageProps) => {
           data={data.pumps}
           className="mt-80 lg:mt-120 pb-80 lg:pb-120"
         />
-        <Carousel carousel={data.carousel.carousel} />
       </div>
     </>
   );

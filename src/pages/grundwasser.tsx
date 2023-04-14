@@ -2,6 +2,7 @@ import type { InferGetStaticPropsType, NextPage } from "next";
 import Head from "next/head";
 import FeaturesSection from "../components/bewaesserung/features";
 import IntroSection from "../components/grundwasser/intro";
+import Carousel from "../components/carousel";
 import HeroSection from "../components/hero";
 import data from "../data/grundwasser.json";
 import staticData from "../data/static.json";
@@ -28,6 +29,7 @@ const Grundwasser: NextPage<PageProps> = ({ data }: PageProps) => {
       <div>
         <HeroSection data={data.hero} />
         <IntroSection data={data.intro} className="-mb-30 lg:mb-0" />
+        <Carousel carousel={data.carousel.carousel} />
         <FeaturesSection data={data.features} className="z-20" />
       </div>
     </>

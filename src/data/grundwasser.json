@@ -36,6 +36,121 @@
       "dominantColor": ""
     }
   },
+  "carousel": {
+    "id": "carousel",
+    "carousel": [
+      {
+        "image": {
+          "src": "/images/galerie-grundwasser-1.jpg",
+          "width": 2500,
+          "height": 1875,
+          "alt": "",
+          "objectPosition": "50% 55%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-grundwasser-2.jpg",
+          "width": 2500,
+          "height": 1875,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-grundwasser-3.jpg",
+          "width": 2500,
+          "height": 1875,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-grundwasser-4.jpg",
+          "width": 2500,
+          "height": 1875,
+          "alt": "",
+          "objectPosition": "50% 55%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-grundwasser-5.jpg",
+          "width": 2500,
+          "height": 1875,
+          "alt": "",
+          "objectPosition": "50% 85%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-grundwasser-6.jpg",
+          "width": 2500,
+          "height": 1667,
+          "alt": "",
+          "objectPosition": "50% 60%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-grundwasser-7.jpg",
+          "width": 2500,
+          "height": 1875,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-grundwasser-8.jpg",
+          "width": 2500,
+          "height": 1333,
+          "alt": "",
+          "objectPosition": "50% 80%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-grundwasser-9.jpg",
+          "width": 2500,
+          "height": 1334,
+          "alt": "",
+          "objectPosition": "50% 65%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-grundwasser-10.jpg",
+          "width": 2500,
+          "height": 1334,
+          "alt": "",
+          "objectPosition": "50% 15%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "image": {
+          "src": "/images/galerie-grundwasser-11.jpg",
+          "width": 2500,
+          "height": 1333,
+          "alt": "",
+          "objectPosition": "50% 40%",
+          "dominantColor": ""
+        }
+      }
+    ]
+  },
   "features": {
     "id": "features",
     "features": [
