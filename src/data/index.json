@@ -67,8 +67,8 @@
         "label": "Anfrage Bewässerung",
         "image": {
           "src": "/images/teaser-1.jpg",
-          "width": 500,
-          "height": 332,
+          "width": 640,
+          "height": 640,
           "alt": "",
           "objectPosition": "50% 50%",
           "dominantColor": ""
@@ -79,8 +79,8 @@
         "label": "Anfrage Brunnen",
         "image": {
           "src": "/images/teaser-2.jpg",
-          "width": 715,
-          "height": 400,
+          "width": 640,
+          "height": 640,
           "alt": "",
           "objectPosition": "50% 50%",
           "dominantColor": ""
