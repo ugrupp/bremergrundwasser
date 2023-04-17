@@ -131,11 +131,11 @@ const Topbar = ({ data }: TopbarProps): JSX.Element => {
                   {/* Menu toggler */}
                   <button
                     type="button"
-                    className="xl:hidden"
+                    className="flex items-center hover:text-teal-300 xl:hidden"
                     onClick={menuTogglerButtonHandler}
                   >
+                    <span className="text-15 md:text-19 mr-8 md:mr-10">Menü</span>
                     <MenuIcon className="h-30 w-30 md:h-40 md:w-40" />
-                    <span className="sr-only">Menü</span>
                   </button>
 
                   {/* Menu */}

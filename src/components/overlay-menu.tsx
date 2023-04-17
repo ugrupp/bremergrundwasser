@@ -74,12 +74,14 @@ const OverlayMenu = (): JSX.Element => {
                   </a>
                 </Link>
 
-                {/* Menu closer */}
-                <button type="button" className="flex" onClick={closeHandler}>
-                  {/* Icon */}
-                  <CloseIcon className="h-30 w-30 md:h-40 md:w-40" />
-                  <span className="sr-only">Menü schließen</span>
-                </button>
+                <div>
+                  {/* Menu closer */}
+                  <button type="button" className="flex items-center hover:text-teal-300" onClick={closeHandler}>
+                    {/* Icon */}
+                    <span className="text-15 md:text-19 mr-8 md:mr-10">Menü</span>
+                    <CloseIcon className="h-30 w-30 md:h-40 md:w-40" />
+                  </button>
+                </div>
               </div>
             </Container>
           </div>
