@@ -1,4 +1,5 @@
 import { Popover } from "@headlessui/react";
+import { useRouter } from 'next/router';
 import classNames from "classnames";
 import Image from "next/image";
 import Link from "next/link";
@@ -23,6 +24,7 @@ interface TopbarProps {
 }
 
 const Topbar = ({ data }: TopbarProps): JSX.Element => {
+  const router = useRouter();
   const { menu } = data;
 
   // Topbar height
@@ -143,7 +145,8 @@ const Topbar = ({ data }: TopbarProps): JSX.Element => {
                         <Link href={href} key={id}>
                           <a
                             className={classNames(
-                              "leading-none font-normal transition-colors text-brown-700 hover:text-teal-300 flex gap-x-5 items-center relative",
+                              "leading-none font-normal transition-colors hover:text-teal-300 flex gap-x-5 items-center relative",
+                              router.pathname === href ? "text-teal-300" : "text-brown-700",
                               {
                                 "before:h-full before:border-l before:border-dashed before:border-teal-300 before:absolute before:-left-15 before:inset-y-0 before:pointer-events-none":
                                   index > 0,
@@ -157,7 +160,8 @@ const Topbar = ({ data }: TopbarProps): JSX.Element => {
                         <Popover.Button
                           key={id}
                           className={classNames(
-                            "leading-none font-normal transition-colors text-brown-700 hover:text-teal-300 flex gap-x-5 items-center relative",
+                            "leading-none font-normal transition-colors hover:text-teal-300 flex gap-x-5 items-center relative",
+                             children.some(link => router.pathname === link.href) ? "text-teal-300" : "text-brown-700",
                             {
                               "before:h-full before:border-l before:border-dashed before:border-teal-300 before:absolute before:-left-15 before:inset-y-0 before:pointer-events-none":
                                 index > 0,
@@ -205,7 +209,8 @@ const Topbar = ({ data }: TopbarProps): JSX.Element => {
                       <Link href={href} key={href}>
                         <a
                           className={classNames(
-                            "text-17 leading-none font-normal transition-colors text-brown-700 hover:text-teal-300 flex gap-x-12 items-center relative"
+                            "text-17 leading-none font-normal transition-colors hover:text-teal-300 flex gap-x-12 items-center relative",
+                            router.pathname === href ? "text-teal-300" : "text-brown-700",
                           )}
                           onClick={() => {
                             close();

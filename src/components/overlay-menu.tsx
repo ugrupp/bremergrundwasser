@@ -1,4 +1,5 @@
 import { Dialog, Transition } from "@headlessui/react";
+import { useRouter } from 'next/router';
 import classNames from "classnames";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,6 +14,7 @@ import { menuOpenState, scrollLockState } from "../lib/state";
 import Container from "./container";
 
 const OverlayMenu = (): JSX.Element => {
+  const router = useRouter();
   const [menuOpen, setMenuOpen] = useRecoilState(menuOpenState);
 
   const closeHandler = () => {
@@ -96,7 +98,10 @@ const OverlayMenu = (): JSX.Element => {
                       <div key={id}>
                         <Link href={href}>
                           <a
-                            className="text-19 leading-none font-normal inline-block whitespace-nowrap text-brown-700"
+                            className={classNames(
+                              "text-19 leading-none font-normal inline-block whitespace-nowrap",
+                              router.pathname === href ? "text-teal-300" : "text-brown-700"
+                            )}
                             onClick={() => setMenuOpen(false)}
                           >
                             {label}
@@ -115,7 +120,8 @@ const OverlayMenu = (): JSX.Element => {
                               <Link href={href} key={href}>
                                 <a
                                   className={classNames(
-                                    "text-17 leading-none font-normal transition-colors text-brown-700 flex gap-x-12 items-center relative"
+                                    "text-17 leading-none font-normal transition-colors flex gap-x-12 items-center relative",
+                                    router.pathname === href ? "text-teal-300" : "text-brown-700"
                                   )}
                                   onClick={() => setMenuOpen(false)}
                                 >
