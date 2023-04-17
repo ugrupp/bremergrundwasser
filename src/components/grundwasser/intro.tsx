@@ -48,7 +48,7 @@ const IntroSection = ({ data, className }: IntroSectionProps): JSX.Element => {
           </article>
 
           {/* Image */}
-          <div className="col-start-5 col-end-[-1] lg:col-start-11 z-10">
+          <div className="col-start-5 col-end-[-1] lg:col-start-11">
             <div className="max-w-xs ml-auto lg:translate-y-200">
               <div className="aspect-square relative">
                 <Image

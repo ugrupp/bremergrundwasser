@@ -29,8 +29,8 @@ const Grundwasser: NextPage<PageProps> = ({ data }: PageProps) => {
       <div>
         <HeroSection data={data.hero} />
         <IntroSection data={data.intro} className="-mb-30 lg:mb-0" />
-        <Carousel carousel={data.carousel.carousel} />
         <FeaturesSection data={data.features} className="z-20" />
+        <Carousel carousel={data.carousel.carousel} />
       </div>
     </>
   );
