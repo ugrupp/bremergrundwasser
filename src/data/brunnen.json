@@ -74,5 +74,13 @@
       "druckschalter-dab-grundfos-presscontrol-pc01c",
       "montagepauschale-gartenpumpe"
     ]
+  },
+  "testimonial": {
+    "image": {
+      "src": "/images/kundenstimme-2.jpg",
+      "alt": "Heinz Holtgrefe"
+    },
+    "headline": "Heinz Holtgrefe, Lilienthal",
+    "quote": "„Selten so nette und kompetente Handwerker im Haus gehabt, die Anlage läuft seit Jahren störungsfrei und zuverlässig. Der Brunnen fördert reichlich und gutes Wasser. Zur Winterwartung wird man angerufen und um einen Termin gebeten, herrlich. Volle Punktzahl!“"
   }
 }

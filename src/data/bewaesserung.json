@@ -126,5 +126,13 @@
         "body__html": "<p>Gärten sind immer Unikate und haben ihre eigene Dynamik, die eine exakte Anpassung der Beregnungsanlage erfordert. Deshalb ist ein unverbindlicher und kostenloser Besichtigungstermin in Ihrem Garten mit Aufmaßnahme Voraussetzung für die Erstellung unseres Kostenangebot an das wir uns dann auch halten.</p>"
       }
     ]
+  },
+  "testimonial": {
+    "image": {
+      "src": "/images/kundenstimme-1.jpg",
+      "alt": "Henning Scherf"
+    },
+    "headline": "Henning Scherf, Bremer Bürgermeister a. D.",
+    "quote": "„Die neue Bewässerungsanlage in unserem Garten der Hausgemeinschaft ist eine wirkliche Erleichterung. Einen besonderen Dank an Simon und die Kollegen.“"
   }
 }

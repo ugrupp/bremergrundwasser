@@ -73,6 +73,9 @@ module.exports = {
         brown: {
           700: "#564942",
         },
+        gray: {
+          100: "#F7F6F6",
+        },
       },
       fontFamily: {
         sans: ["Bw Gradual", "sans-serif"],
