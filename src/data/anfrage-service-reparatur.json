@@ -5,6 +5,13 @@
     "headline": "Anfrage Service + Reparatur",
     "body__html": "<p>Wenn Sie hier das Formular ausfüllen und absenden, antwortet Ihnen Frau Riedemann. Sie leitet das Büro und hat die Service- Jungs unter strenger Kontrolle.</p>"
   },
+  "formConfirmationPage": {
+    "body__html": "<p>Ihre Service + Reparatur Anfrage wurde erfolgreich versendet. Frau Riedemann wird sich in Kürze bei Ihnen melden.</p>",
+    "link": {
+      "label": "Unser Plus finden Sie hier",
+      "href": "/unser-plus"
+    }
+  },
   "form": {
     "id": "anfrage"
   }
