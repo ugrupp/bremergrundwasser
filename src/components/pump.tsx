@@ -12,13 +12,17 @@ type PumpProps = {
 };
 
 const Pump = ({ pump }: PumpProps): JSX.Element => {
-  const { id, image, multi } = pump;
+  const { id, image, multi, related, inlineImage } = pump;
 
   return (
     <div className="relative" id={id}>
       {/* Image */}
       {!!image && (
-        <div className="-mb-50 md:-mb-60 max-w-sm mx-auto">
+        <div
+          className={classNames(
+            inlineImage ? "-mb-80 md:-mb-90 w-1/2 lg:w-4/6 ml-auto" : "-mb-50 md:-mb-60 max-w-sm mx-auto",
+          )}
+        >
           <Image
             quality={NEXT_IMAGE_DEFAULT_QUALITY}
             layout="responsive"
@@ -45,6 +49,20 @@ const Pump = ({ pump }: PumpProps): JSX.Element => {
           <PumpInfo pump={pump} />
         )}
       </div>
+
+      {/* Related content */}
+      {!!related && (
+        <div>
+          <p className="px-30 pb-15 pt-30 text-15 md:text-20 text-teal-300">Dazu passend</p>
+          <div className="bg-white rounded-[20px] p-30">
+            <div className="space-y-40">
+              {related.map((pump) => (
+                <PumpInfo pump={pump} key={pump.id} />
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
@@ -56,12 +74,17 @@ type PumpInfoProps = {
 };
 
 const PumpInfo = ({ pump }: PumpInfoProps): JSX.Element => {
-  const { description__html, price, priceHint, title } = pump;
+  const { description__html, price, priceHint, title, inlineImage } = pump;
 
   return (
     <div className="space-y-20 md:space-y-25">
       {/* Headline */}
-      <h3 className="text-20 md:text-25 leading-snug text-teal-300">{title}</h3>
+      <h3
+        className={classNames(
+          "text-20 md:text-25 leading-snug text-teal-300",
+          inlineImage ? "w-4/6" : "",
+        )}
+      >{title}</h3>
 
       {/* Description */}
       {!!description__html && (

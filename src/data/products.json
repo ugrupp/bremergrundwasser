@@ -114,6 +114,44 @@
         "objectPosition": "50% 50%",
         "dominantColor": ""
       }
+    },
+    {
+      "id": "original-beyer-schwengelpumpe-np75",
+      "title": "Original Beyer Schwengelpumpe NP75",
+      "description__html": "<p>Mit Wandflansch, super Qualität und nicht mit Baumarktpumpen zu vergleichen</p>",
+      "price": 28900,
+      "image": {
+        "src": "/images/products/schwengelpumpe.png",
+        "width": 478,
+        "height": 623,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      },
+      "related": [
+        {
+          "id": "bongossi-bohle",
+          "title": "Bongossi-Bohle",
+          "description__html": "<p>Mit Edelstahlschrauben fertig gebohrt, 170 x 20 x 5 cm</p>",
+          "price": 6900
+        }
+      ],
+      "inlineImage": true
+    },
+    {
+      "id": "pumpenverteiler",
+      "title": "Pumpenverteiler",
+      "description__html": "<p>Pumpenstock komplett aus Messing gefertigt mit zwei ROMA-Rückschlagventilen. Wird unter der Schwpu montiert. Gleichzeitiges fördern mit der E-Pumpe und Schwengel möglich. Keine nervigen Kugelhähne, die festsitzen können.</p>",
+      "price": 13500,
+      "image": {
+        "src": "/images/products/pumpenverteiler.png",
+        "width": 428,
+        "height": 442,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      },
+      "inlineImage": true
     }
   ],
   "equipment": [

@@ -18,19 +18,35 @@
   "pumps": {
     "id": "pumpen",
     "intro__html": "<p><strong>Unsere Pumpen:</strong> Gartenpumpen gibt es viele. Die einen Pumpen können dies gut, die anderen Pumpen anderes. Aber gute Pumpen die für alles gut sind, sind Rah gesät. Wir kennen alle Pumpen durch langejährige Erfahrung in unserer Werkstatt. Die von uns angebotenen Pumpen sind die Quintessenz hiervon. Wir führen in unserem Ladengeschäft alle Ersatzteile und wir sind schnell in der Reparatur, wenn Mal etwas schief gelaufen ist. Alle Pumpen sind für den deutschen Markt gebaut und immer mit Kabel und Schalter ausgestattet. Zudem gewähren wir auf alle Pumpen 2 Jahre Garantie von Haus aus. Somit sind Sie sicher aufgestellt. Auch nach der Garantie sind wir günstig, schnell und hilfsbereit.</p>",
-    "pumps": [
+    "pumpsTop": [
       "dab-82m-garden-inox",
-      "xydab-euro-inox-40-80z",
+      "dab-euro-inox-40-80",
       "espa-delta-1755m-sm-edelstahl",
       "espa-technopress-25-5",
       "gartenpumpe-jet-inox",
       "ksb-multi"
     ],
     "hint__html": "<p><strong>Bitte beachten bei Preisvergleichen:</strong> alle angebotenen Pumpen mit Kabel und Schalter.</p>",
+    "installationFlatrate": ["montagepauschale-gartenpumpe"],
+    "pumpsBottom": ["original-beyer-schwengelpumpe-np75", "pumpenverteiler"],
     "equipment": [
       "ansaugschlauch",
-      "druckschalter-dab-grundfos-presscontrol-pc01c",
-      "montagepauschale-gartenpumpe"
-    ]
+      "druckschalter-dab-grundfos-presscontrol-pc01c"
+    ],
+    "pumpnhus": {
+      "id": "pumpnhus",
+      "headline": "Dat Pumpenhus",
+      "body__html": "<p>Unsere schicken Pumpenhäuser passen in jeden Garten, zeitlos und wetterfest. Gefertigt aus Bongossi-Holz aus nachhaltiger Forstwirtschaft und Siebdruckholz in bester Finnischer Qualität. Aufwendig in Handarbeit gefertigt. Selbstverständlich sind alle Schrauben aus gutem Edelstahl. Auch passend für Pumpen mit Druckschalter.</p>",
+      "image": {
+        "src": "/images/dat-pumpnhus.png",
+        "width": 1109,
+        "height": 979,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      },
+      "price": 19500,
+      "priceHint": "Fertig montiert"
+    }
   }
 }

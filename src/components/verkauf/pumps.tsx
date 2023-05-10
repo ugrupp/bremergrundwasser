@@ -7,6 +7,8 @@ import richtextStyles from "../../styles/richtext.module.css";
 import Container from "../container";
 import Equipment from "../equipment";
 import Pump from "../pump";
+import Pumpnhus from "./pumpnhus";
+import InstallationFlatrate from "../installationFlatrate";
 
 interface PumpsSectionProps extends HTMLAttributes<HTMLElement> {
   data: typeof data.pumps;
@@ -16,7 +18,7 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
   return (
     <section className={classNames(className, "relative")} id={data.id}>
       {/* Content */}
-      <Container className="relative">
+      <Container className="relative mb-90 lg:mb-[134px]">
         <div className="grid grid-cols-16 gap-y-70">
           {/* Intro */}
           <div
@@ -34,10 +36,10 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
             </div>
           </div>
 
-          {/* Pumps */}
+          {/* Pumps top */}
           <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-[-1]">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-30 md:gap-60">
-              {resolvePumps(data.pumps).map((pump) => (
+              {resolvePumps(data.pumpsTop).map((pump) => (
                 <Pump key={pump.id} pump={pump} />
               ))}
             </div>
@@ -55,13 +57,33 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
             </div>
           </div>
 
-          {/* Equipment */}
+          {/* Pumps bottom */}
           <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-[-1]">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-30 md:gap-60">
-              {resolveEquipment(data.equipment).map((equipment) => (
-                <Equipment key={equipment.id} equipment={equipment} />
+              {resolvePumps(data.pumpsBottom).map((pump) => (
+                <Pump key={pump.id} pump={pump} />
               ))}
             </div>
+          </div>
+
+          {/* Installation flatrate */}
+          {resolveEquipment(data.installationFlatrate).map((installationFlatrate) => (
+            <InstallationFlatrate key={installationFlatrate.id} installationFlatrate={installationFlatrate} />
+          ))}
+
+        </div>
+      </Container>
+
+      {/* Pumpnhus */}
+      <Pumpnhus pumpnhus={data.pumpnhus} />
+
+      <Container className="mt-90 lg:mt-[134px]">
+        {/* Equipment bottom */}
+        <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-[-1]">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-30 md:gap-60">
+            {resolveEquipment(data.equipment).map((equipment) => (
+              <Equipment key={equipment.id} equipment={equipment} />
+            ))}
           </div>
         </div>
       </Container>
