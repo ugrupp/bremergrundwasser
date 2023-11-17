@@ -76,18 +76,6 @@
         }
       },
       {
-        "name": "Barbara Aydin",
-        "description": "Organisation Brunnenbau, unser Wirbelwind und „Chefin“ von Papa",
-        "image": {
-          "src": "/images/team/barbara-aydin.jpg",
-          "width": 399,
-          "height": 399,
-          "alt": "",
-          "objectPosition": "50% 50%",
-          "dominantColor": ""
-        }
-      },
-      {
         "name": "Nico Cañada",
         "description": "herzlicher Allrounder, Service und Bewässerung erfahren",
         "image": {
