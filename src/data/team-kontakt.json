@@ -148,18 +148,6 @@
         }
       },
       {
-        "name": "Sascha Kantelberg",
-        "description": "vom Bürohengst zum Brunnenbauhelfer in nur 3 Tagen, es gibt noch Wunder!",
-        "image": {
-          "src": "/images/team/sascha-kantelberg.jpg",
-          "width": 399,
-          "height": 399,
-          "alt": "",
-          "objectPosition": "50% 50%",
-          "dominantColor": ""
-        }
-      },
-      {
         "name": "Der Lolli",
         "description": "unser Wachpersonal und kümmert sich um unser Wohlbefinden",
         "image": {
