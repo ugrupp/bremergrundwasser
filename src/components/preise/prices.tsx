@@ -18,40 +18,31 @@ const PricesSection = ({
     <section
       className={classNames(
         className,
-        "relative py-80 lg:py-120 bg-white bg-gradient-to-b from-brown-700/5"
+        "relative pt-30 pb-80 lg:pt-50 lg:pb-120 bg-white bg-gradient-to-b from-brown-700/5"
       )}
       id={data.id}
     >
       <Container>
         <div className="grid grid-cols-16 gap-y-50">
-          {data.features.map(({ headline, body__html }, index) => (
-            <article
-              key={index}
+          {/* Intro */}
+          {!!data.intro__html && (
+            <div
               className={classNames(
-                "col-start-2 col-end-[-2] relative",
-                {
-                  "md:col-start-1 md:col-end-8 lg:col-start-3": index % 2 === 0,
-                  "md:col-start-10 md:col-end-[-1] lg:col-end-[-3]":
-                    index % 2 === 1,
-                },
+                "col-start-1 col-end-[-5] md:col-end-9",
                 richtextStyles.root,
                 // Text
-                "text-15 md:text-20 leading-normal",
-                // Headlines
-                "[&>h2]:text-20 md:[&>h2]:text-25 [&>h2>span]:text-brown-700"
+                "text-20 md:text-25 leading-normal"
               )}
             >
-              {!!headline && <h2>{parse(headline)}</h2>}
-
-              {parse(body__html)}
-            </article>
-          ))}
+              {parse(data.intro__html)}
+            </div>
+          )}
 
           {/* Hint */}
           {!!data.hint__html && (
             <div
               className={classNames(
-                "col-start-1 col-end-[-5] md:col-end-7 xl:col-end-5",
+                "col-start-1 col-end-[-5] md:col-end-9",
                 richtextStyles.root,
                 // Text
                 "text-15 md:text-20 leading-normal"
@@ -65,7 +56,7 @@ const PricesSection = ({
           {!!data.contactHint__html && (
             <div
               className={classNames(
-                "col-start-1 col-end-[-5] md:col-end-7 xl:col-end-5",
+                "col-start-1 col-end-[-5] md:col-end-9",
                 richtextStyles.root,
                 // Text
                 "text-20 md:text-25 leading-snug [&>p]:text-teal-300"
@@ -109,6 +100,20 @@ const PricesSection = ({
                 </div>
               </div>
             </>
+          )}
+
+          {/* Content */}
+          {!!data.content__html && (
+            <div
+              className={classNames(
+                "col-start-1 col-end-[-1] pt-20 md:col-start-2 md:col-end-[-2] md:pt-60 xl:col-start-3 xl:col-end-[-3] xl:pt-120",
+                richtextStyles.root,
+                // Text
+                "text-15 md:text-20 leading-normal"
+              )}
+            >
+              {parse(data.content__html)}
+            </div>
           )}
         </div>
       </Container>
