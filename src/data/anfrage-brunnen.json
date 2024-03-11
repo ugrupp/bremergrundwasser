@@ -3,17 +3,16 @@
   "header": {
     "id": "header",
     "headline": "Anfrage Brunnen",
-    "body__html": "<p>Wenn Sie hier das Formular ausfüllen und absenden, antwortet Ihnen Frau Barbara Aydin. Sie leitet die Brunnenbauabteilung mit Charme und Sachverstand.</p>"
+    "body__html": "<p>Wenn Sie hier das Formular ausfüllen und absenden, antwortet Ihnen Frau Maren Merten. Sie leitet die Brunnenbauabteilung mit Charme und Sachverstand.</p>"
   },
   "formConfirmationPage": {
-    "body__html": "<p>Ihre Brunnenanfrage wurde erfolgreich versendet. Barbara Aydin wird sich in Kürze bei Ihnen melden.</p>",
+    "body__html": "<p>Ihre Brunnenanfrage wurde erfolgreich versendet. Maren Merten wird sich in Kürze bei Ihnen melden.</p>",
     "link": {
       "label": "Wissenswertes über Grundwasser",
       "href": "/grundwasser"
     }
   },
   "form": {
-    "id": "anfrage",
-    "hint__html": "<p>*Alle Bohrung, egal ob Gartenbrunnen oder sonstige Bohrungen, sind anmeldepflichtig bei der unteren Wasserbehörde in Hannover! Zudem muss ein Schichtenverzeichniss (die ausführliche Beschreibung des Brunnen mit allen Vorkommnissen) eingereicht werden. Bei Nichtbeachtung drohen empfindlich Geldstrafen. Sie können die Anmeldung selber vornehmen, oder von uns für 49,00 € durchführen lassen. Wir übernehmen dann alle erforderlichen Formalitäten- Sie brauchen sich dann nicht weiter darum zu kümmern. Bei einigen Gemeinden, außerhalb von Bremen, fallen geringe und einmalige Gebühren an. In Bremen werden keine Gebühren erhoben! Stand 02/2021.</p>"
+    "id": "anfrage"
   }
 }

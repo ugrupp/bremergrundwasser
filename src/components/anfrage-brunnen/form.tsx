@@ -1,15 +1,12 @@
 import classNames from "classnames";
-import parse from "html-react-parser";
 import Link from "next/link";
 import { HTMLAttributes } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import ArrowIcon from "../../assets/icons/arrow.svg";
 import data from "../../data/anfrage-brunnen.json";
-import richtextStyles from "../../styles/richtext.module.css";
 import Container from "../container";
 import Checkbox from "../form-elements/checkbox";
 import Input from "../form-elements/input";
-import Radio from "../form-elements/radio";
 import Textarea from "../form-elements/textarea";
 
 interface FormSectionProps extends HTMLAttributes<HTMLElement> {
@@ -59,42 +56,6 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
                 type="email"
               />
               <Input id="phone" name="phone" label="Telefon" type="tel" />
-            </fieldset>
-
-            <fieldset className="mt-60 md:mt-70 space-y-30 md:space-y-40">
-              <legend className="text-20 md:text-25 leading-tight text-teal-300">
-                Brunnenanmeldung
-              </legend>
-
-              <div className="grid grid-cols-1 lg:grid-cols-5 gap-y-40 gap-x-60">
-                <div className="lg:col-span-3 space-y-30 md:space-y-40 text-base md:text-20 leading-normal">
-                  <Radio
-                    id="register-client"
-                    name="register"
-                    required
-                    label="durch Kunde"
-                    value="Brunnenanmeldung durch Kunde"
-                  />
-                  <Radio
-                    id="register-bremergrundwasser"
-                    name="register"
-                    required
-                    label="durch bremergrundwasser* (+49,00 €)"
-                    value="Brunnenanmeldung durch bremergrundwasser"
-                  />
-                </div>
-
-                <div
-                  className={classNames(
-                    "lg:col-span-2",
-                    richtextStyles.root,
-                    // Text
-                    "text-12 md:text-16 leading-normal"
-                  )}
-                >
-                  {parse(data.hint__html)}
-                </div>
-              </div>
             </fieldset>
 
             <fieldset className="mt-60 md:mt-70 space-y-30 md:space-y-40">
