@@ -43,7 +43,7 @@
   },
   "contact": {
     "id": "anfrage",
-    "body__html": "<p><strong>Wir arbeiten sauber und ohne Fluschaden dank unserem speziellen Spülsystem.</strong> Keine Überschwemmung im Garten und ein sauberes Bohrloch. Oftmals reicht es aus, eine Gehwegplatte oder 2-3 Steine aufzunehmen, um den Brunnen einzuspülen. Auch in Garagen oder im Schuppen ist es durchaus möglich, gegen einen geringen Aufpreis, Brunnen zu erstellen.</p>",
+    "body__html": "<p><strong>Wir arbeiten sauber und ohne Flurschaden dank unserem speziellen Spülsystem.</strong> Keine Überschwemmung im Garten und ein sauberes Bohrloch. Oftmals reicht es aus, eine Gehwegplatte oder 2-3 Steine aufzunehmen, um den Brunnen einzuspülen. Auch in Garagen oder im Schuppen ist es durchaus möglich, gegen einen geringen Aufpreis, Brunnen zu erstellen.</p>",
     "teaser": {
       "href": "/anfrage-brunnen",
       "label": "Anfrage Brunnen",
