@@ -102,34 +102,6 @@
       ]
     },
     {
-      "id": "ksb-multi-eco-35-p",
-      "title": "KSB Multi ECO 35 P",
-      "description__html": "<p>Extrem leise, 5 Stufiges Laufwerk, 800 W, 4,5 bar, 4,2m³/h Q</p>",
-      "price": 40900,
-      "image": {
-        "src": "/images/products/Multi-Eco-36-KSB.png",
-        "width": 743,
-        "height": 543,
-        "alt": "",
-        "objectPosition": "50% 50%",
-        "dominantColor": ""
-      }
-    },
-    {
-      "id": "ksb-multi-eco-36-p",
-      "title": "KSB Multi ECO 36 P",
-      "description__html": "<p>Extrem leise, 5 Stufiges Laufwerk, 1100 W, 5,5 bar, 4,5m³/h Q</p>",
-      "price": 44900,
-      "image": {
-        "src": "/images/products/Multi-Eco-36-KSB.png",
-        "width": 743,
-        "height": 543,
-        "alt": "",
-        "objectPosition": "50% 50%",
-        "dominantColor": ""
-      }
-    },
-    {
       "id": "original-beyer-schwengelpumpe-np75",
       "title": "Original Beyer Schwengelpumpe NP75",
       "description__html": "<p>Mit Wandflansch, super Qualität und nicht mit Baumarktpumpen zu vergleichen</p>",
