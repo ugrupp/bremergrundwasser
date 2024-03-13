@@ -65,7 +65,7 @@
     },
     "message": {
       "headline": "Anrufen oder schreiben",
-      "content": "Telefon 0421 200 78 61 <br /><a href='mailto:info@bremergrundwasser.de'>info@bremergrundwasser.de</a>"
+      "content": "Telefon <a href='tel:+494212007861'>0421 200 78 61</a> <br /><a href='mailto:info@bremergrundwasser.de'>info@bremergrundwasser.de</a>"
     },
     "bgImage": {
       "src": "/images/footer.jpg",
