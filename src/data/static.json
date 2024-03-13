@@ -61,7 +61,7 @@
     },
     "address": {
       "headline": "Besuchen Sie unser Ladengeschäft",
-      "content": "<address>Borgfelder Heerstraße 7 <br />28357 Bremen-Borgfeld</address>"
+      "content": "<address><a href='https://maps.app.goo.gl/HAV522C4FzwDZDRa9' target='_blank' title='bremergrundwasser auf Google Maps'>Borgfelder Heerstraße 7 <br />28357 Bremen-Borgfeld</a></address>"
     },
     "message": {
       "headline": "Anrufen oder schreiben",

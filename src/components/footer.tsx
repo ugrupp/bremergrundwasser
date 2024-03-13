@@ -81,7 +81,9 @@ const Footer = React.forwardRef<HTMLElement, FooterProps>(
                         richtextStyles.root,
                         richtextStyles["on-teal"],
                         // Text
-                        "text-20 lg:text-25 leading-normal"
+                        "text-20 lg:text-25 leading-normal",
+                        // Links
+                        "[&_a]:!text-brown-700 [&_a:hover]:!text-white"
                       )}
                     >
                       {parse(data.address.content)}
