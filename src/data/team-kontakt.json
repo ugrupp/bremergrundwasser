@@ -76,6 +76,18 @@
         }
       },
       {
+        "name": "Maren Merten",
+        "description": "Organisation Brunnenbau und Chefin von Elyas",
+        "image": {
+          "src": "/images/team/maren-merten.jpg",
+          "width": 399,
+          "height": 399,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
         "name": "Nico Cañada",
         "description": "herzlicher Allrounder, Service und Bewässerung erfahren",
         "image": {
@@ -92,6 +104,18 @@
         "description": "gelernter Brunnenbauer aus dem Pott, mit Dutt und reiner Seele",
         "image": {
           "src": "/images/team/simon-cimpeanu.jpg",
+          "width": 399,
+          "height": 399,
+          "alt": "",
+          "objectPosition": "50% 50%",
+          "dominantColor": ""
+        }
+      },
+      {
+        "name": "Mevludin Kahrovic",
+        "description": "Spitzname Merlin, zusammen mit Elyas unser Brunnen Dream-Team!",
+        "image": {
+          "src": "/images/team/mevludin-kahrovic.jpg",
           "width": 399,
           "height": 399,
           "alt": "",
