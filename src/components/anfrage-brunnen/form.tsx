@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import Link from "next/link";
-import { HTMLAttributes } from "react";
+import { HTMLAttributes, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import ArrowIcon from "../../assets/icons/arrow.svg";
 import data from "../../data/anfrage-brunnen.json";
@@ -14,6 +14,14 @@ interface FormSectionProps extends HTMLAttributes<HTMLElement> {
 }
 
 const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
+  const [captchaDone, setCaptchaDone] = useState(false);
+  const onSubmit: React.FormEventHandler<HTMLFormElement> = (event) => {
+    if (!captchaDone) {
+      event.preventDefault();
+      alert("Bitte bestätigen Sie das Captcha.");
+    }
+  };
+
   return (
     <section
       className={classNames(
@@ -28,14 +36,10 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
             method="post"
             action="https://submit-form.com/8LJHvRJL"
             className="col-start-1 col-end-[-1] sm:col-end-[-5] lg:col-start-3 lg:col-end-[-3]"
+            onSubmit={onSubmit}
           >
             {/* Configure Formspark success page */}
-            <input
-              type="hidden"
-              name="_redirect"
-              value="https://www.bremergrundwasser.de/anfrage-brunnen-danke-seite"
-            />
-            <input type="hidden" name="_append" value="false" />
+            <input type="hidden" name="_feedback.language" value="de" />
 
             {/* Configure custom subject */}
             <input
@@ -71,6 +75,9 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
                 <ReCAPTCHA
                   className="mb-20 lg:ml-auto"
                   sitekey={process.env.NEXT_PUBLIC_RECAPTHA_SITE_KEY || ""}
+                  onChange={() => {
+                    setCaptchaDone(true);
+                  }}
                 />
               </div>
 
