@@ -38,8 +38,18 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
             className="col-start-1 col-end-[-1] sm:col-end-[-5] lg:col-start-3 lg:col-end-[-3]"
             onSubmit={onSubmit}
           >
-            {/* Configure Formspark success page */}
-            <input type="hidden" name="_feedback.language" value="de" />
+            {/* Configure Formspark redirect pages */}
+            <input
+              type="hidden"
+              name="_redirect"
+              value="https://www.bremergrundwasser.de/anfrage-bewaesserung-danke-seite"
+            />
+            <input
+              type="hidden"
+              name="_error"
+              value="https://www.bremergrundwasser.de/anfrage-bewaesserung-fehler"
+            />
+            <input type="hidden" name="_append" value="false" />
 
             {/* Configure custom subject */}
             <input

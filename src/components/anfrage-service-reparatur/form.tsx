@@ -39,7 +39,17 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
             onSubmit={onSubmit}
           >
             {/* Configure Formspark success page */}
-            <input type="hidden" name="_feedback.language" value="de" />
+            <input
+              type="hidden"
+              name="_redirect"
+              value="https://www.bremergrundwasser.de/anfrage-service-reparatur-danke-seite"
+            />
+            <input
+              type="hidden"
+              name="_error"
+              value="https://www.bremergrundwasser.de/anfrage-service-reparatur-fehler"
+            />
+            <input type="hidden" name="_append" value="false" />
 
             {/* Configure custom subject */}
             <input

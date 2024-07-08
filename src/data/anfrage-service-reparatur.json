@@ -3,13 +3,20 @@
   "header": {
     "id": "header",
     "headline": "Anfrage Service + Reparatur",
-    "body__html": "<p>Wenn Sie hier das Formular ausfüllen und absenden, antwortet Ihnen Frau Riedemann. Sie leitet das Büro und hat die Service- Jungs unter strenger Kontrolle.</p>"
+    "body__html": "<p>Wenn Sie hier das Formular ausfüllen und absenden, antwortet Ihnen Frau Riedemann. Sie leitet das Büro und hat die Service-Jungs unter strenger Kontrolle.</p>"
   },
   "formConfirmationPage": {
     "body__html": "<p>Ihre Service + Reparatur Anfrage wurde erfolgreich versendet. Frau Riedemann wird sich in Kürze bei Ihnen melden.</p>",
     "link": {
       "label": "Unser Plus finden Sie hier",
       "href": "/unser-plus"
+    }
+  },
+  "formErrorPage": {
+    "body__html": "<p>Bitte versuchen Sie es erneut oder kontaktieren Sie uns per E-Mail an <a href='mailto:info@bremergrundwasser.de'>info@bremergrundwasser.de</a>.</p>",
+    "link": {
+      "label": "Zurück zum Anfrageformular",
+      "href": "/anfrage-service-reparatur"
     }
   },
   "form": {

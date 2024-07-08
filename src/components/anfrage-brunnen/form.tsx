@@ -39,7 +39,17 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
             onSubmit={onSubmit}
           >
             {/* Configure Formspark success page */}
-            <input type="hidden" name="_feedback.language" value="de" />
+            <input
+              type="hidden"
+              name="_redirect"
+              value="https://www.bremergrundwasser.de/anfrage-brunnen-danke-seite"
+            />
+            <input
+              type="hidden"
+              name="_error"
+              value="https://www.bremergrundwasser.de/anfrage-brunnen-fehler"
+            />
+            <input type="hidden" name="_append" value="false" />
 
             {/* Configure custom subject */}
             <input
@@ -47,7 +57,6 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
               name="_email.subject"
               value="Anfrage Brunnen"
             />
-
             <fieldset className="space-y-30 md:space-y-40">
               <Input required id="name" name="name" label="Vor- + Nachname" />
               <Input id="street" name="street" label="Straße + Hausnummer" />
@@ -61,7 +70,6 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
               />
               <Input id="phone" name="phone" label="Telefon" type="tel" />
             </fieldset>
-
             <fieldset className="mt-60 md:mt-70 space-y-30 md:space-y-40">
               <legend className="text-20 md:text-25 leading-tight text-teal-300">
                 Ihre Nachricht
@@ -69,7 +77,6 @@ const FormSection = ({ data, className }: FormSectionProps): JSX.Element => {
 
               <Textarea id="message" name="message" />
             </fieldset>
-
             <div className="mt-60 md:mt-70">
               <div className="flex">
                 <ReCAPTCHA

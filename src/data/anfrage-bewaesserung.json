@@ -12,6 +12,13 @@
       "href": "/bewaesserung"
     }
   },
+  "formErrorPage": {
+    "body__html": "<p>Bitte versuchen Sie es erneut oder kontaktieren Sie uns per E-Mail an <a href='mailto:info@bremergrundwasser.de'>info@bremergrundwasser.de</a>.</p>",
+    "link": {
+      "label": "Zurück zum Anfrageformular",
+      "href": "/anfrage-bewaesserung"
+    }
+  },
   "form": {
     "id": "anfrage"
   }
