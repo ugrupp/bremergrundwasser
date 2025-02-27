@@ -57,14 +57,14 @@
       }
     },
     {
-      "id": "gartenpumpe-jet-inox",
-      "title": "Gartenpumpe Jet-Inox",
-      "description__html": "<p>Eigenmarke, kräftige und günstige Pumpe mit Edelstahlgehäuse, 1.200W, 4,6 bar, 3,6m³/h Vergleichbar mit Tallas/Alko</p>",
-      "price": 15900,
+      "id": "espa-zonda-130-s",
+      "title": "Espa Zonda 130 S",
+      "description__html": "<p>Kräftige und günstige Pumpe mit Edelstahlgehäuse, 1.300W, 5 bar, 4,8m³/h. Sehr leise und von guter Qualität!</p>",
+      "price": 19900,
       "image": {
-        "src": "/images/products/Jet-Inox-Neptun.png",
-        "width": 725,
-        "height": 604,
+        "src": "/images/products/espa-zonda-130s.png",
+        "width": 800,
+        "height": 611,
         "alt": "",
         "objectPosition": "50% 50%",
         "dominantColor": ""
