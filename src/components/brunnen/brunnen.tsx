@@ -34,17 +34,7 @@ const BrunnenSection = ({
         {/* Brunnen */}
         <div className="grid grid-cols-16 gap-y-50 md:gap-y-120">
           {data.brunnen.map(
-            (
-              {
-                title,
-                subtitle,
-                content__html,
-                price,
-                priceHint,
-                priceDisclaimer__html,
-              },
-              index
-            ) => (
+            ({ title, subtitle, content__html, prices }, index) => (
               <article
                 key={index}
                 className={classNames(
@@ -85,32 +75,40 @@ const BrunnenSection = ({
                 </div>
 
                 {/* Price & price hint */}
-                {!!price && (
-                  <div>
-                    {/* Price hint */}
-                    {!!priceHint && (
-                      <p className="text-12 md:text-16 leading-normal">
-                        {priceHint}
-                      </p>
-                    )}
+                {prices &&
+                  prices.length > 0 &&
+                  prices.map(
+                    ({ priceHint, price, priceDisclaimer__html }, index) => (
+                      <div key={index}>
+                        {!!price && (
+                          <div>
+                            {/* Price hint */}
+                            {!!priceHint && (
+                              <p className="text-12 md:text-16 leading-normal">
+                                {priceHint}
+                              </p>
+                            )}
 
-                    {/* Price */}
-                    <p className="text-20 md:text-25 leading-snug text-teal-300">
-                      ab {numberFormat.format(price / 100)}
-                    </p>
+                            {/* Price */}
+                            <p className="flex items-baseline gap-x-10 text-20 md:text-25 leading-snug text-teal-300 after:grow after:border-t after:border-dashed after:border-teal-300">
+                              ab {numberFormat.format(price / 100)}
+                            </p>
 
-                    {!!priceDisclaimer__html && (
-                      <div
-                        className={classNames(
-                          "text-12 md:text-16 leading-normal [&_a]:underline",
-                          "opacity-50"
+                            {!!priceDisclaimer__html && (
+                              <div
+                                className={classNames(
+                                  "text-12 md:text-16 leading-normal [&_a]:underline",
+                                  "opacity-50"
+                                )}
+                              >
+                                {parse(priceDisclaimer__html)}
+                              </div>
+                            )}
+                          </div>
                         )}
-                      >
-                        {parse(priceDisclaimer__html)}
                       </div>
-                    )}
-                  </div>
-                )}
+                    )
+                  )}
               </article>
             )
           )}
