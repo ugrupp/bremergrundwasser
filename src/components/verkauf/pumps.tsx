@@ -18,7 +18,7 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
   return (
     <section className={classNames(className, "relative")} id={data.id}>
       {/* Content */}
-      <Container className="relative mb-90 lg:mb-[134px]">
+      <Container className="relative">
         <div className="grid grid-cols-16 gap-y-70">
           {/* Intro */}
           <div
@@ -67,17 +67,18 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
           </div>
 
           {/* Installation flatrate */}
-          {resolveEquipment(data.installationFlatrate).map((installationFlatrate) => (
-            <InstallationFlatrate key={installationFlatrate.id} installationFlatrate={installationFlatrate} />
-          ))}
-
+          {resolveEquipment(data.installationFlatrate).map(
+            (installationFlatrate) => (
+              <InstallationFlatrate
+                key={installationFlatrate.id}
+                installationFlatrate={installationFlatrate}
+              />
+            )
+          )}
         </div>
       </Container>
 
-      {/* Pumpnhus */}
-      <Pumpnhus pumpnhus={data.pumpnhus} />
-
-      <Container className="mt-90 lg:mt-[134px]">
+      <Container className="my-90 lg:my-[134px]">
         {/* Equipment bottom */}
         <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-[-1]">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-30 md:gap-60">
@@ -87,6 +88,9 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
           </div>
         </div>
       </Container>
+
+      {/* Pumpnhus */}
+      <Pumpnhus pumpnhus={data.pumpnhus} />
     </section>
   );
 };

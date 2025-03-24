@@ -26,7 +26,7 @@ const Verkauf: NextPage<PageProps> = ({ data }: PageProps) => {
         <title>Verkauf – bremergrundwasser</title>
       </Head>
 
-      <div className="relative pb-80 lg:pb-120">
+      <div className="relative">
         {/* BG */}
         <div className={classNames(styles.bg, "absolute inset-0 opacity-5")} />
 
