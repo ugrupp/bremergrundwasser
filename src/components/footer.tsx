@@ -9,6 +9,7 @@ import richtextStyles from "../styles/richtext.module.css";
 import Container from "./container";
 import ArrowIcon from "../assets/icons/arrow.svg";
 import React from "react";
+import { useRouter } from "next/router";
 import { Image as ImageType } from "../types/image";
 
 interface FooterProps {
@@ -20,6 +21,7 @@ const Footer = React.forwardRef<HTMLElement, FooterProps>(
   ({ data, bgImage }, ref) => {
     const year = String(new Date().getFullYear());
     const resolvedBgImage = bgImage ?? data.bgImage;
+    const router = useRouter();
 
     return (
       <footer
@@ -128,6 +130,14 @@ const Footer = React.forwardRef<HTMLElement, FooterProps>(
 
                 {/* Legal hint */}
                 <p>{data.legalHint.replace("{year}", year)}</p>
+
+                {/*
+                  Guarantee
+                  Show the guarantee only on the homepage or the brunnen page
+                  because are the only pages with a link to the guarantee.
+                */}
+                {(router.pathname === "/" ||
+                  router.pathname === "/brunnen") && <p>{data.guarantee}</p>}
 
                 {/* Copyright */}
                 <p>{data.copyright.replace("{year}", year)}</p>
