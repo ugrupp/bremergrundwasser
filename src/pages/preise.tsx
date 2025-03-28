@@ -3,6 +3,7 @@ import HeaderSection from "../components/header";
 import data from "../data/preise.json";
 import staticData from "../data/static.json";
 import { generateImagePlaceholders } from "../lib/helpers";
+import BrunnenSection from "../components/brunnen/brunnen";
 import PricesSection from "../components/preise/prices";
 import Head from "next/head";
 
@@ -26,7 +27,10 @@ const Preise: NextPage<PageProps> = ({ data }: PageProps) => {
 
       <div>
         <HeaderSection data={data.header} />
-        <PricesSection data={data.prices} />
+        <div className="relative pt-30 lg:pt-50 bg-white bg-gradient-to-b from-brown-700/5">
+          <BrunnenSection data={data.brunnen} />
+          <PricesSection data={data.prices} />
+        </div>
       </div>
     </>
   );

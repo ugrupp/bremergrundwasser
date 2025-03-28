@@ -4,9 +4,48 @@
     "id": "header",
     "headline": "Preise"
   },
+  "brunnen": {
+    "id": "brunnen",
+    "headline__html": "",
+    "brunnen": [
+      {
+        "title": "Spülbrunnen „Klassik“",
+        "subtitle": "bis 10 m, max. 15 m möglich",
+        "content__html": "<h3>Inklusive</h3><ul><li>Messing-Rückschlagventil mit Entwässerungsmöglichkeit</li><li>NBR-Dichtung und Messing-PE-Verschraubung</li><li>großer 2″ Zoll Filter im Grundwasserleiter für eine lange Lebensdauer</li><li>fachgerechte Kiesfilterschüttung</li><li><strong>10 Jahre Garantie auf die Wasserförderung*</strong></li></ul>",
+        "prices": [
+          {
+            "priceHint": "von Oktober bis März, Komplettpreis",
+            "price": 41900,
+            "priceDisclaimer__html": "<p>Alle Gebiete in Bremen</p>"
+          },
+          {
+            "priceHint": "von April bis September, Komplettpreis",
+            "price": 43900,
+            "priceDisclaimer__html": "<p>Alle Gebiete in Bremen</p>"
+          }
+        ]
+      },
+      {
+        "title": "Spülbrunnen „Premium“",
+        "subtitle": "bis 10 m, max. 15 m möglich",
+        "content__html": "<h3>Ausführung wie „Klassik“ aber mit</h3><ul><li>2 x 2″ Zoll-Filter und angepasster Kiesfilterschüttung, für eine hohe Förderleistungen und maximale Lebensdauer. Speziell für Beregnungsanlagen und großen Grundstücken mit langen Förderzeiten.</li><li><strong>10 Jahre Garantie auf die Wasserförderung*</strong></li></ul>",
+        "prices": [
+          {
+            "priceHint": "von Oktober bis März, Komplettpreis",
+            "price": 46900,
+            "priceDisclaimer__html": "<p>Alle Gebiete in Bremen</p>"
+          },
+          {
+            "priceHint": "von April bis September, Komplettpreis",
+            "price": 48900,
+            "priceDisclaimer__html": "<p>Alle Gebiete in Bremen</p>"
+          }
+        ]
+      }
+    ]
+  },
   "prices": {
     "id": "features",
-    "intro__html": "<p><strong>419,00 €</strong> in allen Gebieten in Bremen, sowie einige Gemeinden umzu</p>",
     "hint__html": "<p>HB-Nord, Gr. Mackenstedt, Stuhr-Heiligenrode, Worpswede auf Anfrage.</p>",
     "contactHint__html": "<p>Sprechen Sie uns an, wir beraten Sie gerne.</p>",
     "disclaimer__html": "<p>Keine Brunnen von uns möglich in: HB-Nord ab Lesum, Oyten-Stadt, Sottrum, OHZ gesamtes Gebiet ab Hamme Richtung BRH (Leuchtenburg/ Hambergen, Heilshorn)</p>",

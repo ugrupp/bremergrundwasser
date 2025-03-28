@@ -18,18 +18,20 @@ const BrunnenSection = ({
     <section className={classNames(className, "relative")} id={data.id}>
       <Container>
         {/* Head */}
-        <div className="grid grid-cols-16 mb-80 lg:mb-120">
-          {/* Headline */}
-          <h1
-            className={classNames(
-              "col-start-1 col-end-[-1] md:col-end-9",
-              "text-25 md:text-30 leading-snug font-normal text-teal-300",
-              "[&>span]:text-15 md:[&>span]:text-20 [&>span]:text-brown-700"
-            )}
-          >
-            {parse(data.headline__html)}
-          </h1>
-        </div>
+        {!!data.headline__html && (
+          <div className="grid grid-cols-16 mb-80 lg:mb-120">
+            {/* Headline */}
+            <h1
+              className={classNames(
+                "col-start-1 col-end-[-1] md:col-end-9",
+                "text-25 md:text-30 leading-snug font-normal text-teal-300",
+                "[&>span]:text-15 md:[&>span]:text-20 [&>span]:text-brown-700"
+              )}
+            >
+              {parse(data.headline__html)}
+            </h1>
+          </div>
+        )}
 
         {/* Brunnen */}
         <div className="grid grid-cols-16 gap-y-50 md:gap-y-120">

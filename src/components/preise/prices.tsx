@@ -18,26 +18,12 @@ const PricesSection = ({
     <section
       className={classNames(
         className,
-        "relative pt-30 pb-80 lg:pt-50 lg:pb-120 bg-white bg-gradient-to-b from-brown-700/5"
+        "relative pt-30 pb-80 lg:pt-50 lg:pb-120"
       )}
       id={data.id}
     >
       <Container>
         <div className="grid grid-cols-16 gap-y-50">
-          {/* Intro */}
-          {!!data.intro__html && (
-            <div
-              className={classNames(
-                "col-start-1 col-end-[-5] md:col-end-9",
-                richtextStyles.root,
-                // Text
-                "text-20 md:text-25 leading-normal"
-              )}
-            >
-              {parse(data.intro__html)}
-            </div>
-          )}
-
           {/* Hint */}
           {!!data.hint__html && (
             <div
@@ -56,7 +42,7 @@ const PricesSection = ({
           {!!data.contactHint__html && (
             <div
               className={classNames(
-                "col-start-1 col-end-[-5] md:col-end-9",
+                "md:pt-40 col-start-1 col-end-[-5] md:col-end-9",
                 richtextStyles.root,
                 // Text
                 "text-20 md:text-25 leading-snug [&>p]:text-teal-300"

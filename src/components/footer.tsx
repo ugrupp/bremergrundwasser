@@ -137,7 +137,8 @@ const Footer = React.forwardRef<HTMLElement, FooterProps>(
                   because are the only pages with a link to the guarantee.
                 */}
                 {(router.pathname === "/" ||
-                  router.pathname === "/brunnen") && <p>{data.guarantee}</p>}
+                  router.pathname === "/brunnen" ||
+                  router.pathname === "/preise") && <p>{data.guarantee}</p>}
 
                 {/* Copyright */}
                 <p>{data.copyright.replace("{year}", year)}</p>
