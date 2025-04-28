@@ -2,6 +2,7 @@ import type { InferGetStaticPropsType, NextPage } from "next";
 import Head from "next/head";
 import ContactSection from "../components/home/contact";
 import HeroSection from "../components/home/hero";
+import HunterSection from "../components/home/hunter";
 import IntroSection from "../components/home/intro";
 import PumpsSection from "../components/home/pumps";
 import VideoSection from "../components/home/video";
@@ -30,12 +31,13 @@ const Home: NextPage<PageProps> = ({ data }: PageProps) => {
         </title>
       </Head>
 
-      <div className="pb-80 lg:pb-120">
+      <div>
         <HeroSection data={data.hero} />
         <IntroSection data={data.intro} className="pb-180 lg:pb-[350px]" />
         <VideoSection data={data.video} className="-mt-100 lg:-mt-200" />
         <ContactSection data={data.contact} className="mt-80 lg:mt-120 z-10" />
         <PumpsSection data={data.pumps} className="mt-80 lg:mt-120" />
+        <HunterSection data={data.hunter} className="mt-80 lg:mt-120" />
       </div>
     </>
   );

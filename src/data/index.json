@@ -115,5 +115,19 @@
       "ksb-multi"
     ],
     "hint__html": "<p><strong>Bitte beachten bei Preisvergleichen:</strong> alle angebotenen Pumpen mit Kabel und Schalter.</p>"
+  },
+  "hunter": {
+    "id": "hunter",
+    "logo": {
+      "image": "/images/hunter-logo.svg",
+      "alt": "Hunter"
+    },
+    "headline": "Wir sind autorisierter Fachbetrieb für Hunter.",
+    "body__html": "<p><strong>Sofort verfügbar:</strong> Dank unsers großen Lagers an hochwer-tigen Hunter-Produkten, finden Sie bei uns jederzeit das Richtige.</p><p><strong>Qualität in jeder Anlage:</strong> Jede von uns realisierte Bereg-nungsanlage wird mit den bewährten Qualitätsprodukten von Hunter ausgestattet – für höchste Effizienz und Langlebigkeit.</p>",
+    "image": {
+      "src": "/images/regner.jpg",
+      "alt": "",
+      "objectPosition": "50% 50%"
+    }
   }
 }
