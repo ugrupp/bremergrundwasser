@@ -40,10 +40,10 @@
         }
       },
       {
-        "name": "Elyas Aydin",
-        "description": "Vorarbeiter im Brunnenbau von Anfang an. Mit dem Gespür für Wasser- und niemals aufgeben!",
+        "name": "Mevludin Kahrovic",
+        "description": "Vorarbeiter im Brunnenbau, zusammen mit Rawan unser Dream-Team!",
         "image": {
-          "src": "/images/team/elyas-aydin.jpg",
+          "src": "/images/team/mevludin-kahrovic.jpg",
           "width": 399,
           "height": 399,
           "alt": "",
@@ -64,10 +64,10 @@
         }
       },
       {
-        "name": "Gaby Riedemann",
-        "description": "Büroleiterin und die gute Seele im Büro",
+        "name": "Katrin Krelle",
+        "description": "hat die Stelle mit frischem Wind von Gaby übernommen",
         "image": {
-          "src": "/images/team/gaby-riedemann.jpg",
+          "src": "/images/team/katrin-krelle.jpg",
           "width": 399,
           "height": 399,
           "alt": "",
@@ -77,7 +77,7 @@
       },
       {
         "name": "Maren Merten",
-        "description": "Organisation Brunnenbau und Chefin von Elyas",
+        "description": "Organisation Brunnenbau, Büroleiterin und Chefin von Mevludin und Rawan",
         "image": {
           "src": "/images/team/maren-merten.jpg",
           "width": 399,
@@ -112,10 +112,10 @@
         }
       },
       {
-        "name": "Mevludin Kahrovic",
-        "description": "Spitzname Merlin, zusammen mit Elyas unser Brunnen Dream-Team!",
+        "name": "Rawan Boughanmi",
+        "description": "unser Jüngster ist uns allen sehr ans Herz gewachsen!",
         "image": {
-          "src": "/images/team/mevludin-kahrovic.jpg",
+          "src": "/images/team/rawan-boughanmi.jpg",
           "width": 399,
           "height": 399,
           "alt": "",
