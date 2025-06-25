@@ -8,6 +8,5 @@ export type Product = {
   price?: number;
   image?: Image;
   inlineImage?: boolean;
-  multi?: Product[];
   related?: Product[];
 };

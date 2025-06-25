@@ -23,13 +23,13 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
           {/* Intro */}
           <div
             className={classNames(
-              "col-start-1 col-end-[-1] md:col-start-3 md:col-end-[-3]"
+              "col-start-1 col-end-[-1] md:col-start-3 md:col-end-[-3]",
             )}
           >
             <div
               className={classNames(
                 richtextStyles.root,
-                "text-20 md:text-25 leading-normal"
+                "text-20 md:text-25 leading-normal",
               )}
             >
               {parse(data.intro__html)}
@@ -50,10 +50,31 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
             <div
               className={classNames(
                 richtextStyles.root,
-                "text-15 md:text-20 leading-normal"
+                "text-15 md:text-20 leading-normal",
               )}
             >
               {parse(data.hint__html)}
+            </div>
+          </div>
+
+          {/* Pumps second row */}
+          <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-[-1]">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-30 md:gap-60">
+              {resolvePumps(data.pumps_second_row).map((pump) => (
+                <Pump key={pump.id} pump={pump} />
+              ))}
+            </div>
+          </div>
+
+          {/* Hint second row */}
+          <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-9">
+            <div
+              className={classNames(
+                richtextStyles.root,
+                "text-15 md:text-20 leading-normal",
+              )}
+            >
+              {parse(data.hint__html_second_row)}
             </div>
           </div>
 
@@ -73,7 +94,7 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
                 key={installationFlatrate.id}
                 installationFlatrate={installationFlatrate}
               />
-            )
+            ),
           )}
         </div>
       </Container>

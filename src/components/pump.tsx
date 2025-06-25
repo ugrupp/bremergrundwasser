@@ -12,7 +12,7 @@ type PumpProps = {
 };
 
 const Pump = ({ pump }: PumpProps): JSX.Element => {
-  const { id, image, multi, related, inlineImage } = pump;
+  const { id, image, related, inlineImage } = pump;
 
   return (
     <div className="relative" id={id}>
@@ -20,7 +20,9 @@ const Pump = ({ pump }: PumpProps): JSX.Element => {
       {!!image && (
         <div
           className={classNames(
-            inlineImage ? "-mb-80 md:-mb-90 w-1/2 lg:w-4/6 ml-auto" : "-mb-50 md:-mb-60 max-w-sm mx-auto",
+            inlineImage
+              ? "-mb-80 md:-mb-90 w-1/2 lg:w-4/6 ml-auto"
+              : "-mb-50 md:-mb-60 max-w-sm mx-auto",
           )}
         >
           <Image
@@ -39,21 +41,15 @@ const Pump = ({ pump }: PumpProps): JSX.Element => {
 
       {/* Content */}
       <div className="bg-white rounded-[20px] p-30 pt-50 md:pt-60">
-        {multi ? (
-          <div className="space-y-40">
-            {multi.map((pump) => (
-              <PumpInfo pump={pump} key={pump.id} />
-            ))}
-          </div>
-        ) : (
-          <PumpInfo pump={pump} />
-        )}
+        <PumpInfo pump={pump} />
       </div>
 
       {/* Related content */}
       {!!related && (
         <div>
-          <p className="px-30 pb-15 pt-30 text-15 md:text-20 text-teal-300">Dazu passend</p>
+          <p className="px-30 pb-15 pt-30 text-15 md:text-20 text-teal-300">
+            Dazu passend
+          </p>
           <div className="bg-white rounded-[20px] p-30">
             <div className="space-y-40">
               {related.map((pump) => (
@@ -84,14 +80,16 @@ const PumpInfo = ({ pump }: PumpInfoProps): JSX.Element => {
           "text-20 md:text-25 leading-snug text-teal-300",
           inlineImage ? "w-4/6" : "",
         )}
-      >{title}</h3>
+      >
+        {title}
+      </h3>
 
       {/* Description */}
       {!!description__html && (
         <div
           className={classNames(
             richtextStyles.root,
-            "text-15 md:text-20 leading-normal"
+            "text-15 md:text-20 leading-normal",
           )}
         >
           {parse(description__html)}
@@ -116,7 +114,7 @@ const PumpInfo = ({ pump }: PumpInfoProps): JSX.Element => {
             <div
               className={classNames(
                 "text-12 md:text-16 leading-normal",
-                "opacity-50"
+                "opacity-50",
               )}
             >
               <p>{products.disclaimer}</p>

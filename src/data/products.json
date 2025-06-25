@@ -17,7 +17,7 @@
     {
       "id": "dab-euro-inox-40-80",
       "title": "DAB EURO INOX 40/80",
-      "description__html": "<p>Die Pumpe für Bewässerungsanlagen und große Grundstücke, sehr leise und kraftvoll, 1000W, 5,9 bar, 7,2m³/h Q</p>",
+      "description__html": "<p>Die Pumpe für Bewässerungsanlagen und große Grundstücke, 1.000W, 5,9 bar, 7,2m³/h Q</p>",
       "price": 49900,
       "image": {
         "src": "/images/products/dab-euro-inox.png",
@@ -57,12 +57,12 @@
       }
     },
     {
-      "id": "espa-zonda-130-s",
-      "title": "Espa Zonda 130 S",
-      "description__html": "<p>Kräftige und günstige Pumpe mit Edelstahlgehäuse, 1.300W, 5 bar, 4,8m³/h. Sehr leise und von guter Qualität!</p>",
-      "price": 19900,
+      "id": "espa-zonda-130-sm",
+      "title": "ESPA ZONDA 130SM",
+      "description__html": "<p>5 bar, 4,8m³/h, 1150W, leise und leistungsstark mit Kabel und Schalter</p>",
+      "price": 21900,
       "image": {
-        "src": "/images/products/espa-zonda-130s.png",
+        "src": "/images/products/espa-zonda-130sm.png",
         "width": 680,
         "height": 550,
         "alt": "",
@@ -71,35 +71,46 @@
       }
     },
     {
-      "id": "ksb-multi",
+      "id": "espa-aspri-15-3-bronze",
+      "title": "ESPA ASPRI 15-3 BRONZE",
+      "description__html": "<p>Ausführung mit Kabel und Stecker, 3,4 bar, 3200l/h, nur 600W!</p><p>Flüsterleise</p>",
+      "price": 37900,
       "image": {
-        "src": "/images/products/Multi-Eco-36-KSB.png",
-        "width": 743,
-        "height": 543,
+        "src": "/images/products/espa-aspri-15-4-bronze.png",
+        "width": 1000,
+        "height": 630,
         "alt": "",
         "objectPosition": "50% 50%",
         "dominantColor": ""
-      },
-      "multi": [
-        {
-          "id": "ksb-multi-eco-34-p",
-          "title": "KSB MultiEco 34 P",
-          "description__html": "<p>Extrem leise, 3 Stufiges Laufwerk, 660 W, 3,5 bar, 3,7m³/h Q</p>",
-          "price": 34900
-        },
-        {
-          "id": "ksb-multi-eco-35-p",
-          "title": "KSB MultiEco 35 P",
-          "description__html": "<p>Extrem leise, 5 Stufiges Laufwerk, 800 W, 4,5 bar, 4,2m³/h Q</p>",
-          "price": 40900
-        },
-        {
-          "id": "ksb-multi-eco-36-p",
-          "title": "KSB MultiEco 36 P",
-          "description__html": "<p>Extrem leise, 5 Stufiges Laufwerk, 1100 W, 5,5 bar, 4,5m³/h Q</p>",
-          "price": 44900
-        }
-      ]
+      }
+    },
+    {
+      "id": "espa-aspri-15-4-bronze",
+      "title": "ESPA ASPRI 15-4 BRONZE",
+      "description__html": "<p>Ausführung mit Kabel und Stecker, 4,4 bar, 3400l/h, nur 700W!</p><p>Flüsterleise</p>",
+      "price": 41900,
+      "image": {
+        "src": "/images/products/espa-aspri-15-4-bronze.png",
+        "width": 1000,
+        "height": 630,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      }
+    },
+    {
+      "id": "espa-aspri-25-5-bronze",
+      "title": "ESPA ASPRI 25-5 BRONZE",
+      "description__html": "<p>Ausführung mit Kabel und Stecker, 5,8 bar (auf unserm Prüfstand über 6 bar) 6700l/h, 1700W für große Anlagen!</p><p>Flüsterleise</p>",
+      "price": 61900,
+      "image": {
+        "src": "/images/products/espa-aspri-25-5-bronze.png",
+        "width": 1000,
+        "height": 697,
+        "alt": "",
+        "objectPosition": "50% 50%",
+        "dominantColor": ""
+      }
     },
     {
       "id": "original-beyer-schwengelpumpe-np75",

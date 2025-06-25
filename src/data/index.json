@@ -111,10 +111,15 @@
     "pumps": [
       "dab-82m-garden-inox",
       "dab-euro-inox-40-80",
-      "espa-zonda-130-s",
-      "ksb-multi"
+      "espa-zonda-130-sm"
     ],
-    "hint__html": "<p><strong>Bitte beachten bei Preisvergleichen:</strong> alle angebotenen Pumpen mit Kabel und Schalter.</p>"
+    "hint__html": "<p>Diese <strong>ESPA-PUMPEN</strong> haben ein Bronze-Gehäuse und sind mehrstufig, dadurch extrem leise und leistungsstark, zudem von bestechender Qualität und sehr sparsam im Stromverbrauch!</p>",
+    "pumps_second_row": [
+      "espa-aspri-15-3-bronze",
+      "espa-aspri-15-4-bronze",
+      "espa-aspri-25-5-bronze"
+    ],
+    "hint__html_second_row": "<p><strong>Bitte beachten bei Preisvergleichen:</strong> alle angebotenen Pumpen mit Kabel und Schalter, die ESPA-BRONZE wird ohne Schalter geliefert!</p>"
   },
   "hunter": {
     "id": "hunter",

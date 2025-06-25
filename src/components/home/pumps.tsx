@@ -21,7 +21,7 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
       <div
         className={classNames(
           styles.bg,
-          "absolute inset-x-0 bottom-0 -top-150 lg:-top-200 opacity-5"
+          "absolute inset-x-0 bottom-0 -top-150 lg:-top-200 opacity-5",
         )}
       />
 
@@ -36,13 +36,13 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
           {/* Intro */}
           <div
             className={classNames(
-              "col-start-1 col-end-[-1] md:col-start-3 md:col-end-[-3] lg:col-start-9 lg:col-end-[-1]"
+              "col-start-1 col-end-[-1] md:col-start-3 md:col-end-[-3] lg:col-start-9 lg:col-end-[-1]",
             )}
           >
             <div
               className={classNames(
                 richtextStyles.root,
-                "text-15 md:text-20 leading-normal"
+                "text-15 md:text-20 leading-normal",
               )}
             >
               {parse(data.intro__html)}
@@ -68,14 +68,35 @@ const PumpsSection = ({ data, className }: PumpsSectionProps): JSX.Element => {
           </div>
 
           {/* Hint */}
-          <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-9 lg:col-end-[-1]">
+          <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-9">
             <div
               className={classNames(
                 richtextStyles.root,
-                "text-15 md:text-20 leading-normal"
+                "text-15 md:text-20 leading-normal",
               )}
             >
               {parse(data.hint__html)}
+            </div>
+          </div>
+
+          {/* Pumps second row */}
+          <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-[-1]">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-30 md:gap-60">
+              {resolvePumps(data.pumps_second_row).map((pump) => (
+                <Pump key={pump.id} pump={pump} />
+              ))}
+            </div>
+          </div>
+
+          {/* Hint second row */}
+          <div className="col-start-2 col-end-[-2] md:col-start-3 md:col-end-[-3] lg:col-start-1 lg:col-end-9">
+            <div
+              className={classNames(
+                richtextStyles.root,
+                "text-15 md:text-20 leading-normal",
+              )}
+            >
+              {parse(data.hint__html_second_row)}
             </div>
           </div>
         </div>
