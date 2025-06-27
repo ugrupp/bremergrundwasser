@@ -70,7 +70,14 @@ type PumpInfoProps = {
 };
 
 const PumpInfo = ({ pump }: PumpInfoProps): JSX.Element => {
-  const { description__html, price, priceHint, title, inlineImage } = pump;
+  const {
+    description__html,
+    descriptionBottom,
+    price,
+    priceHint,
+    title,
+    inlineImage,
+  } = pump;
 
   return (
     <div className="space-y-20 md:space-y-25">
@@ -96,9 +103,16 @@ const PumpInfo = ({ pump }: PumpInfoProps): JSX.Element => {
         </div>
       )}
 
-      {/* Price & price hint */}
+      {/* Price & price hint & description bottom */}
       {!!price && (
         <div>
+          {/* Description Bottom */}
+          {!!descriptionBottom && (
+            <p className="text-15 md:text-20 leading-normal">
+              {descriptionBottom}
+            </p>
+          )}
+
           {/* Price hint */}
           {!!priceHint && (
             <p className="text-12 md:text-16 leading-normal">{priceHint}</p>

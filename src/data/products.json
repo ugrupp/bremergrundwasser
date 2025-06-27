@@ -73,7 +73,8 @@
     {
       "id": "espa-aspri-15-3-bronze",
       "title": "ESPA ASPRI 15-3 BRONZE",
-      "description__html": "<p>Ausführung mit Kabel und Stecker, 3,4 bar, 3200l/h, nur 600W!</p><p>Flüsterleise</p>",
+      "description__html": "<p>Ausführung mit Kabel und Stecker, 3,4 bar, 3200l/h, nur 600W!</p>",
+      "descriptionBottom": "Flüsterleise",
       "price": 37900,
       "image": {
         "src": "/images/products/espa-aspri-15-4-bronze.png",
@@ -87,7 +88,8 @@
     {
       "id": "espa-aspri-15-4-bronze",
       "title": "ESPA ASPRI 15-4 BRONZE",
-      "description__html": "<p>Ausführung mit Kabel und Stecker, 4,4 bar, 3400l/h, nur 700W!</p><p>Flüsterleise</p>",
+      "description__html": "<p>Ausführung mit Kabel und Stecker, 4,4 bar, 3400l/h, nur 700W!</p>",
+      "descriptionBottom": "Flüsterleise",
       "price": 41900,
       "image": {
         "src": "/images/products/espa-aspri-15-4-bronze.png",
@@ -101,7 +103,8 @@
     {
       "id": "espa-aspri-25-5-bronze",
       "title": "ESPA ASPRI 25-5 BRONZE",
-      "description__html": "<p>Ausführung mit Kabel und Stecker, 5,8 bar (auf unserm Prüfstand über 6 bar) 6700l/h, 1700W für große Anlagen!</p><p>Flüsterleise</p>",
+      "description__html": "<p>Ausführung mit Kabel und Stecker, 5,8 bar (auf unserm Prüfstand über 6 bar) 6700l/h, 1700W für große Anlagen!</p>",
+      "descriptionBottom": "Flüsterleise",
       "price": 61900,
       "image": {
         "src": "/images/products/espa-aspri-25-5-bronze.png",
