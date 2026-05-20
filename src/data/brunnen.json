@@ -30,12 +30,12 @@
         "prices": [
           {
             "priceHint": "von Oktober bis März, Komplettpreis",
-            "price": 41900,
+            "price": 46400,
             "priceDisclaimer__html": "<p>Alle Gebiete in Bremen</p>"
           },
           {
             "priceHint": "von April bis September, Komplettpreis",
-            "price": 43900,
+            "price": 48400,
             "priceDisclaimer__html": "<p>Alle Gebiete in Bremen</p>"
           }
         ]
@@ -47,12 +47,12 @@
         "prices": [
           {
             "priceHint": "von Oktober bis März, Komplettpreis",
-            "price": 46900,
+            "price": 51400,
             "priceDisclaimer__html": "<p>Alle Gebiete in Bremen</p>"
           },
           {
             "priceHint": "von April bis September, Komplettpreis",
-            "price": 48900,
+            "price": 53400,
             "priceDisclaimer__html": "<p>Alle Gebiete in Bremen</p>"
           }
         ]
